@@ -1,0 +1,1998 @@
+Get:1 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64  InRelease [1581 B]
+Err:1 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64  InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A4B469963BF863CC
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Ign:4 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu2004/x86_64  InRelease
+Hit:5 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu2004/x86_64  Release
+Get:6 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:8 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2786 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [30.2 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1268 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [1829 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [55.2 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [27.4 kB]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [967 kB]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [1712 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2315 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [27.5 kB]
+Reading package lists...
+W: GPG error: https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64  InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A4B469963BF863CC
+E: The repository 'https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64  InRelease' is no longer signed.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  dbus fontconfig fontconfig-config fonts-dejavu-core i965-va-driver
+  intel-media-va-driver libaacs0 libaom0 libapparmor1 libass9 libasyncns0
+  libavc1394-0 libavcodec58 libavdevice58 libavfilter7 libavformat58
+  libavresample4 libavutil56 libbdplus0 libbluray2 libbs2b0 libbsd0 libcaca0
+  libcairo-gobject2 libcairo2 libcdio-cdda2 libcdio-paranoia2 libcdio18
+  libchromaprint1 libcodec2-0.9 libdatrie1 libdbus-1-3 libdc1394-22
+  libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+  libdrm2 libedit2 libelf1 libfftw3-double3 libflac8 libflite1 libfontconfig1
+  libfreetype6 libfribidi0 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-bin
+  libgdk-pixbuf2.0-common libgl1 libgl1-mesa-dri libglapi-mesa libglib2.0-0
+  libglib2.0-data libglvnd0 libglx-mesa0 libglx0 libgme0 libgraphite2-3
+  libgsm1 libharfbuzz0b libice6 libiec61883-0 libigdgmm11 libjack-jackd2-0
+  libjbig0 liblilv-0-0 libllvm12 libmp3lame0 libmpg123-0 libmysofa1 libnorm1
+  libnuma1 libopenal-data libopenal1 libopenjp2-7 libopenmpt0 libopus0
+  libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpciaccess0
+  libpgm-5.2-0 libpixman-1-0 libpostproc55 libpulse0 libraw1394-11 librsvg2-2
+  librsvg2-common librubberband2 libsamplerate0 libsdl2-2.0-0
+  libsensors-config libsensors5 libserd-0-0 libshine3 libslang2 libsnappy1v5
+  libsndfile1 libsndio7.0 libsodium23 libsord-0-0 libsoxr0 libspeex1
+  libsratom-0-0 libssh-gcrypt-4 libswresample3 libswscale5 libthai-data
+  libthai0 libtheora0 libtiff5 libtwolame0 libusb-1.0-0 libva-drm2 libva-x11-2
+  libva2 libvdpau1 libvidstab1.1 libvorbisenc2 libvpx6 libvulkan1 libwavpack1
+  libwayland-client0 libwayland-cursor0 libwayland-egl1 libwebp6 libwebpmux3
+  libwrap0 libx11-6 libx11-data libx11-xcb1 libx264-155 libx265-179 libxau6
+  libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-randr0
+  libxcb-render0 libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0 libxcb1
+  libxcursor1 libxdmcp6 libxfixes3 libxi6 libxinerama1 libxkbcommon0
+  libxrandr2 libxrender1 libxshmfence1 libxss1 libxv1 libxvidcore4 libxxf86vm1
+  libzmq5 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers
+  mesa-vulkan-drivers ocl-icd-libopencl1 shared-mime-info ucf va-driver-all
+  vdpau-driver-all x11-common xdg-user-dirs xkb-data
+Suggested packages:
+  default-dbus-session-bus | dbus-session-bus ffmpeg-doc
+  i965-va-driver-shaders libbluray-bdj libfftw3-bin libfftw3-dev jackd2
+  libportaudio2 opus-tools pciutils pulseaudio libraw1394-doc librsvg2-bin
+  lm-sensors serdi sndiod sordi speex opencl-icd libvdpau-va-gl1
+  nvidia-vdpau-driver nvidia-legacy-340xx-vdpau-driver
+  nvidia-legacy-304xx-vdpau-driver
+The following NEW packages will be installed:
+  dbus ffmpeg fontconfig fontconfig-config fonts-dejavu-core i965-va-driver
+  intel-media-va-driver libaacs0 libaom0 libapparmor1 libass9 libasyncns0
+  libavc1394-0 libavcodec58 libavdevice58 libavfilter7 libavformat58
+  libavresample4 libavutil56 libbdplus0 libbluray2 libbs2b0 libbsd0 libcaca0
+  libcairo-gobject2 libcairo2 libcdio-cdda2 libcdio-paranoia2 libcdio18
+  libchromaprint1 libcodec2-0.9 libdatrie1 libdbus-1-3 libdc1394-22
+  libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+  libdrm2 libedit2 libelf1 libfftw3-double3 libflac8 libflite1 libfontconfig1
+  libfreetype6 libfribidi0 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-bin
+  libgdk-pixbuf2.0-common libgl1 libgl1-mesa-dri libglapi-mesa libglib2.0-0
+  libglib2.0-data libglvnd0 libglx-mesa0 libglx0 libgme0 libgraphite2-3
+  libgsm1 libharfbuzz0b libice6 libiec61883-0 libigdgmm11 libjack-jackd2-0
+  libjbig0 liblilv-0-0 libllvm12 libmp3lame0 libmpg123-0 libmysofa1 libnorm1
+  libnuma1 libopenal-data libopenal1 libopenjp2-7 libopenmpt0 libopus0
+  libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpciaccess0
+  libpgm-5.2-0 libpixman-1-0 libpostproc55 libpulse0 libraw1394-11 librsvg2-2
+  librsvg2-common librubberband2 libsamplerate0 libsdl2-2.0-0
+  libsensors-config libsensors5 libserd-0-0 libshine3 libslang2 libsm6
+  libsnappy1v5 libsndfile1 libsndio7.0 libsodium23 libsord-0-0 libsoxr0
+  libspeex1 libsratom-0-0 libssh-gcrypt-4 libswresample3 libswscale5
+  libthai-data libthai0 libtheora0 libtiff5 libtwolame0 libusb-1.0-0
+  libva-drm2 libva-x11-2 libva2 libvdpau1 libvidstab1.1 libvorbisenc2 libvpx6
+  libvulkan1 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1
+  libwebp6 libwebpmux3 libwrap0 libx11-6 libx11-data libx11-xcb1 libx264-155
+  libx265-179 libxau6 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0
+  libxcb-randr0 libxcb-render0 libxcb-shape0 libxcb-shm0 libxcb-sync1
+  libxcb-xfixes0 libxcb1 libxcursor1 libxdmcp6 libxext6 libxfixes3 libxi6
+  libxinerama1 libxkbcommon0 libxrandr2 libxrender1 libxshmfence1 libxss1
+  libxv1 libxvidcore4 libxxf86vm1 libzmq5 libzvbi-common libzvbi0
+  mesa-va-drivers mesa-vdpau-drivers mesa-vulkan-drivers ocl-icd-libopencl1
+  shared-mime-info ucf va-driver-all vdpau-driver-all x11-common xdg-user-dirs
+  xkb-data
+0 upgraded, 177 newly installed, 0 to remove and 149 not upgraded.
+Need to get 97.3 MB of archives.
+After this operation, 788 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libapparmor1 amd64 2.13.3-7ubuntu5.1 [34.1 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdbus-1-3 amd64 1.12.16-2ubuntu2.3 [179 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dbus amd64 1.12.16-2ubuntu2.3 [151 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 libbsd0 amd64 0.10.0-1 [45.4 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libelf1 amd64 0.176-1.1build1 [44.0 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfribidi0 amd64 1.0.8-2ubuntu0.1 [24.2 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-0 amd64 2.64.6-1~ubuntu20.04.4 [1287 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-data all 2.64.6-1~ubuntu20.04.4 [6052 B]
+Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libslang2 amd64 2.3.2-4 [429 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 libsodium23 amd64 1.0.18-1 [150 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 shared-mime-info amd64 1.15-1 [430 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 ucf all 3.0038+nmu1 [51.6 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 xdg-user-dirs amd64 0.17-2ubuntu1 [48.3 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal/main amd64 xkb-data all 2.29-2 [349 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-common all 2.4.107-8ubuntu1~20.04.2 [5396 B]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm2 amd64 2.4.107-8ubuntu1~20.04.2 [34.1 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libedit2 amd64 3.1-20191231-1 [87.0 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 libnuma1 amd64 2.0.12-1 [20.8 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libusb-1.0-0 amd64 2:1.0.23-2build1 [46.5 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 libxau6 amd64 1:1.0.9-0ubuntu1 [7488 B]
+Get:21 http://archive.ubuntu.com/ubuntu focal/main amd64 libxdmcp6 amd64 1:1.1.3-0ubuntu1 [10.6 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb1 amd64 1.14-2 [44.7 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-data all 2:1.6.9-2ubuntu1.2 [113 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-6 amd64 2:1.6.9-2ubuntu1.2 [575 kB]
+Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 libxext6 amd64 2:1.3.4-0ubuntu1 [29.1 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal/universe amd64 libaom0 amd64 1.0.0.errata1-3build1 [1160 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal/universe amd64 libva2 amd64 2.7.0-2 [53.5 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal/universe amd64 libva-drm2 amd64 2.7.0-2 [7044 B]
+Get:29 http://archive.ubuntu.com/ubuntu focal/main amd64 libxfixes3 amd64 1:5.0.3-2 [10.9 kB]
+Get:30 http://archive.ubuntu.com/ubuntu focal/universe amd64 libva-x11-2 amd64 2.7.0-2 [11.9 kB]
+Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 libvdpau1 amd64 1.3-1ubuntu2 [25.6 kB]
+Get:32 http://archive.ubuntu.com/ubuntu focal/main amd64 ocl-icd-libopencl1 amd64 2.2.11-1ubuntu1 [30.3 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libavutil56 amd64 7:4.2.7-0ubuntu0.1 [241 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfreetype6 amd64 2.10.1-2ubuntu0.2 [341 kB]
+Get:35 http://archive.ubuntu.com/ubuntu focal/main amd64 fonts-dejavu-core all 2.37-1 [1041 kB]
+Get:36 http://archive.ubuntu.com/ubuntu focal/main amd64 fontconfig-config all 2.13.1-2ubuntu3 [28.8 kB]
+Get:37 http://archive.ubuntu.com/ubuntu focal/main amd64 libfontconfig1 amd64 2.13.1-2ubuntu3 [114 kB]
+Get:38 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpixman-1-0 amd64 0.38.4-0ubuntu2.1 [227 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-render0 amd64 1.14-2 [14.8 kB]
+Get:40 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-shm0 amd64 1.14-2 [5584 B]
+Get:41 http://archive.ubuntu.com/ubuntu focal/main amd64 libxrender1 amd64 1:0.9.10-1 [18.7 kB]
+Get:42 http://archive.ubuntu.com/ubuntu focal/main amd64 libcairo2 amd64 1.16.0-4ubuntu1 [583 kB]
+Get:43 http://archive.ubuntu.com/ubuntu focal/universe amd64 libcodec2-0.9 amd64 0.9.2-2 [7886 kB]
+Get:44 http://archive.ubuntu.com/ubuntu focal/universe amd64 libgsm1 amd64 1.0.18-2 [24.4 kB]
+Get:45 http://archive.ubuntu.com/ubuntu focal/main amd64 libmp3lame0 amd64 3.100-3 [133 kB]
+Get:46 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libopenjp2-7 amd64 2.3.1-1ubuntu4.20.04.1 [141 kB]
+Get:47 http://archive.ubuntu.com/ubuntu focal/main amd64 libopus0 amd64 1.3.1-0ubuntu1 [191 kB]
+Get:48 http://archive.ubuntu.com/ubuntu focal/main amd64 libcairo-gobject2 amd64 1.16.0-4ubuntu1 [17.2 kB]
+Get:49 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.20.04.1 [27.3 kB]
+Get:50 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwebp6 amd64 0.6.1-2ubuntu0.20.04.1 [185 kB]
+Get:51 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtiff5 amd64 4.1.0+git191117-2ubuntu0.20.04.6 [163 kB]
+Get:52 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgdk-pixbuf2.0-common all 2.40.0+dfsg-3ubuntu0.4 [4592 B]
+Get:53 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgdk-pixbuf2.0-0 amd64 2.40.0+dfsg-3ubuntu0.4 [168 kB]
+Get:54 http://archive.ubuntu.com/ubuntu focal/main amd64 fontconfig amd64 2.13.1-2ubuntu3 [171 kB]
+Get:55 http://archive.ubuntu.com/ubuntu focal/main amd64 libgraphite2-3 amd64 1.3.13-11build1 [73.5 kB]
+Get:56 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libharfbuzz0b amd64 2.6.4-1ubuntu4.2 [391 kB]
+Get:57 http://archive.ubuntu.com/ubuntu focal/main amd64 libthai-data all 0.1.28-3 [134 kB]
+Get:58 http://archive.ubuntu.com/ubuntu focal/main amd64 libdatrie1 amd64 0.2.12-3 [18.7 kB]
+Get:59 http://archive.ubuntu.com/ubuntu focal/main amd64 libthai0 amd64 0.1.28-3 [18.1 kB]
+Get:60 http://archive.ubuntu.com/ubuntu focal/main amd64 libpango-1.0-0 amd64 1.44.7-2ubuntu4 [162 kB]
+Get:61 http://archive.ubuntu.com/ubuntu focal/main amd64 libpangoft2-1.0-0 amd64 1.44.7-2ubuntu4 [34.9 kB]
+Get:62 http://archive.ubuntu.com/ubuntu focal/main amd64 libpangocairo-1.0-0 amd64 1.44.7-2ubuntu4 [24.8 kB]
+Get:63 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 librsvg2-2 amd64 2.48.9-1ubuntu0.20.04.1 [2253 kB]
+Get:64 http://archive.ubuntu.com/ubuntu focal/universe amd64 libshine3 amd64 3.1.1-2 [23.2 kB]
+Get:65 http://archive.ubuntu.com/ubuntu focal/main amd64 libsnappy1v5 amd64 1.1.8-1build1 [16.7 kB]
+Get:66 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libspeex1 amd64 1.2~rc1.2-1.1ubuntu1.20.04.1 [53.2 kB]
+Get:67 http://archive.ubuntu.com/ubuntu focal/main amd64 libsoxr0 amd64 0.1.3-2build1 [78.0 kB]
+Get:68 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libswresample3 amd64 7:4.2.7-0ubuntu0.1 [57.1 kB]
+Get:69 http://archive.ubuntu.com/ubuntu focal/main amd64 libtheora0 amd64 1.1.1+dfsg.1-15ubuntu2 [162 kB]
+Get:70 http://archive.ubuntu.com/ubuntu focal/main amd64 libtwolame0 amd64 0.4.0-2 [47.6 kB]
+Get:71 http://archive.ubuntu.com/ubuntu focal/main amd64 libvorbisenc2 amd64 1.3.6-2ubuntu1 [70.7 kB]
+Get:72 http://archive.ubuntu.com/ubuntu focal/main amd64 libvpx6 amd64 1.8.2-1build1 [820 kB]
+Get:73 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwavpack1 amd64 5.2.0-1ubuntu0.1 [77.3 kB]
+Get:74 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwebpmux3 amd64 0.6.1-2ubuntu0.20.04.1 [19.5 kB]
+Get:75 http://archive.ubuntu.com/ubuntu focal/universe amd64 libx264-155 amd64 2:0.155.2917+git0a84d98-2 [521 kB]
+Get:76 http://archive.ubuntu.com/ubuntu focal/universe amd64 libx265-179 amd64 3.2.1-1build1 [1060 kB]
+Get:77 http://archive.ubuntu.com/ubuntu focal/universe amd64 libxvidcore4 amd64 2:1.3.7-1 [201 kB]
+Get:78 http://archive.ubuntu.com/ubuntu focal/universe amd64 libzvbi-common all 0.2.35-17 [32.5 kB]
+Get:79 http://archive.ubuntu.com/ubuntu focal/universe amd64 libzvbi0 amd64 0.2.35-17 [237 kB]
+Get:80 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libavcodec58 amd64 7:4.2.7-0ubuntu0.1 [4878 kB]
+Get:81 http://archive.ubuntu.com/ubuntu focal/main amd64 libraw1394-11 amd64 2.1.2-1 [30.7 kB]
+Get:82 http://archive.ubuntu.com/ubuntu focal/main amd64 libavc1394-0 amd64 0.5.4-5 [16.2 kB]
+Get:83 http://archive.ubuntu.com/ubuntu focal/universe amd64 libass9 amd64 1:0.14.0-2 [88.0 kB]
+Get:84 http://archive.ubuntu.com/ubuntu focal/universe amd64 libbluray2 amd64 1:1.2.0-1 [138 kB]
+Get:85 http://archive.ubuntu.com/ubuntu focal/universe amd64 libchromaprint1 amd64 1.4.3-3build1 [37.6 kB]
+Get:86 http://archive.ubuntu.com/ubuntu focal/universe amd64 libgme0 amd64 0.6.2-1build1 [123 kB]
+Get:87 http://archive.ubuntu.com/ubuntu focal/main amd64 libmpg123-0 amd64 1.25.13-1 [124 kB]
+Get:88 http://archive.ubuntu.com/ubuntu focal/universe amd64 libopenmpt0 amd64 0.4.11-1build1 [599 kB]
+Get:89 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssh-gcrypt-4 amd64 0.9.3-2ubuntu2.2 [202 kB]
+Get:90 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libavformat58 amd64 7:4.2.7-0ubuntu0.1 [985 kB]
+Get:91 http://archive.ubuntu.com/ubuntu focal/universe amd64 libbs2b0 amd64 3.1.0+dfsg-2.2build1 [10.2 kB]
+Get:92 http://archive.ubuntu.com/ubuntu focal/universe amd64 libflite1 amd64 2.1-release-3 [12.8 MB]
+Get:93 http://archive.ubuntu.com/ubuntu focal/universe amd64 libserd-0-0 amd64 0.30.2-1 [46.6 kB]
+Get:94 http://archive.ubuntu.com/ubuntu focal/universe amd64 libsord-0-0 amd64 0.16.4-1 [19.5 kB]
+Get:95 http://archive.ubuntu.com/ubuntu focal/universe amd64 libsratom-0-0 amd64 0.6.4-1 [16.9 kB]
+Get:96 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 liblilv-0-0 amd64 0.24.6-1ubuntu0.1 [40.6 kB]
+Get:97 http://archive.ubuntu.com/ubuntu focal/universe amd64 libmysofa1 amd64 1.0~dfsg0-1 [39.2 kB]
+Get:98 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libpostproc55 amd64 7:4.2.7-0ubuntu0.1 [55.0 kB]
+Get:99 http://archive.ubuntu.com/ubuntu focal/main amd64 libfftw3-double3 amd64 3.3.8-2ubuntu1 [728 kB]
+Get:100 http://archive.ubuntu.com/ubuntu focal/main amd64 libsamplerate0 amd64 0.1.9-2 [939 kB]
+Get:101 http://archive.ubuntu.com/ubuntu focal/universe amd64 librubberband2 amd64 1.8.2-1build1 [89.4 kB]
+Get:102 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libswscale5 amd64 7:4.2.7-0ubuntu0.1 [157 kB]
+Get:103 http://archive.ubuntu.com/ubuntu focal/universe amd64 libvidstab1.1 amd64 1.1.0-2 [35.0 kB]
+Get:104 http://archive.ubuntu.com/ubuntu focal/universe amd64 libnorm1 amd64 1.5.8+dfsg2-2build1 [290 kB]
+Get:105 http://archive.ubuntu.com/ubuntu focal/universe amd64 libpgm-5.2-0 amd64 5.2.122~dfsg-3ubuntu1 [158 kB]
+Get:106 http://archive.ubuntu.com/ubuntu focal/universe amd64 libzmq5 amd64 4.3.2-2ubuntu1 [242 kB]
+Get:107 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libavfilter7 amd64 7:4.2.7-0ubuntu0.1 [1085 kB]
+Get:108 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcaca0 amd64 0.99.beta19-2.1ubuntu1.20.04.2 [203 kB]
+Get:109 http://archive.ubuntu.com/ubuntu focal/main amd64 libcdio18 amd64 2.0.0-2 [58.6 kB]
+Get:110 http://archive.ubuntu.com/ubuntu focal/main amd64 libcdio-cdda2 amd64 10.2+2.0.0-1 [17.6 kB]
+Get:111 http://archive.ubuntu.com/ubuntu focal/main amd64 libcdio-paranoia2 amd64 10.2+2.0.0-1 [16.2 kB]
+Get:112 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdc1394-22 amd64 2.2.5-2.1 [79.6 kB]
+Get:113 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglvnd0 amd64 1.3.2-1~ubuntu0.20.04.2 [48.1 kB]
+Get:114 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglapi-mesa amd64 21.2.6-0ubuntu0.1~20.04.2 [27.4 kB]
+Get:115 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-xcb1 amd64 2:1.6.9-2ubuntu1.2 [9372 B]
+Get:116 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-dri2-0 amd64 1.14-2 [6920 B]
+Get:117 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-dri3-0 amd64 1.14-2 [6552 B]
+Get:118 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-glx0 amd64 1.14-2 [22.1 kB]
+Get:119 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-present0 amd64 1.14-2 [5560 B]
+Get:120 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-sync1 amd64 1.14-2 [8884 B]
+Get:121 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-xfixes0 amd64 1.14-2 [9296 B]
+Get:122 http://archive.ubuntu.com/ubuntu focal/main amd64 libxshmfence1 amd64 1.3-1 [5028 B]
+Get:123 http://archive.ubuntu.com/ubuntu focal/main amd64 libxxf86vm1 amd64 1:1.1.4-1build1 [10.2 kB]
+Get:124 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-amdgpu1 amd64 2.4.107-8ubuntu1~20.04.2 [18.6 kB]
+Get:125 http://archive.ubuntu.com/ubuntu focal/main amd64 libpciaccess0 amd64 0.16-0ubuntu1 [17.9 kB]
+Get:126 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-intel1 amd64 2.4.107-8ubuntu1~20.04.2 [60.3 kB]
+Get:127 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-nouveau2 amd64 2.4.107-8ubuntu1~20.04.2 [16.6 kB]
+Get:128 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-radeon1 amd64 2.4.107-8ubuntu1~20.04.2 [19.7 kB]
+Get:129 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libllvm12 amd64 1:12.0.0-3ubuntu1~20.04.5 [18.8 MB]
+Get:130 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsensors-config all 1:3.6.0-2ubuntu1.1 [6052 B]
+Get:131 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsensors5 amd64 1:3.6.0-2ubuntu1.1 [27.2 kB]
+Get:132 http://archive.ubuntu.com/ubuntu focal/main amd64 libvulkan1 amd64 1.2.131.2-1 [93.3 kB]
+Get:133 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgl1-mesa-dri amd64 21.2.6-0ubuntu0.1~20.04.2 [11.0 MB]
+Get:134 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglx-mesa0 amd64 21.2.6-0ubuntu0.1~20.04.2 [137 kB]
+Get:135 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglx0 amd64 1.3.2-1~ubuntu0.20.04.2 [32.5 kB]
+Get:136 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgl1 amd64 1.3.2-1~ubuntu0.20.04.2 [85.8 kB]
+Get:137 http://archive.ubuntu.com/ubuntu focal/main amd64 libiec61883-0 amd64 1.2.0-3 [24.3 kB]
+Get:138 http://archive.ubuntu.com/ubuntu focal/main amd64 libjack-jackd2-0 amd64 1.9.12~dfsg-2ubuntu2 [267 kB]
+Get:139 http://archive.ubuntu.com/ubuntu focal/universe amd64 libopenal-data all 1:1.19.1-1 [162 kB]
+Get:140 http://archive.ubuntu.com/ubuntu focal/universe amd64 libsndio7.0 amd64 1.5.0-3 [24.5 kB]
+Get:141 http://archive.ubuntu.com/ubuntu focal/universe amd64 libopenal1 amd64 1:1.19.1-1 [492 kB]
+Get:142 http://archive.ubuntu.com/ubuntu focal/main amd64 libasyncns0 amd64 0.8-6 [12.1 kB]
+Get:143 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libflac8 amd64 1.3.3-1ubuntu0.1 [103 kB]
+Get:144 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsndfile1 amd64 1.0.28-7ubuntu0.1 [170 kB]
+Get:145 http://archive.ubuntu.com/ubuntu focal/main amd64 libwrap0 amd64 7.6.q-30 [46.3 kB]
+Get:146 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpulse0 amd64 1:13.99.1-1ubuntu3.13 [262 kB]
+Get:147 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwayland-client0 amd64 1.18.0-1ubuntu0.1 [23.9 kB]
+Get:148 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwayland-cursor0 amd64 1.18.0-1ubuntu0.1 [10.3 kB]
+Get:149 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwayland-egl1 amd64 1.18.0-1ubuntu0.1 [5596 B]
+Get:150 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcursor1 amd64 1:1.2.0-2 [20.1 kB]
+Get:151 http://archive.ubuntu.com/ubuntu focal/main amd64 libxi6 amd64 2:1.7.10-0ubuntu1 [29.9 kB]
+Get:152 http://archive.ubuntu.com/ubuntu focal/main amd64 libxinerama1 amd64 2:1.1.4-2 [6904 B]
+Get:153 http://archive.ubuntu.com/ubuntu focal/main amd64 libxkbcommon0 amd64 0.10.0-1 [98.4 kB]
+Get:154 http://archive.ubuntu.com/ubuntu focal/main amd64 libxrandr2 amd64 2:1.5.2-0ubuntu1 [18.5 kB]
+Get:155 http://archive.ubuntu.com/ubuntu focal/main amd64 x11-common all 1:7.7+19ubuntu14 [22.3 kB]
+Get:156 http://archive.ubuntu.com/ubuntu focal/main amd64 libxss1 amd64 1:1.2.3-1 [8140 B]
+Get:157 http://archive.ubuntu.com/ubuntu focal/universe amd64 libsdl2-2.0-0 amd64 2.0.10+dfsg1-3 [407 kB]
+Get:158 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-shape0 amd64 1.14-2 [5928 B]
+Get:159 http://archive.ubuntu.com/ubuntu focal/main amd64 libxv1 amd64 2:1.0.11-1 [10.7 kB]
+Get:160 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libavdevice58 amd64 7:4.2.7-0ubuntu0.1 [74.3 kB]
+Get:161 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libavresample4 amd64 7:4.2.7-0ubuntu0.1 [54.2 kB]
+Get:162 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 ffmpeg amd64 7:4.2.7-0ubuntu0.1 [1453 kB]
+Get:163 http://archive.ubuntu.com/ubuntu focal/universe amd64 libigdgmm11 amd64 20.1.1+ds1-1 [111 kB]
+Get:164 http://archive.ubuntu.com/ubuntu focal/universe amd64 intel-media-va-driver amd64 20.1.1+dfsg1-1 [1764 kB]
+Get:165 http://archive.ubuntu.com/ubuntu focal/universe amd64 libaacs0 amd64 0.9.0-2 [50.1 kB]
+Get:166 http://archive.ubuntu.com/ubuntu focal/universe amd64 libbdplus0 amd64 0.1.2-3 [47.3 kB]
+Get:167 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgdk-pixbuf2.0-bin amd64 2.40.0+dfsg-3ubuntu0.4 [14.1 kB]
+Get:168 http://archive.ubuntu.com/ubuntu focal/main amd64 libice6 amd64 2:1.0.10-0ubuntu1 [41.0 kB]
+Get:169 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 librsvg2-common amd64 2.48.9-1ubuntu0.20.04.1 [9212 B]
+Get:170 http://archive.ubuntu.com/ubuntu focal/main amd64 libsm6 amd64 2:1.2.3-1 [16.1 kB]
+Get:171 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-randr0 amd64 1.14-2 [16.3 kB]
+Get:172 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 mesa-va-drivers amd64 21.2.6-0ubuntu0.1~20.04.2 [2970 kB]
+Get:173 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 mesa-vdpau-drivers amd64 21.2.6-0ubuntu0.1~20.04.2 [3089 kB]
+Get:174 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 mesa-vulkan-drivers amd64 21.2.6-0ubuntu0.1~20.04.2 [5788 kB]
+Get:175 http://archive.ubuntu.com/ubuntu focal/universe amd64 i965-va-driver amd64 2.4.0-0ubuntu1 [924 kB]
+Get:176 http://archive.ubuntu.com/ubuntu focal/universe amd64 va-driver-all amd64 2.7.0-2 [4020 B]
+Get:177 http://archive.ubuntu.com/ubuntu focal/main amd64 vdpau-driver-all amd64 1.3-1ubuntu2 [4596 B]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 97.3 MB in 5s (18.7 MB/s)
+Selecting previously unselected package libapparmor1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 21824 files and directories currently installed.)
+Preparing to unpack .../000-libapparmor1_2.13.3-7ubuntu5.1_amd64.deb ...
+Unpacking libapparmor1:amd64 (2.13.3-7ubuntu5.1) ...
+Selecting previously unselected package libdbus-1-3:amd64.
+Preparing to unpack .../001-libdbus-1-3_1.12.16-2ubuntu2.3_amd64.deb ...
+Unpacking libdbus-1-3:amd64 (1.12.16-2ubuntu2.3) ...
+Selecting previously unselected package dbus.
+Preparing to unpack .../002-dbus_1.12.16-2ubuntu2.3_amd64.deb ...
+Unpacking dbus (1.12.16-2ubuntu2.3) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../003-libbsd0_0.10.0-1_amd64.deb ...
+Unpacking libbsd0:amd64 (0.10.0-1) ...
+Selecting previously unselected package libelf1:amd64.
+Preparing to unpack .../004-libelf1_0.176-1.1build1_amd64.deb ...
+Unpacking libelf1:amd64 (0.176-1.1build1) ...
+Selecting previously unselected package libfribidi0:amd64.
+Preparing to unpack .../005-libfribidi0_1.0.8-2ubuntu0.1_amd64.deb ...
+Unpacking libfribidi0:amd64 (1.0.8-2ubuntu0.1) ...
+Selecting previously unselected package libglib2.0-0:amd64.
+Preparing to unpack .../006-libglib2.0-0_2.64.6-1~ubuntu20.04.4_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.4) ...
+Selecting previously unselected package libglib2.0-data.
+Preparing to unpack .../007-libglib2.0-data_2.64.6-1~ubuntu20.04.4_all.deb ...
+Unpacking libglib2.0-data (2.64.6-1~ubuntu20.04.4) ...
+Selecting previously unselected package libslang2:amd64.
+Preparing to unpack .../008-libslang2_2.3.2-4_amd64.deb ...
+Unpacking libslang2:amd64 (2.3.2-4) ...
+Selecting previously unselected package libsodium23:amd64.
+Preparing to unpack .../009-libsodium23_1.0.18-1_amd64.deb ...
+Unpacking libsodium23:amd64 (1.0.18-1) ...
+Selecting previously unselected package shared-mime-info.
+Preparing to unpack .../010-shared-mime-info_1.15-1_amd64.deb ...
+Unpacking shared-mime-info (1.15-1) ...
+Selecting previously unselected package ucf.
+Preparing to unpack .../011-ucf_3.0038+nmu1_all.deb ...
+Moving old data out of the way
+Unpacking ucf (3.0038+nmu1) ...
+Selecting previously unselected package xdg-user-dirs.
+Preparing to unpack .../012-xdg-user-dirs_0.17-2ubuntu1_amd64.deb ...
+Unpacking xdg-user-dirs (0.17-2ubuntu1) ...
+Selecting previously unselected package xkb-data.
+Preparing to unpack .../013-xkb-data_2.29-2_all.deb ...
+Unpacking xkb-data (2.29-2) ...
+Selecting previously unselected package libdrm-common.
+Preparing to unpack .../014-libdrm-common_2.4.107-8ubuntu1~20.04.2_all.deb ...
+Unpacking libdrm-common (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libdrm2:amd64.
+Preparing to unpack .../015-libdrm2_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm2:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libedit2:amd64.
+Preparing to unpack .../016-libedit2_3.1-20191231-1_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20191231-1) ...
+Selecting previously unselected package libnuma1:amd64.
+Preparing to unpack .../017-libnuma1_2.0.12-1_amd64.deb ...
+Unpacking libnuma1:amd64 (2.0.12-1) ...
+Selecting previously unselected package libusb-1.0-0:amd64.
+Preparing to unpack .../018-libusb-1.0-0_2%3a1.0.23-2build1_amd64.deb ...
+Unpacking libusb-1.0-0:amd64 (2:1.0.23-2build1) ...
+Selecting previously unselected package libxau6:amd64.
+Preparing to unpack .../019-libxau6_1%3a1.0.9-0ubuntu1_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.9-0ubuntu1) ...
+Selecting previously unselected package libxdmcp6:amd64.
+Preparing to unpack .../020-libxdmcp6_1%3a1.1.3-0ubuntu1_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.3-0ubuntu1) ...
+Selecting previously unselected package libxcb1:amd64.
+Preparing to unpack .../021-libxcb1_1.14-2_amd64.deb ...
+Unpacking libxcb1:amd64 (1.14-2) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../022-libx11-data_2%3a1.6.9-2ubuntu1.2_all.deb ...
+Unpacking libx11-data (2:1.6.9-2ubuntu1.2) ...
+Selecting previously unselected package libx11-6:amd64.
+Preparing to unpack .../023-libx11-6_2%3a1.6.9-2ubuntu1.2_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.6.9-2ubuntu1.2) ...
+Selecting previously unselected package libxext6:amd64.
+Preparing to unpack .../024-libxext6_2%3a1.3.4-0ubuntu1_amd64.deb ...
+Unpacking libxext6:amd64 (2:1.3.4-0ubuntu1) ...
+Selecting previously unselected package libaom0:amd64.
+Preparing to unpack .../025-libaom0_1.0.0.errata1-3build1_amd64.deb ...
+Unpacking libaom0:amd64 (1.0.0.errata1-3build1) ...
+Selecting previously unselected package libva2:amd64.
+Preparing to unpack .../026-libva2_2.7.0-2_amd64.deb ...
+Unpacking libva2:amd64 (2.7.0-2) ...
+Selecting previously unselected package libva-drm2:amd64.
+Preparing to unpack .../027-libva-drm2_2.7.0-2_amd64.deb ...
+Unpacking libva-drm2:amd64 (2.7.0-2) ...
+Selecting previously unselected package libxfixes3:amd64.
+Preparing to unpack .../028-libxfixes3_1%3a5.0.3-2_amd64.deb ...
+Unpacking libxfixes3:amd64 (1:5.0.3-2) ...
+Selecting previously unselected package libva-x11-2:amd64.
+Preparing to unpack .../029-libva-x11-2_2.7.0-2_amd64.deb ...
+Unpacking libva-x11-2:amd64 (2.7.0-2) ...
+Selecting previously unselected package libvdpau1:amd64.
+Preparing to unpack .../030-libvdpau1_1.3-1ubuntu2_amd64.deb ...
+Unpacking libvdpau1:amd64 (1.3-1ubuntu2) ...
+Selecting previously unselected package ocl-icd-libopencl1:amd64.
+Preparing to unpack .../031-ocl-icd-libopencl1_2.2.11-1ubuntu1_amd64.deb ...
+Unpacking ocl-icd-libopencl1:amd64 (2.2.11-1ubuntu1) ...
+Selecting previously unselected package libavutil56:amd64.
+Preparing to unpack .../032-libavutil56_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libavutil56:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libfreetype6:amd64.
+Preparing to unpack .../033-libfreetype6_2.10.1-2ubuntu0.2_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.10.1-2ubuntu0.2) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../034-fonts-dejavu-core_2.37-1_all.deb ...
+Unpacking fonts-dejavu-core (2.37-1) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../035-fontconfig-config_2.13.1-2ubuntu3_all.deb ...
+Unpacking fontconfig-config (2.13.1-2ubuntu3) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../036-libfontconfig1_2.13.1-2ubuntu3_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-2ubuntu3) ...
+Selecting previously unselected package libpixman-1-0:amd64.
+Preparing to unpack .../037-libpixman-1-0_0.38.4-0ubuntu2.1_amd64.deb ...
+Unpacking libpixman-1-0:amd64 (0.38.4-0ubuntu2.1) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../038-libxcb-render0_1.14-2_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../039-libxcb-shm0_1.14-2_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.14-2) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../040-libxrender1_1%3a0.9.10-1_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.10-1) ...
+Selecting previously unselected package libcairo2:amd64.
+Preparing to unpack .../041-libcairo2_1.16.0-4ubuntu1_amd64.deb ...
+Unpacking libcairo2:amd64 (1.16.0-4ubuntu1) ...
+Selecting previously unselected package libcodec2-0.9:amd64.
+Preparing to unpack .../042-libcodec2-0.9_0.9.2-2_amd64.deb ...
+Unpacking libcodec2-0.9:amd64 (0.9.2-2) ...
+Selecting previously unselected package libgsm1:amd64.
+Preparing to unpack .../043-libgsm1_1.0.18-2_amd64.deb ...
+Unpacking libgsm1:amd64 (1.0.18-2) ...
+Selecting previously unselected package libmp3lame0:amd64.
+Preparing to unpack .../044-libmp3lame0_3.100-3_amd64.deb ...
+Unpacking libmp3lame0:amd64 (3.100-3) ...
+Selecting previously unselected package libopenjp2-7:amd64.
+Preparing to unpack .../045-libopenjp2-7_2.3.1-1ubuntu4.20.04.1_amd64.deb ...
+Unpacking libopenjp2-7:amd64 (2.3.1-1ubuntu4.20.04.1) ...
+Selecting previously unselected package libopus0:amd64.
+Preparing to unpack .../046-libopus0_1.3.1-0ubuntu1_amd64.deb ...
+Unpacking libopus0:amd64 (1.3.1-0ubuntu1) ...
+Selecting previously unselected package libcairo-gobject2:amd64.
+Preparing to unpack .../047-libcairo-gobject2_1.16.0-4ubuntu1_amd64.deb ...
+Unpacking libcairo-gobject2:amd64 (1.16.0-4ubuntu1) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../048-libjbig0_2.1-3.1ubuntu0.20.04.1_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1ubuntu0.20.04.1) ...
+Selecting previously unselected package libwebp6:amd64.
+Preparing to unpack .../049-libwebp6_0.6.1-2ubuntu0.20.04.1_amd64.deb ...
+Unpacking libwebp6:amd64 (0.6.1-2ubuntu0.20.04.1) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../050-libtiff5_4.1.0+git191117-2ubuntu0.20.04.6_amd64.deb ...
+Unpacking libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.6) ...
+Selecting previously unselected package libgdk-pixbuf2.0-common.
+Preparing to unpack .../051-libgdk-pixbuf2.0-common_2.40.0+dfsg-3ubuntu0.4_all.deb ...
+Unpacking libgdk-pixbuf2.0-common (2.40.0+dfsg-3ubuntu0.4) ...
+Selecting previously unselected package libgdk-pixbuf2.0-0:amd64.
+Preparing to unpack .../052-libgdk-pixbuf2.0-0_2.40.0+dfsg-3ubuntu0.4_amd64.deb ...
+Unpacking libgdk-pixbuf2.0-0:amd64 (2.40.0+dfsg-3ubuntu0.4) ...
+Selecting previously unselected package fontconfig.
+Preparing to unpack .../053-fontconfig_2.13.1-2ubuntu3_amd64.deb ...
+Unpacking fontconfig (2.13.1-2ubuntu3) ...
+Selecting previously unselected package libgraphite2-3:amd64.
+Preparing to unpack .../054-libgraphite2-3_1.3.13-11build1_amd64.deb ...
+Unpacking libgraphite2-3:amd64 (1.3.13-11build1) ...
+Selecting previously unselected package libharfbuzz0b:amd64.
+Preparing to unpack .../055-libharfbuzz0b_2.6.4-1ubuntu4.2_amd64.deb ...
+Unpacking libharfbuzz0b:amd64 (2.6.4-1ubuntu4.2) ...
+Selecting previously unselected package libthai-data.
+Preparing to unpack .../056-libthai-data_0.1.28-3_all.deb ...
+Unpacking libthai-data (0.1.28-3) ...
+Selecting previously unselected package libdatrie1:amd64.
+Preparing to unpack .../057-libdatrie1_0.2.12-3_amd64.deb ...
+Unpacking libdatrie1:amd64 (0.2.12-3) ...
+Selecting previously unselected package libthai0:amd64.
+Preparing to unpack .../058-libthai0_0.1.28-3_amd64.deb ...
+Unpacking libthai0:amd64 (0.1.28-3) ...
+Selecting previously unselected package libpango-1.0-0:amd64.
+Preparing to unpack .../059-libpango-1.0-0_1.44.7-2ubuntu4_amd64.deb ...
+Unpacking libpango-1.0-0:amd64 (1.44.7-2ubuntu4) ...
+Selecting previously unselected package libpangoft2-1.0-0:amd64.
+Preparing to unpack .../060-libpangoft2-1.0-0_1.44.7-2ubuntu4_amd64.deb ...
+Unpacking libpangoft2-1.0-0:amd64 (1.44.7-2ubuntu4) ...
+Selecting previously unselected package libpangocairo-1.0-0:amd64.
+Preparing to unpack .../061-libpangocairo-1.0-0_1.44.7-2ubuntu4_amd64.deb ...
+Unpacking libpangocairo-1.0-0:amd64 (1.44.7-2ubuntu4) ...
+Selecting previously unselected package librsvg2-2:amd64.
+Preparing to unpack .../062-librsvg2-2_2.48.9-1ubuntu0.20.04.1_amd64.deb ...
+Unpacking librsvg2-2:amd64 (2.48.9-1ubuntu0.20.04.1) ...
+Selecting previously unselected package libshine3:amd64.
+Preparing to unpack .../063-libshine3_3.1.1-2_amd64.deb ...
+Unpacking libshine3:amd64 (3.1.1-2) ...
+Selecting previously unselected package libsnappy1v5:amd64.
+Preparing to unpack .../064-libsnappy1v5_1.1.8-1build1_amd64.deb ...
+Unpacking libsnappy1v5:amd64 (1.1.8-1build1) ...
+Selecting previously unselected package libspeex1:amd64.
+Preparing to unpack .../065-libspeex1_1.2~rc1.2-1.1ubuntu1.20.04.1_amd64.deb ...
+Unpacking libspeex1:amd64 (1.2~rc1.2-1.1ubuntu1.20.04.1) ...
+Selecting previously unselected package libsoxr0:amd64.
+Preparing to unpack .../066-libsoxr0_0.1.3-2build1_amd64.deb ...
+Unpacking libsoxr0:amd64 (0.1.3-2build1) ...
+Selecting previously unselected package libswresample3:amd64.
+Preparing to unpack .../067-libswresample3_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libswresample3:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libtheora0:amd64.
+Preparing to unpack .../068-libtheora0_1.1.1+dfsg.1-15ubuntu2_amd64.deb ...
+Unpacking libtheora0:amd64 (1.1.1+dfsg.1-15ubuntu2) ...
+Selecting previously unselected package libtwolame0:amd64.
+Preparing to unpack .../069-libtwolame0_0.4.0-2_amd64.deb ...
+Unpacking libtwolame0:amd64 (0.4.0-2) ...
+Selecting previously unselected package libvorbisenc2:amd64.
+Preparing to unpack .../070-libvorbisenc2_1.3.6-2ubuntu1_amd64.deb ...
+Unpacking libvorbisenc2:amd64 (1.3.6-2ubuntu1) ...
+Selecting previously unselected package libvpx6:amd64.
+Preparing to unpack .../071-libvpx6_1.8.2-1build1_amd64.deb ...
+Unpacking libvpx6:amd64 (1.8.2-1build1) ...
+Selecting previously unselected package libwavpack1:amd64.
+Preparing to unpack .../072-libwavpack1_5.2.0-1ubuntu0.1_amd64.deb ...
+Unpacking libwavpack1:amd64 (5.2.0-1ubuntu0.1) ...
+Selecting previously unselected package libwebpmux3:amd64.
+Preparing to unpack .../073-libwebpmux3_0.6.1-2ubuntu0.20.04.1_amd64.deb ...
+Unpacking libwebpmux3:amd64 (0.6.1-2ubuntu0.20.04.1) ...
+Selecting previously unselected package libx264-155:amd64.
+Preparing to unpack .../074-libx264-155_2%3a0.155.2917+git0a84d98-2_amd64.deb ...
+Unpacking libx264-155:amd64 (2:0.155.2917+git0a84d98-2) ...
+Selecting previously unselected package libx265-179:amd64.
+Preparing to unpack .../075-libx265-179_3.2.1-1build1_amd64.deb ...
+Unpacking libx265-179:amd64 (3.2.1-1build1) ...
+Selecting previously unselected package libxvidcore4:amd64.
+Preparing to unpack .../076-libxvidcore4_2%3a1.3.7-1_amd64.deb ...
+Unpacking libxvidcore4:amd64 (2:1.3.7-1) ...
+Selecting previously unselected package libzvbi-common.
+Preparing to unpack .../077-libzvbi-common_0.2.35-17_all.deb ...
+Unpacking libzvbi-common (0.2.35-17) ...
+Selecting previously unselected package libzvbi0:amd64.
+Preparing to unpack .../078-libzvbi0_0.2.35-17_amd64.deb ...
+Unpacking libzvbi0:amd64 (0.2.35-17) ...
+Selecting previously unselected package libavcodec58:amd64.
+Preparing to unpack .../079-libavcodec58_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libavcodec58:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libraw1394-11:amd64.
+Preparing to unpack .../080-libraw1394-11_2.1.2-1_amd64.deb ...
+Unpacking libraw1394-11:amd64 (2.1.2-1) ...
+Selecting previously unselected package libavc1394-0:amd64.
+Preparing to unpack .../081-libavc1394-0_0.5.4-5_amd64.deb ...
+Unpacking libavc1394-0:amd64 (0.5.4-5) ...
+Selecting previously unselected package libass9:amd64.
+Preparing to unpack .../082-libass9_1%3a0.14.0-2_amd64.deb ...
+Unpacking libass9:amd64 (1:0.14.0-2) ...
+Selecting previously unselected package libbluray2:amd64.
+Preparing to unpack .../083-libbluray2_1%3a1.2.0-1_amd64.deb ...
+Unpacking libbluray2:amd64 (1:1.2.0-1) ...
+Selecting previously unselected package libchromaprint1:amd64.
+Preparing to unpack .../084-libchromaprint1_1.4.3-3build1_amd64.deb ...
+Unpacking libchromaprint1:amd64 (1.4.3-3build1) ...
+Selecting previously unselected package libgme0:amd64.
+Preparing to unpack .../085-libgme0_0.6.2-1build1_amd64.deb ...
+Unpacking libgme0:amd64 (0.6.2-1build1) ...
+Selecting previously unselected package libmpg123-0:amd64.
+Preparing to unpack .../086-libmpg123-0_1.25.13-1_amd64.deb ...
+Unpacking libmpg123-0:amd64 (1.25.13-1) ...
+Selecting previously unselected package libopenmpt0:amd64.
+Preparing to unpack .../087-libopenmpt0_0.4.11-1build1_amd64.deb ...
+Unpacking libopenmpt0:amd64 (0.4.11-1build1) ...
+Selecting previously unselected package libssh-gcrypt-4:amd64.
+Preparing to unpack .../088-libssh-gcrypt-4_0.9.3-2ubuntu2.2_amd64.deb ...
+Unpacking libssh-gcrypt-4:amd64 (0.9.3-2ubuntu2.2) ...
+Selecting previously unselected package libavformat58:amd64.
+Preparing to unpack .../089-libavformat58_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libavformat58:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libbs2b0:amd64.
+Preparing to unpack .../090-libbs2b0_3.1.0+dfsg-2.2build1_amd64.deb ...
+Unpacking libbs2b0:amd64 (3.1.0+dfsg-2.2build1) ...
+Selecting previously unselected package libflite1:amd64.
+Preparing to unpack .../091-libflite1_2.1-release-3_amd64.deb ...
+Unpacking libflite1:amd64 (2.1-release-3) ...
+Selecting previously unselected package libserd-0-0:amd64.
+Preparing to unpack .../092-libserd-0-0_0.30.2-1_amd64.deb ...
+Unpacking libserd-0-0:amd64 (0.30.2-1) ...
+Selecting previously unselected package libsord-0-0:amd64.
+Preparing to unpack .../093-libsord-0-0_0.16.4-1_amd64.deb ...
+Unpacking libsord-0-0:amd64 (0.16.4-1) ...
+Selecting previously unselected package libsratom-0-0:amd64.
+Preparing to unpack .../094-libsratom-0-0_0.6.4-1_amd64.deb ...
+Unpacking libsratom-0-0:amd64 (0.6.4-1) ...
+Selecting previously unselected package liblilv-0-0:amd64.
+Preparing to unpack .../095-liblilv-0-0_0.24.6-1ubuntu0.1_amd64.deb ...
+Unpacking liblilv-0-0:amd64 (0.24.6-1ubuntu0.1) ...
+Selecting previously unselected package libmysofa1:amd64.
+Preparing to unpack .../096-libmysofa1_1.0~dfsg0-1_amd64.deb ...
+Unpacking libmysofa1:amd64 (1.0~dfsg0-1) ...
+Selecting previously unselected package libpostproc55:amd64.
+Preparing to unpack .../097-libpostproc55_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libpostproc55:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libfftw3-double3:amd64.
+Preparing to unpack .../098-libfftw3-double3_3.3.8-2ubuntu1_amd64.deb ...
+Unpacking libfftw3-double3:amd64 (3.3.8-2ubuntu1) ...
+Selecting previously unselected package libsamplerate0:amd64.
+Preparing to unpack .../099-libsamplerate0_0.1.9-2_amd64.deb ...
+Unpacking libsamplerate0:amd64 (0.1.9-2) ...
+Selecting previously unselected package librubberband2:amd64.
+Preparing to unpack .../100-librubberband2_1.8.2-1build1_amd64.deb ...
+Unpacking librubberband2:amd64 (1.8.2-1build1) ...
+Selecting previously unselected package libswscale5:amd64.
+Preparing to unpack .../101-libswscale5_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libswscale5:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libvidstab1.1:amd64.
+Preparing to unpack .../102-libvidstab1.1_1.1.0-2_amd64.deb ...
+Unpacking libvidstab1.1:amd64 (1.1.0-2) ...
+Selecting previously unselected package libnorm1:amd64.
+Preparing to unpack .../103-libnorm1_1.5.8+dfsg2-2build1_amd64.deb ...
+Unpacking libnorm1:amd64 (1.5.8+dfsg2-2build1) ...
+Selecting previously unselected package libpgm-5.2-0:amd64.
+Preparing to unpack .../104-libpgm-5.2-0_5.2.122~dfsg-3ubuntu1_amd64.deb ...
+Unpacking libpgm-5.2-0:amd64 (5.2.122~dfsg-3ubuntu1) ...
+Selecting previously unselected package libzmq5:amd64.
+Preparing to unpack .../105-libzmq5_4.3.2-2ubuntu1_amd64.deb ...
+Unpacking libzmq5:amd64 (4.3.2-2ubuntu1) ...
+Selecting previously unselected package libavfilter7:amd64.
+Preparing to unpack .../106-libavfilter7_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libavfilter7:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libcaca0:amd64.
+Preparing to unpack .../107-libcaca0_0.99.beta19-2.1ubuntu1.20.04.2_amd64.deb ...
+Unpacking libcaca0:amd64 (0.99.beta19-2.1ubuntu1.20.04.2) ...
+Selecting previously unselected package libcdio18:amd64.
+Preparing to unpack .../108-libcdio18_2.0.0-2_amd64.deb ...
+Unpacking libcdio18:amd64 (2.0.0-2) ...
+Selecting previously unselected package libcdio-cdda2:amd64.
+Preparing to unpack .../109-libcdio-cdda2_10.2+2.0.0-1_amd64.deb ...
+Unpacking libcdio-cdda2:amd64 (10.2+2.0.0-1) ...
+Selecting previously unselected package libcdio-paranoia2:amd64.
+Preparing to unpack .../110-libcdio-paranoia2_10.2+2.0.0-1_amd64.deb ...
+Unpacking libcdio-paranoia2:amd64 (10.2+2.0.0-1) ...
+Selecting previously unselected package libdc1394-22:amd64.
+Preparing to unpack .../111-libdc1394-22_2.2.5-2.1_amd64.deb ...
+Unpacking libdc1394-22:amd64 (2.2.5-2.1) ...
+Selecting previously unselected package libglvnd0:amd64.
+Preparing to unpack .../112-libglvnd0_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libglvnd0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libglapi-mesa:amd64.
+Preparing to unpack .../113-libglapi-mesa_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libglapi-mesa:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libx11-xcb1:amd64.
+Preparing to unpack .../114-libx11-xcb1_2%3a1.6.9-2ubuntu1.2_amd64.deb ...
+Unpacking libx11-xcb1:amd64 (2:1.6.9-2ubuntu1.2) ...
+Selecting previously unselected package libxcb-dri2-0:amd64.
+Preparing to unpack .../115-libxcb-dri2-0_1.14-2_amd64.deb ...
+Unpacking libxcb-dri2-0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-dri3-0:amd64.
+Preparing to unpack .../116-libxcb-dri3-0_1.14-2_amd64.deb ...
+Unpacking libxcb-dri3-0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-glx0:amd64.
+Preparing to unpack .../117-libxcb-glx0_1.14-2_amd64.deb ...
+Unpacking libxcb-glx0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-present0:amd64.
+Preparing to unpack .../118-libxcb-present0_1.14-2_amd64.deb ...
+Unpacking libxcb-present0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-sync1:amd64.
+Preparing to unpack .../119-libxcb-sync1_1.14-2_amd64.deb ...
+Unpacking libxcb-sync1:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-xfixes0:amd64.
+Preparing to unpack .../120-libxcb-xfixes0_1.14-2_amd64.deb ...
+Unpacking libxcb-xfixes0:amd64 (1.14-2) ...
+Selecting previously unselected package libxshmfence1:amd64.
+Preparing to unpack .../121-libxshmfence1_1.3-1_amd64.deb ...
+Unpacking libxshmfence1:amd64 (1.3-1) ...
+Selecting previously unselected package libxxf86vm1:amd64.
+Preparing to unpack .../122-libxxf86vm1_1%3a1.1.4-1build1_amd64.deb ...
+Unpacking libxxf86vm1:amd64 (1:1.1.4-1build1) ...
+Selecting previously unselected package libdrm-amdgpu1:amd64.
+Preparing to unpack .../123-libdrm-amdgpu1_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm-amdgpu1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libpciaccess0:amd64.
+Preparing to unpack .../124-libpciaccess0_0.16-0ubuntu1_amd64.deb ...
+Unpacking libpciaccess0:amd64 (0.16-0ubuntu1) ...
+Selecting previously unselected package libdrm-intel1:amd64.
+Preparing to unpack .../125-libdrm-intel1_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm-intel1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libdrm-nouveau2:amd64.
+Preparing to unpack .../126-libdrm-nouveau2_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm-nouveau2:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libdrm-radeon1:amd64.
+Preparing to unpack .../127-libdrm-radeon1_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm-radeon1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libllvm12:amd64.
+Preparing to unpack .../128-libllvm12_1%3a12.0.0-3ubuntu1~20.04.5_amd64.deb ...
+Unpacking libllvm12:amd64 (1:12.0.0-3ubuntu1~20.04.5) ...
+Selecting previously unselected package libsensors-config.
+Preparing to unpack .../129-libsensors-config_1%3a3.6.0-2ubuntu1.1_all.deb ...
+Unpacking libsensors-config (1:3.6.0-2ubuntu1.1) ...
+Selecting previously unselected package libsensors5:amd64.
+Preparing to unpack .../130-libsensors5_1%3a3.6.0-2ubuntu1.1_amd64.deb ...
+Unpacking libsensors5:amd64 (1:3.6.0-2ubuntu1.1) ...
+Selecting previously unselected package libvulkan1:amd64.
+Preparing to unpack .../131-libvulkan1_1.2.131.2-1_amd64.deb ...
+Unpacking libvulkan1:amd64 (1.2.131.2-1) ...
+Selecting previously unselected package libgl1-mesa-dri:amd64.
+Preparing to unpack .../132-libgl1-mesa-dri_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libgl1-mesa-dri:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libglx-mesa0:amd64.
+Preparing to unpack .../133-libglx-mesa0_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libglx-mesa0:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libglx0:amd64.
+Preparing to unpack .../134-libglx0_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libglx0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libgl1:amd64.
+Preparing to unpack .../135-libgl1_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libgl1:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libiec61883-0:amd64.
+Preparing to unpack .../136-libiec61883-0_1.2.0-3_amd64.deb ...
+Unpacking libiec61883-0:amd64 (1.2.0-3) ...
+Selecting previously unselected package libjack-jackd2-0:amd64.
+Preparing to unpack .../137-libjack-jackd2-0_1.9.12~dfsg-2ubuntu2_amd64.deb ...
+Unpacking libjack-jackd2-0:amd64 (1.9.12~dfsg-2ubuntu2) ...
+Selecting previously unselected package libopenal-data.
+Preparing to unpack .../138-libopenal-data_1%3a1.19.1-1_all.deb ...
+Unpacking libopenal-data (1:1.19.1-1) ...
+Selecting previously unselected package libsndio7.0:amd64.
+Preparing to unpack .../139-libsndio7.0_1.5.0-3_amd64.deb ...
+Unpacking libsndio7.0:amd64 (1.5.0-3) ...
+Selecting previously unselected package libopenal1:amd64.
+Preparing to unpack .../140-libopenal1_1%3a1.19.1-1_amd64.deb ...
+Unpacking libopenal1:amd64 (1:1.19.1-1) ...
+Selecting previously unselected package libasyncns0:amd64.
+Preparing to unpack .../141-libasyncns0_0.8-6_amd64.deb ...
+Unpacking libasyncns0:amd64 (0.8-6) ...
+Selecting previously unselected package libflac8:amd64.
+Preparing to unpack .../142-libflac8_1.3.3-1ubuntu0.1_amd64.deb ...
+Unpacking libflac8:amd64 (1.3.3-1ubuntu0.1) ...
+Selecting previously unselected package libsndfile1:amd64.
+Preparing to unpack .../143-libsndfile1_1.0.28-7ubuntu0.1_amd64.deb ...
+Unpacking libsndfile1:amd64 (1.0.28-7ubuntu0.1) ...
+Selecting previously unselected package libwrap0:amd64.
+Preparing to unpack .../144-libwrap0_7.6.q-30_amd64.deb ...
+Unpacking libwrap0:amd64 (7.6.q-30) ...
+Selecting previously unselected package libpulse0:amd64.
+Preparing to unpack .../145-libpulse0_1%3a13.99.1-1ubuntu3.13_amd64.deb ...
+Unpacking libpulse0:amd64 (1:13.99.1-1ubuntu3.13) ...
+Selecting previously unselected package libwayland-client0:amd64.
+Preparing to unpack .../146-libwayland-client0_1.18.0-1ubuntu0.1_amd64.deb ...
+Unpacking libwayland-client0:amd64 (1.18.0-1ubuntu0.1) ...
+Selecting previously unselected package libwayland-cursor0:amd64.
+Preparing to unpack .../147-libwayland-cursor0_1.18.0-1ubuntu0.1_amd64.deb ...
+Unpacking libwayland-cursor0:amd64 (1.18.0-1ubuntu0.1) ...
+Selecting previously unselected package libwayland-egl1:amd64.
+Preparing to unpack .../148-libwayland-egl1_1.18.0-1ubuntu0.1_amd64.deb ...
+Unpacking libwayland-egl1:amd64 (1.18.0-1ubuntu0.1) ...
+Selecting previously unselected package libxcursor1:amd64.
+Preparing to unpack .../149-libxcursor1_1%3a1.2.0-2_amd64.deb ...
+Unpacking libxcursor1:amd64 (1:1.2.0-2) ...
+Selecting previously unselected package libxi6:amd64.
+Preparing to unpack .../150-libxi6_2%3a1.7.10-0ubuntu1_amd64.deb ...
+Unpacking libxi6:amd64 (2:1.7.10-0ubuntu1) ...
+Selecting previously unselected package libxinerama1:amd64.
+Preparing to unpack .../151-libxinerama1_2%3a1.1.4-2_amd64.deb ...
+Unpacking libxinerama1:amd64 (2:1.1.4-2) ...
+Selecting previously unselected package libxkbcommon0:amd64.
+Preparing to unpack .../152-libxkbcommon0_0.10.0-1_amd64.deb ...
+Unpacking libxkbcommon0:amd64 (0.10.0-1) ...
+Selecting previously unselected package libxrandr2:amd64.
+Preparing to unpack .../153-libxrandr2_2%3a1.5.2-0ubuntu1_amd64.deb ...
+Unpacking libxrandr2:amd64 (2:1.5.2-0ubuntu1) ...
+Selecting previously unselected package x11-common.
+Preparing to unpack .../154-x11-common_1%3a7.7+19ubuntu14_all.deb ...
+dpkg-query: no packages found matching nux-tools
+Unpacking x11-common (1:7.7+19ubuntu14) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../155-libxss1_1%3a1.2.3-1_amd64.deb ...
+Unpacking libxss1:amd64 (1:1.2.3-1) ...
+Selecting previously unselected package libsdl2-2.0-0:amd64.
+Preparing to unpack .../156-libsdl2-2.0-0_2.0.10+dfsg1-3_amd64.deb ...
+Unpacking libsdl2-2.0-0:amd64 (2.0.10+dfsg1-3) ...
+Selecting previously unselected package libxcb-shape0:amd64.
+Preparing to unpack .../157-libxcb-shape0_1.14-2_amd64.deb ...
+Unpacking libxcb-shape0:amd64 (1.14-2) ...
+Selecting previously unselected package libxv1:amd64.
+Preparing to unpack .../158-libxv1_2%3a1.0.11-1_amd64.deb ...
+Unpacking libxv1:amd64 (2:1.0.11-1) ...
+Selecting previously unselected package libavdevice58:amd64.
+Preparing to unpack .../159-libavdevice58_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libavdevice58:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libavresample4:amd64.
+Preparing to unpack .../160-libavresample4_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking libavresample4:amd64 (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package ffmpeg.
+Preparing to unpack .../161-ffmpeg_7%3a4.2.7-0ubuntu0.1_amd64.deb ...
+Unpacking ffmpeg (7:4.2.7-0ubuntu0.1) ...
+Selecting previously unselected package libigdgmm11:amd64.
+Preparing to unpack .../162-libigdgmm11_20.1.1+ds1-1_amd64.deb ...
+Unpacking libigdgmm11:amd64 (20.1.1+ds1-1) ...
+Selecting previously unselected package intel-media-va-driver:amd64.
+Preparing to unpack .../163-intel-media-va-driver_20.1.1+dfsg1-1_amd64.deb ...
+Unpacking intel-media-va-driver:amd64 (20.1.1+dfsg1-1) ...
+Selecting previously unselected package libaacs0:amd64.
+Preparing to unpack .../164-libaacs0_0.9.0-2_amd64.deb ...
+Unpacking libaacs0:amd64 (0.9.0-2) ...
+Selecting previously unselected package libbdplus0:amd64.
+Preparing to unpack .../165-libbdplus0_0.1.2-3_amd64.deb ...
+Unpacking libbdplus0:amd64 (0.1.2-3) ...
+Selecting previously unselected package libgdk-pixbuf2.0-bin.
+Preparing to unpack .../166-libgdk-pixbuf2.0-bin_2.40.0+dfsg-3ubuntu0.4_amd64.deb ...
+Unpacking libgdk-pixbuf2.0-bin (2.40.0+dfsg-3ubuntu0.4) ...
+Selecting previously unselected package libice6:amd64.
+Preparing to unpack .../167-libice6_2%3a1.0.10-0ubuntu1_amd64.deb ...
+Unpacking libice6:amd64 (2:1.0.10-0ubuntu1) ...
+Selecting previously unselected package librsvg2-common:amd64.
+Preparing to unpack .../168-librsvg2-common_2.48.9-1ubuntu0.20.04.1_amd64.deb ...
+Unpacking librsvg2-common:amd64 (2.48.9-1ubuntu0.20.04.1) ...
+Selecting previously unselected package libsm6:amd64.
+Preparing to unpack .../169-libsm6_2%3a1.2.3-1_amd64.deb ...
+Unpacking libsm6:amd64 (2:1.2.3-1) ...
+Selecting previously unselected package libxcb-randr0:amd64.
+Preparing to unpack .../170-libxcb-randr0_1.14-2_amd64.deb ...
+Unpacking libxcb-randr0:amd64 (1.14-2) ...
+Selecting previously unselected package mesa-va-drivers:amd64.
+Preparing to unpack .../171-mesa-va-drivers_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking mesa-va-drivers:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package mesa-vdpau-drivers:amd64.
+Preparing to unpack .../172-mesa-vdpau-drivers_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking mesa-vdpau-drivers:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package mesa-vulkan-drivers:amd64.
+Preparing to unpack .../173-mesa-vulkan-drivers_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking mesa-vulkan-drivers:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package i965-va-driver:amd64.
+Preparing to unpack .../174-i965-va-driver_2.4.0-0ubuntu1_amd64.deb ...
+Unpacking i965-va-driver:amd64 (2.4.0-0ubuntu1) ...
+Selecting previously unselected package va-driver-all:amd64.
+Preparing to unpack .../175-va-driver-all_2.7.0-2_amd64.deb ...
+Unpacking va-driver-all:amd64 (2.7.0-2) ...
+Selecting previously unselected package vdpau-driver-all:amd64.
+Preparing to unpack .../176-vdpau-driver-all_1.3-1ubuntu2_amd64.deb ...
+Unpacking vdpau-driver-all:amd64 (1.3-1ubuntu2) ...
+Setting up libgme0:amd64 (0.6.2-1build1) ...
+Setting up libssh-gcrypt-4:amd64 (0.9.3-2ubuntu2.2) ...
+Setting up libgraphite2-3:amd64 (1.3.13-11build1) ...
+Setting up libpixman-1-0:amd64 (0.38.4-0ubuntu2.1) ...
+Setting up libx11-xcb1:amd64 (2:1.6.9-2ubuntu1.2) ...
+Setting up libpciaccess0:amd64 (0.16-0ubuntu1) ...
+Setting up libxau6:amd64 (1:1.0.9-0ubuntu1) ...
+Setting up libraw1394-11:amd64 (2.1.2-1) ...
+Setting up libapparmor1:amd64 (2.13.3-7ubuntu5.1) ...
+Setting up libsodium23:amd64 (1.0.18-1) ...
+Setting up libmpg123-0:amd64 (1.25.13-1) ...
+Setting up libspeex1:amd64 (1.2~rc1.2-1.1ubuntu1.20.04.1) ...
+Setting up libshine3:amd64 (3.1.1-2) ...
+Setting up libtwolame0:amd64 (0.4.0-2) ...
+Setting up libdatrie1:amd64 (0.2.12-3) ...
+Setting up xdg-user-dirs (0.17-2ubuntu1) ...
+Setting up libgsm1:amd64 (1.0.18-2) ...
+Setting up libx264-155:amd64 (2:0.155.2917+git0a84d98-2) ...
+Setting up libsoxr0:amd64 (0.1.3-2build1) ...
+Setting up libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.4) ...
+No schema files found: doing nothing.
+Setting up libglvnd0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libaom0:amd64 (1.0.0.errata1-3build1) ...
+Setting up libgdk-pixbuf2.0-common (2.40.0+dfsg-3ubuntu0.4) ...
+Setting up libnorm1:amd64 (1.5.8+dfsg2-2build1) ...
+Setting up libmysofa1:amd64 (1.0~dfsg0-1) ...
+Setting up x11-common (1:7.7+19ubuntu14) ...
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up libsensors-config (1:3.6.0-2ubuntu1.1) ...
+Setting up libcdio18:amd64 (2.0.0-2) ...
+Setting up xkb-data (2.29-2) ...
+Setting up libxvidcore4:amd64 (2:1.3.7-1) ...
+Setting up libjbig0:amd64 (2.1-3.1ubuntu0.20.04.1) ...
+Setting up libsnappy1v5:amd64 (1.1.8-1build1) ...
+Setting up libflac8:amd64 (1.3.3-1ubuntu0.1) ...
+Setting up libglib2.0-data (2.64.6-1~ubuntu20.04.4) ...
+Setting up libslang2:amd64 (2.3.2-4) ...
+Setting up libva2:amd64 (2.7.0-2) ...
+Setting up libfreetype6:amd64 (2.10.1-2ubuntu0.2) ...
+Setting up libwrap0:amd64 (7.6.q-30) ...
+Setting up libigdgmm11:amd64 (20.1.1+ds1-1) ...
+Setting up libx11-data (2:1.6.9-2ubuntu1.2) ...
+Setting up libcodec2-0.9:amd64 (0.9.2-2) ...
+Setting up libdbus-1-3:amd64 (1.12.16-2ubuntu2.3) ...
+Setting up dbus (1.12.16-2ubuntu2.3) ...
+Setting up libfribidi0:amd64 (1.0.8-2ubuntu0.1) ...
+Setting up libopus0:amd64 (1.3.1-0ubuntu1) ...
+Setting up shared-mime-info (1.15-1) ...
+Setting up intel-media-va-driver:amd64 (20.1.1+dfsg1-1) ...
+Setting up libwebp6:amd64 (0.6.1-2ubuntu0.20.04.1) ...
+Setting up fonts-dejavu-core (2.37-1) ...
+Setting up ucf (3.0038+nmu1) ...
+Setting up libsensors5:amd64 (1:3.6.0-2ubuntu1.1) ...
+Setting up libaacs0:amd64 (0.9.0-2) ...
+Setting up libfftw3-double3:amd64 (3.3.8-2ubuntu1) ...
+Setting up libglapi-mesa:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libvulkan1:amd64 (1.2.131.2-1) ...
+Setting up libbdplus0:amd64 (0.1.2-3) ...
+Setting up libnuma1:amd64 (2.0.12-1) ...
+Setting up libvidstab1.1:amd64 (1.1.0-2) ...
+Setting up libflite1:amd64 (2.1-release-3) ...
+Setting up ocl-icd-libopencl1:amd64 (2.2.11-1ubuntu1) ...
+Setting up libasyncns0:amd64 (0.8-6) ...
+Setting up libxshmfence1:amd64 (1.3-1) ...
+Setting up libvpx6:amd64 (1.8.2-1build1) ...
+Setting up libwavpack1:amd64 (5.2.0-1ubuntu0.1) ...
+Setting up libbs2b0:amd64 (3.1.0+dfsg-2.2build1) ...
+Setting up libopenjp2-7:amd64 (2.3.1-1ubuntu4.20.04.1) ...
+Setting up libharfbuzz0b:amd64 (2.6.4-1ubuntu4.2) ...
+Setting up libopenal-data (1:1.19.1-1) ...
+Setting up libthai-data (0.1.28-3) ...
+Setting up libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.6) ...
+Setting up libwayland-egl1:amd64 (1.18.0-1ubuntu0.1) ...
+Setting up libusb-1.0-0:amd64 (2:1.0.23-2build1) ...
+Setting up libsamplerate0:amd64 (0.1.9-2) ...
+Setting up libwebpmux3:amd64 (0.6.1-2ubuntu0.20.04.1) ...
+Setting up libbsd0:amd64 (0.10.0-1) ...
+Setting up libdrm-common (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libelf1:amd64 (0.176-1.1build1) ...
+Setting up libopenmpt0:amd64 (0.4.11-1build1) ...
+Setting up libzvbi-common (0.2.35-17) ...
+Setting up libmp3lame0:amd64 (3.100-3) ...
+Setting up libvorbisenc2:amd64 (1.3.6-2ubuntu1) ...
+Setting up libpgm-5.2-0:amd64 (5.2.122~dfsg-3ubuntu1) ...
+Setting up libiec61883-0:amd64 (1.2.0-3) ...
+Setting up libserd-0-0:amd64 (0.30.2-1) ...
+Setting up libxkbcommon0:amd64 (0.10.0-1) ...
+Setting up libwayland-client0:amd64 (1.18.0-1ubuntu0.1) ...
+Setting up libavc1394-0:amd64 (0.5.4-5) ...
+Setting up libzvbi0:amd64 (0.2.35-17) ...
+Setting up libice6:amd64 (2:1.0.10-0ubuntu1) ...
+Setting up libxdmcp6:amd64 (1:1.1.3-0ubuntu1) ...
+Setting up libxcb1:amd64 (1.14-2) ...
+Setting up libxcb-xfixes0:amd64 (1.14-2) ...
+Setting up libzmq5:amd64 (4.3.2-2ubuntu1) ...
+Setting up libcaca0:amd64 (0.99.beta19-2.1ubuntu1.20.04.2) ...
+Setting up libx265-179:amd64 (3.2.1-1build1) ...
+Setting up libxcb-render0:amd64 (1.14-2) ...
+Setting up libcdio-cdda2:amd64 (10.2+2.0.0-1) ...
+Setting up fontconfig-config (2.13.1-2ubuntu3) ...
+Setting up libcdio-paranoia2:amd64 (10.2+2.0.0-1) ...
+Setting up libxcb-glx0:amd64 (1.14-2) ...
+Setting up libedit2:amd64 (3.1-20191231-1) ...
+Setting up libxcb-shape0:amd64 (1.14-2) ...
+Setting up libdc1394-22:amd64 (2.2.5-2.1) ...
+Setting up libxcb-shm0:amd64 (1.14-2) ...
+Setting up libxcb-present0:amd64 (1.14-2) ...
+Setting up libthai0:amd64 (0.1.28-3) ...
+Setting up libxcb-sync1:amd64 (1.14-2) ...
+Setting up libllvm12:amd64 (1:12.0.0-3ubuntu1~20.04.5) ...
+Setting up librubberband2:amd64 (1.8.2-1build1) ...
+Setting up libsndio7.0:amd64 (1.5.0-3) ...
+Setting up libxcb-dri2-0:amd64 (1.14-2) ...
+Setting up libjack-jackd2-0:amd64 (1.9.12~dfsg-2ubuntu2) ...
+Setting up libdrm2:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libva-drm2:amd64 (2.7.0-2) ...
+Setting up libsord-0-0:amd64 (0.16.4-1) ...
+Setting up libwayland-cursor0:amd64 (1.18.0-1ubuntu0.1) ...
+Setting up libxcb-randr0:amd64 (1.14-2) ...
+Setting up libsratom-0-0:amd64 (0.6.4-1) ...
+Setting up libx11-6:amd64 (2:1.6.9-2ubuntu1.2) ...
+Setting up libfontconfig1:amd64 (2.13.1-2ubuntu3) ...
+Setting up libsndfile1:amd64 (1.0.28-7ubuntu0.1) ...
+Setting up libbluray2:amd64 (1:1.2.0-1) ...
+Setting up libsm6:amd64 (2:1.2.3-1) ...
+Setting up liblilv-0-0:amd64 (0.24.6-1ubuntu0.1) ...
+Setting up libdrm-amdgpu1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libxcb-dri3-0:amd64 (1.14-2) ...
+Setting up mesa-vulkan-drivers:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up fontconfig (2.13.1-2ubuntu3) ...
+Regenerating fonts cache... done.
+Setting up libdrm-nouveau2:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libxrender1:amd64 (1:0.9.10-1) ...
+Setting up libpulse0:amd64 (1:13.99.1-1ubuntu3.13) ...
+Setting up libdrm-radeon1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libpango-1.0-0:amd64 (1.44.7-2ubuntu4) ...
+Setting up libdrm-intel1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libgl1-mesa-dri:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libxext6:amd64 (2:1.3.4-0ubuntu1) ...
+Setting up libopenal1:amd64 (1:1.19.1-1) ...
+Setting up libcairo2:amd64 (1.16.0-4ubuntu1) ...
+Setting up libxxf86vm1:amd64 (1:1.1.4-1build1) ...
+Setting up libass9:amd64 (1:0.14.0-2) ...
+Setting up libxfixes3:amd64 (1:5.0.3-2) ...
+Setting up libgdk-pixbuf2.0-0:amd64 (2.40.0+dfsg-3ubuntu0.4) ...
+Setting up libxinerama1:amd64 (2:1.1.4-2) ...
+Setting up libxv1:amd64 (2:1.0.11-1) ...
+Setting up libxrandr2:amd64 (2:1.5.2-0ubuntu1) ...
+Setting up libgdk-pixbuf2.0-bin (2.40.0+dfsg-3ubuntu0.4) ...
+Setting up libvdpau1:amd64 (1.3-1ubuntu2) ...
+Setting up libtheora0:amd64 (1.1.1+dfsg.1-15ubuntu2) ...
+Setting up libcairo-gobject2:amd64 (1.16.0-4ubuntu1) ...
+Setting up libxss1:amd64 (1:1.2.3-1) ...
+Setting up mesa-va-drivers:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libpangoft2-1.0-0:amd64 (1.44.7-2ubuntu4) ...
+Setting up libva-x11-2:amd64 (2.7.0-2) ...
+Setting up i965-va-driver:amd64 (2.4.0-0ubuntu1) ...
+Setting up libpangocairo-1.0-0:amd64 (1.44.7-2ubuntu4) ...
+Setting up mesa-vdpau-drivers:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libglx-mesa0:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libxi6:amd64 (2:1.7.10-0ubuntu1) ...
+Setting up libglx0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libxcursor1:amd64 (1:1.2.0-2) ...
+Setting up libavutil56:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up librsvg2-2:amd64 (2.48.9-1ubuntu0.20.04.1) ...
+Setting up libgl1:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up va-driver-all:amd64 (2.7.0-2) ...
+Setting up libpostproc55:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up librsvg2-common:amd64 (2.48.9-1ubuntu0.20.04.1) ...
+Setting up vdpau-driver-all:amd64 (1.3-1ubuntu2) ...
+Setting up libswscale5:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up libsdl2-2.0-0:amd64 (2.0.10+dfsg1-3) ...
+Setting up libswresample3:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up libavresample4:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up libavcodec58:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up libchromaprint1:amd64 (1.4.3-3build1) ...
+Setting up libavformat58:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up libavfilter7:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up libavdevice58:amd64 (7:4.2.7-0ubuntu0.1) ...
+Setting up ffmpeg (7:4.2.7-0ubuntu0.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.1) ...
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-opencl.so.465.19.01 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libcuda.so.465.19.01 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.465.19.01 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-allocator.so.465.19.01 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-cfg.so.465.19.01 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-allocator.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-compiler.so.465.19.01 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-ml.so.465.19.01 is empty, not checked.
+Processing triggers for libgdk-pixbuf2.0-0:amd64 (2.40.0+dfsg-3ubuntu0.4) ...
+Collecting opencv-python
+  Downloading opencv_python-4.6.0.66-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (60.9 MB)
+Collecting ruamel_yaml
+  Downloading ruamel.yaml-0.17.21-py3-none-any.whl (109 kB)
+Collecting pycocoevalcap
+  Downloading pycocoevalcap-1.2-py3-none-any.whl (104.3 MB)
+Collecting transformers
+  Downloading transformers-4.24.0-py3-none-any.whl (5.5 MB)
+Requirement already satisfied: timm in /usr/local/lib/python3.8/dist-packages (from -r requirements.txt (line 5)) (0.4.5)
+Collecting tabulate
+  Downloading tabulate-0.9.0-py3-none-any.whl (35 kB)
+Requirement already satisfied: numpy>=1.17.3 in /usr/local/lib/python3.8/dist-packages (from opencv-python->-r requirements.txt (line 1)) (1.21.0)
+Collecting ruamel.yaml.clib>=0.2.6
+  Downloading ruamel.yaml.clib-0.2.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (555 kB)
+Collecting pycocotools>=2.0.2
+  Downloading pycocotools-2.0.6.tar.gz (24 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting matplotlib>=2.1.0
+  Downloading matplotlib-3.6.2-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (9.4 MB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.2 MB)
+Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.8/dist-packages (from matplotlib>=2.1.0->pycocotools>=2.0.2->pycocoevalcap->-r requirements.txt (line 3)) (21.0)
+Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.8/dist-packages (from matplotlib>=2.1.0->pycocotools>=2.0.2->pycocoevalcap->-r requirements.txt (line 3)) (2.8.2)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.38.0-py3-none-any.whl (965 kB)
+Collecting contourpy>=1.0.1
+  Downloading contourpy-1.0.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (295 kB)
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Requirement already satisfied: pillow>=6.2.0 in /usr/local/lib/python3.8/dist-packages (from matplotlib>=2.1.0->pycocotools>=2.0.2->pycocoevalcap->-r requirements.txt (line 3)) (8.3.1)
+Requirement already satisfied: pyparsing>=2.2.1 in /usr/local/lib/python3.8/dist-packages (from matplotlib>=2.1.0->pycocotools>=2.0.2->pycocoevalcap->-r requirements.txt (line 3)) (2.4.7)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.8/dist-packages (from python-dateutil>=2.7->matplotlib>=2.1.0->pycocotools>=2.0.2->pycocoevalcap->-r requirements.txt (line 3)) (1.16.0)
+Collecting regex!=2019.12.17
+  Downloading regex-2022.10.31-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (772 kB)
+Requirement already satisfied: requests in /usr/local/lib/python3.8/dist-packages (from transformers->-r requirements.txt (line 4)) (2.26.0)
+Collecting tokenizers!=0.11.3,<0.14,>=0.11.1
+  Downloading tokenizers-0.13.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.6 MB)
+Requirement already satisfied: tqdm>=4.27 in /usr/local/lib/python3.8/dist-packages (from transformers->-r requirements.txt (line 4)) (4.61.2)
+Collecting huggingface-hub<1.0,>=0.10.0
+  Downloading huggingface_hub-0.11.1-py3-none-any.whl (182 kB)
+Requirement already satisfied: filelock in /usr/local/lib/python3.8/dist-packages (from transformers->-r requirements.txt (line 4)) (3.0.12)
+Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.8/dist-packages (from transformers->-r requirements.txt (line 4)) (5.4.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.8/dist-packages (from huggingface-hub<1.0,>=0.10.0->transformers->-r requirements.txt (line 4)) (3.10.0.0)
+Requirement already satisfied: torch>=1.4 in /usr/local/lib/python3.8/dist-packages (from timm->-r requirements.txt (line 5)) (1.7.1+cu110)
+Requirement already satisfied: torchvision in /usr/local/lib/python3.8/dist-packages (from timm->-r requirements.txt (line 5)) (0.8.2+cu110)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/local/lib/python3.8/dist-packages (from requests->transformers->-r requirements.txt (line 4)) (1.26.6)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.8/dist-packages (from requests->transformers->-r requirements.txt (line 4)) (3.2)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.8/dist-packages (from requests->transformers->-r requirements.txt (line 4)) (2.0.1)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.8/dist-packages (from requests->transformers->-r requirements.txt (line 4)) (2021.5.30)
+Building wheels for collected packages: pycocotools
+  Building wheel for pycocotools (PEP 517): started
+  Building wheel for pycocotools (PEP 517): finished with status 'done'
+  Created wheel for pycocotools: filename=pycocotools-2.0.6-cp38-cp38-linux_x86_64.whl size=422967 sha256=a11912c7f9acd183d134eb90bb5d44e583656da9b0fd6289a2f175296431d175
+  Stored in directory: /root/.cache/pip/wheels/3e/08/ac/58126fe59992032701437336493f6132e1b72381a62d00b595
+Successfully built pycocotools
+Installing collected packages: kiwisolver, fonttools, cycler, contourpy, matplotlib, tokenizers, ruamel.yaml.clib, regex, pycocotools, huggingface-hub, transformers, tabulate, ruamel-yaml, pycocoevalcap, opencv-python
+Successfully installed contourpy-1.0.6 cycler-0.11.0 fonttools-4.38.0 huggingface-hub-0.11.1 kiwisolver-1.4.4 matplotlib-3.6.2 opencv-python-4.6.0.66 pycocoevalcap-1.2 pycocotools-2.0.6 regex-2022.10.31 ruamel-yaml-0.17.21 ruamel.yaml.clib-0.2.7 tabulate-0.9.0 tokenizers-0.13.2 transformers-4.24.0
+WARNING: Running pip as root will break packages and permissions. You should install packages reliably by using venv: https://pip.pypa.io/warnings/venv
+WARNING: You are using pip version 21.1.2; however, version 22.3.1 is available.
+You should consider upgrading via the '/usr/bin/python -m pip install --upgrade pip' command.
+move pretrained weights...
+move finished...
+args.rank 6 args.world_size 8 args.gpu 6
+get_rank() 0
+args.rank 0 args.world_size 8 args.gpu 0
+get_rank() 0
+args.rank 2 args.world_size 8 args.gpu 2
+get_rank() 0
+args.rank 1 args.world_size 8 args.gpu 1
+get_rank() 0
+args.rank 5 args.world_size 8 args.gpu 5
+get_rank() 0
+args.rank 7 args.world_size 8 args.gpu 7
+get_rank() 0
+args.rank 4 args.world_size 8 args.gpu 4
+get_rank() 0
+args.rank 3 args.world_size 8 args.gpu 3
+get_rank() 0
+| distributed init (rank 3): env://| distributed init (rank 7): env://
+
+| distributed init (rank 6): env://| distributed init (rank 4): env://
+
+| distributed init (rank 0): env://| distributed init (rank 2): env://
+
+| distributed init (rank 5): env://| distributed init (rank 1): env://
+
+Creating dataset
+{'train_file': ['metadata/4M_corpus.tsv'], 'laion_path': '', 'vit': 'base', 'vit_grad_ckpt': False, 'vit_ckpt_layer': 0, 'image_size': 224, 'batch_size': 75, 'queue_size': 57600, 'alpha': 0.4, 'weight_decay': 0.05, 'init_lr': 0.0003, 'min_lr': 1e-06, 'warmup_lr': 1e-06, 'lr_decay_rate': 0.9, 'max_epoch': 20, 'warmup_steps': 3000}
+number of training samples: 3892775
+==================================================
+time now is: 
+2022/11/30 09:17:12
+==================================================
+Creating model
+
+Downloading:   0%|          | 0.00/232k [00:00<?, ?B/s]
+Downloading: 100%|██████████| 232k/232k [00:00<00:00, 37.2MB/s]
+
+Downloading:   0%|          | 0.00/28.0 [00:00<?, ?B/s]
+Downloading: 100%|██████████| 28.0/28.0 [00:00<00:00, 14.0kB/s]
+
+Downloading:   0%|          | 0.00/570 [00:00<?, ?B/s]
+Downloading: 100%|██████████| 570/570 [00:00<00:00, 865kB/s]
+
+Downloading:   0%|          | 0.00/440M [00:00<?, ?B/s]
+Downloading:   2%|▏         | 11.0M/440M [00:00<00:03, 110MB/s]
+Downloading:   5%|▌         | 23.0M/440M [00:00<00:03, 116MB/s]
+Downloading:   8%|▊         | 34.9M/440M [00:00<00:03, 117MB/s]
+Downloading:  11%|█         | 46.8M/440M [00:00<00:03, 118MB/s]
+Downloading:  13%|█▎        | 58.7M/440M [00:00<00:03, 118MB/s]
+Downloading:  16%|█▌        | 70.8M/440M [00:00<00:03, 119MB/s]
+Downloading:  19%|█▉        | 82.9M/440M [00:00<00:02, 120MB/s]
+Downloading:  22%|██▏       | 94.8M/440M [00:00<00:02, 119MB/s]
+Downloading:  24%|██▍       | 107M/440M [00:00<00:02, 119MB/s] 
+Downloading:  27%|██▋       | 119M/440M [00:01<00:02, 119MB/s]
+Downloading:  30%|██▉       | 131M/440M [00:01<00:02, 119MB/s]
+Downloading:  32%|███▏      | 143M/440M [00:01<00:02, 119MB/s]
+Downloading:  35%|███▌      | 155M/440M [00:01<00:02, 119MB/s]
+Downloading:  38%|███▊      | 167M/440M [00:01<00:02, 119MB/s]
+Downloading:  41%|████      | 179M/440M [00:01<00:02, 119MB/s]
+Downloading:  43%|████▎     | 190M/440M [00:01<00:02, 119MB/s]
+Downloading:  46%|████▌     | 202M/440M [00:01<00:01, 119MB/s]
+Downloading:  49%|████▊     | 214M/440M [00:01<00:01, 119MB/s]
+Downloading:  51%|█████▏    | 226M/440M [00:01<00:01, 119MB/s]
+Downloading:  54%|█████▍    | 238M/440M [00:02<00:01, 119MB/s]
+Downloading:  57%|█████▋    | 250M/440M [00:02<00:01, 119MB/s]
+Downloading:  59%|█████▉    | 262M/440M [00:02<00:01, 119MB/s]
+Downloading:  62%|██████▏   | 274M/440M [00:02<00:01, 119MB/s]
+Downloading:  65%|██████▍   | 286M/440M [00:02<00:01, 119MB/s]
+Downloading:  68%|██████▊   | 298M/440M [00:02<00:01, 120MB/s]
+Downloading:  70%|███████   | 310M/440M [00:02<00:01, 120MB/s]
+Downloading:  73%|███████▎  | 322M/440M [00:02<00:00, 119MB/s]
+Downloading:  76%|███████▌  | 334M/440M [00:02<00:00, 119MB/s]
+Downloading:  79%|███████▊  | 346M/440M [00:02<00:00, 119MB/s]
+Downloading:  81%|████████  | 358M/440M [00:03<00:00, 119MB/s]
+Downloading:  84%|████████▍ | 370M/440M [00:03<00:00, 119MB/s]
+Downloading:  87%|████████▋ | 382M/440M [00:03<00:00, 118MB/s]
+Downloading:  89%|████████▉ | 393M/440M [00:03<00:00, 118MB/s]
+Downloading:  92%|█████████▏| 405M/440M [00:03<00:00, 118MB/s]
+Downloading:  95%|█████████▍| 417M/440M [00:03<00:00, 118MB/s]
+Downloading:  97%|█████████▋| 429M/440M [00:03<00:00, 118MB/s]
+Downloading: 100%|██████████| 440M/440M [00:03<00:00, 119MB/s]
+/embeddings/word_embeddings is tied
+/embeddings/position_embeddings is tied
+/embeddings/LayerNorm is tied
+/encoder/layer/0/crossattention/self/query is tied
+/encoder/layer/0/crossattention/self/key is tied
+/encoder/layer/0/crossattention/self/value is tied
+/encoder/layer/0/crossattention/output/dense is tied
+/encoder/layer/0/crossattention/output/LayerNorm is tied
+/encoder/layer/0/intermediate/dense is tied
+/encoder/layer/0/output/dense is tied
+/encoder/layer/0/output/LayerNorm is tied
+/encoder/layer/1/crossattention/self/query is tied
+/encoder/layer/1/crossattention/self/key is tied
+/encoder/layer/1/crossattention/self/value is tied
+/encoder/layer/1/crossattention/output/dense is tied
+/encoder/layer/1/crossattention/output/LayerNorm is tied
+/encoder/layer/1/intermediate/dense is tied
+/encoder/layer/1/output/dense is tied
+/encoder/layer/1/output/LayerNorm is tied
+/encoder/layer/2/crossattention/self/query is tied
+/encoder/layer/2/crossattention/self/key is tied
+/encoder/layer/2/crossattention/self/value is tied
+/encoder/layer/2/crossattention/output/dense is tied
+/encoder/layer/2/crossattention/output/LayerNorm is tied
+/encoder/layer/2/intermediate/dense is tied
+/encoder/layer/2/output/dense is tied
+/encoder/layer/2/output/LayerNorm is tied
+/encoder/layer/3/crossattention/self/query is tied
+/encoder/layer/3/crossattention/self/key is tied
+/encoder/layer/3/crossattention/self/value is tied
+/encoder/layer/3/crossattention/output/dense is tied
+/encoder/layer/3/crossattention/output/LayerNorm is tied
+/encoder/layer/3/intermediate/dense is tied
+/encoder/layer/3/output/dense is tied
+/encoder/layer/3/output/LayerNorm is tied
+/encoder/layer/4/crossattention/self/query is tied
+/encoder/layer/4/crossattention/self/key is tied
+/encoder/layer/4/crossattention/self/value is tied
+/encoder/layer/4/crossattention/output/dense is tied
+/encoder/layer/4/crossattention/output/LayerNorm is tied
+/encoder/layer/4/intermediate/dense is tied
+/encoder/layer/4/output/dense is tied
+/encoder/layer/4/output/LayerNorm is tied
+/encoder/layer/5/crossattention/self/query is tied
+/encoder/layer/5/crossattention/self/key is tied
+/encoder/layer/5/crossattention/self/value is tied
+/encoder/layer/5/crossattention/output/dense is tied
+/encoder/layer/5/crossattention/output/LayerNorm is tied
+/encoder/layer/5/intermediate/dense is tied
+/encoder/layer/5/output/dense is tied
+/encoder/layer/5/output/LayerNorm is tied
+/encoder/layer/6/crossattention/self/query is tied
+/encoder/layer/6/crossattention/self/key is tied
+/encoder/layer/6/crossattention/self/value is tied
+/encoder/layer/6/crossattention/output/dense is tied
+/encoder/layer/6/crossattention/output/LayerNorm is tied
+/encoder/layer/6/intermediate/dense is tied
+/encoder/layer/6/output/dense is tied
+/encoder/layer/6/output/LayerNorm is tied
+/encoder/layer/7/crossattention/self/query is tied
+/encoder/layer/7/crossattention/self/key is tied
+/encoder/layer/7/crossattention/self/value is tied
+/encoder/layer/7/crossattention/output/dense is tied
+/encoder/layer/7/crossattention/output/LayerNorm is tied
+/encoder/layer/7/intermediate/dense is tied
+/encoder/layer/7/output/dense is tied
+/encoder/layer/7/output/LayerNorm is tied
+/encoder/layer/8/crossattention/self/query is tied
+/encoder/layer/8/crossattention/self/key is tied
+/encoder/layer/8/crossattention/self/value is tied
+/encoder/layer/8/crossattention/output/dense is tied
+/encoder/layer/8/crossattention/output/LayerNorm is tied
+/encoder/layer/8/intermediate/dense is tied
+/encoder/layer/8/output/dense is tied
+/encoder/layer/8/output/LayerNorm is tied
+/encoder/layer/9/crossattention/self/query is tied
+/encoder/layer/9/crossattention/self/key is tied
+/encoder/layer/9/crossattention/self/value is tied
+/encoder/layer/9/crossattention/output/dense is tied
+/encoder/layer/9/crossattention/output/LayerNorm is tied
+/encoder/layer/9/intermediate/dense is tied
+/encoder/layer/9/output/dense is tied
+/encoder/layer/9/output/LayerNorm is tied
+/encoder/layer/10/crossattention/self/query is tied
+/encoder/layer/10/crossattention/self/key is tied
+/encoder/layer/10/crossattention/self/value is tied
+/encoder/layer/10/crossattention/output/dense is tied
+/encoder/layer/10/crossattention/output/LayerNorm is tied
+/encoder/layer/10/intermediate/dense is tied
+/encoder/layer/10/output/dense is tied
+/encoder/layer/10/output/LayerNorm is tied
+/encoder/layer/11/crossattention/self/query is tied
+/encoder/layer/11/crossattention/self/key is tied
+/encoder/layer/11/crossattention/self/value is tied
+/encoder/layer/11/crossattention/output/dense is tied
+/encoder/layer/11/crossattention/output/LayerNorm is tied
+/encoder/layer/11/intermediate/dense is tied
+/encoder/layer/11/output/dense is tied
+/encoder/layer/11/output/LayerNorm is tied
+Start training
+Train Epoch: [0]  [   0/6487]  eta: 12:53:24  lr: 0.000001  loss_ita: 11.2070  loss_itm: 0.6918  loss_lm: 9.3950  time: 7.1534  data: 3.2488  max mem: 32469
+Train Epoch: [0]  [ 200/6487]  eta: 1:21:21  lr: 0.000021  loss_ita: 8.7081  loss_itm: 0.6232  loss_lm: 3.9060  time: 0.7376  data: 0.0001  max mem: 35422
+Train Epoch: [0]  [ 400/6487]  eta: 1:16:53  lr: 0.000041  loss_ita: 6.3436  loss_itm: 0.5747  loss_lm: 3.2684  time: 0.7401  data: 0.0001  max mem: 35423
+Train Epoch: [0]  [ 600/6487]  eta: 1:13:43  lr: 0.000061  loss_ita: 4.5703  loss_itm: 0.4853  loss_lm: 2.8006  time: 0.7373  data: 0.0001  max mem: 35423
+Train Epoch: [0]  [ 800/6487]  eta: 1:10:54  lr: 0.000081  loss_ita: 3.7895  loss_itm: 0.4834  loss_lm: 2.7843  time: 0.7377  data: 0.0001  max mem: 35424
+Train Epoch: [0]  [1000/6487]  eta: 1:08:14  lr: 0.000101  loss_ita: 3.2758  loss_itm: 0.4532  loss_lm: 2.7531  time: 0.7378  data: 0.0001  max mem: 35424
+Train Epoch: [0]  [1200/6487]  eta: 1:05:37  lr: 0.000121  loss_ita: 2.7111  loss_itm: 0.3072  loss_lm: 2.5168  time: 0.7368  data: 0.0001  max mem: 35424
+Train Epoch: [0]  [1400/6487]  eta: 1:03:03  lr: 0.000141  loss_ita: 2.7243  loss_itm: 0.3181  loss_lm: 2.3886  time: 0.7374  data: 0.0001  max mem: 35424
+Train Epoch: [0]  [1600/6487]  eta: 1:00:30  lr: 0.000160  loss_ita: 2.3479  loss_itm: 0.3693  loss_lm: 2.1627  time: 0.7367  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [1800/6487]  eta: 0:57:58  lr: 0.000180  loss_ita: 2.5948  loss_itm: 0.3334  loss_lm: 2.4601  time: 0.7369  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [2000/6487]  eta: 0:55:27  lr: 0.000200  loss_ita: 2.1107  loss_itm: 0.2792  loss_lm: 2.3453  time: 0.7368  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [2200/6487]  eta: 0:52:57  lr: 0.000220  loss_ita: 2.7138  loss_itm: 0.3507  loss_lm: 2.2907  time: 0.7374  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [2400/6487]  eta: 0:50:28  lr: 0.000240  loss_ita: 2.5635  loss_itm: 0.3207  loss_lm: 2.6083  time: 0.7379  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [2600/6487]  eta: 0:47:59  lr: 0.000260  loss_ita: 2.5612  loss_itm: 0.2829  loss_lm: 2.3234  time: 0.7386  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [2800/6487]  eta: 0:45:29  lr: 0.000280  loss_ita: 2.3603  loss_itm: 0.2728  loss_lm: 2.1472  time: 0.7372  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [3000/6487]  eta: 0:43:01  lr: 0.000300  loss_ita: 1.7122  loss_itm: 0.2383  loss_lm: 2.1417  time: 0.7363  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [3200/6487]  eta: 0:40:32  lr: 0.000300  loss_ita: 2.7937  loss_itm: 0.2899  loss_lm: 2.3063  time: 0.7372  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [3400/6487]  eta: 0:38:03  lr: 0.000300  loss_ita: 2.2351  loss_itm: 0.2529  loss_lm: 2.1992  time: 0.7375  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [3600/6487]  eta: 0:35:35  lr: 0.000300  loss_ita: 2.2594  loss_itm: 0.2712  loss_lm: 2.3608  time: 0.7364  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [3800/6487]  eta: 0:33:07  lr: 0.000300  loss_ita: 2.4493  loss_itm: 0.2253  loss_lm: 1.9538  time: 0.7360  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [4000/6487]  eta: 0:30:38  lr: 0.000300  loss_ita: 2.3495  loss_itm: 0.2865  loss_lm: 2.2835  time: 0.7375  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [4200/6487]  eta: 0:28:10  lr: 0.000300  loss_ita: 2.5754  loss_itm: 0.2906  loss_lm: 2.0625  time: 0.7373  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [4400/6487]  eta: 0:25:42  lr: 0.000300  loss_ita: 2.9969  loss_itm: 0.3352  loss_lm: 2.3172  time: 0.7361  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [4600/6487]  eta: 0:23:14  lr: 0.000300  loss_ita: 2.8265  loss_itm: 0.2375  loss_lm: 2.1741  time: 0.7380  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [4800/6487]  eta: 0:20:46  lr: 0.000300  loss_ita: 2.5768  loss_itm: 0.2373  loss_lm: 2.1323  time: 0.7365  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [5000/6487]  eta: 0:18:18  lr: 0.000300  loss_ita: 2.7297  loss_itm: 0.2782  loss_lm: 2.2253  time: 0.7376  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [5200/6487]  eta: 0:15:50  lr: 0.000300  loss_ita: 2.2206  loss_itm: 0.1831  loss_lm: 2.0014  time: 0.7358  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [5400/6487]  eta: 0:13:23  lr: 0.000300  loss_ita: 2.5438  loss_itm: 0.2787  loss_lm: 2.3759  time: 0.7375  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [5600/6487]  eta: 0:10:55  lr: 0.000300  loss_ita: 2.5408  loss_itm: 0.2325  loss_lm: 2.2147  time: 0.7368  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [5800/6487]  eta: 0:08:27  lr: 0.000300  loss_ita: 2.7819  loss_itm: 0.2681  loss_lm: 2.1979  time: 0.7391  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [6000/6487]  eta: 0:05:59  lr: 0.000300  loss_ita: 2.2720  loss_itm: 0.1905  loss_lm: 2.0857  time: 0.7384  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [6200/6487]  eta: 0:03:32  lr: 0.000300  loss_ita: 2.3306  loss_itm: 0.1871  loss_lm: 1.8966  time: 0.7374  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [6400/6487]  eta: 0:01:04  lr: 0.000300  loss_ita: 3.0243  loss_itm: 0.3559  loss_lm: 2.2707  time: 0.7381  data: 0.0001  max mem: 35425
+Train Epoch: [0]  [6486/6487]  eta: 0:00:00  lr: 0.000300  loss_ita: 2.6788  loss_itm: 0.2084  loss_lm: 2.1211  time: 0.7292  data: 0.0010  max mem: 35425
+Train Epoch: [0] Total time: 1:19:53 (0.7390 s / it)
+Averaged stats: lr: 0.0002  loss_ita: 3.0218  loss_itm: 0.3241  loss_lm: 2.4607
+Train Epoch: [1]  [   0/6487]  eta: 7:15:55  lr: 0.000270  loss_ita: 2.3911  loss_itm: 0.2878  loss_lm: 2.0122  time: 4.0320  data: 3.0033  max mem: 36251
+Train Epoch: [1]  [ 200/6487]  eta: 1:18:41  lr: 0.000270  loss_ita: 3.1407  loss_itm: 0.2768  loss_lm: 2.0846  time: 0.7337  data: 0.0001  max mem: 36264
+Train Epoch: [1]  [ 400/6487]  eta: 1:15:17  lr: 0.000270  loss_ita: 2.8979  loss_itm: 0.2963  loss_lm: 2.3711  time: 0.7321  data: 0.0001  max mem: 36264
+Train Epoch: [1]  [ 600/6487]  eta: 1:12:33  lr: 0.000270  loss_ita: 2.3409  loss_itm: 0.1673  loss_lm: 2.0826  time: 0.7357  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [ 800/6487]  eta: 1:09:59  lr: 0.000270  loss_ita: 2.9490  loss_itm: 0.2979  loss_lm: 2.1208  time: 0.7347  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [1000/6487]  eta: 1:07:27  lr: 0.000270  loss_ita: 2.9346  loss_itm: 0.2284  loss_lm: 1.9533  time: 0.7354  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [1200/6487]  eta: 1:04:56  lr: 0.000270  loss_ita: 2.9942  loss_itm: 0.2352  loss_lm: 2.1517  time: 0.7338  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [1400/6487]  eta: 1:02:27  lr: 0.000270  loss_ita: 2.8189  loss_itm: 0.2880  loss_lm: 2.0397  time: 0.7331  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [1600/6487]  eta: 0:59:58  lr: 0.000270  loss_ita: 1.9224  loss_itm: 0.2033  loss_lm: 1.9617  time: 0.7333  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [1800/6487]  eta: 0:57:29  lr: 0.000270  loss_ita: 2.4019  loss_itm: 0.2137  loss_lm: 2.2905  time: 0.7339  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [2000/6487]  eta: 0:55:01  lr: 0.000270  loss_ita: 2.0038  loss_itm: 0.1290  loss_lm: 1.9045  time: 0.7342  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [2200/6487]  eta: 0:52:33  lr: 0.000270  loss_ita: 3.0054  loss_itm: 0.2146  loss_lm: 2.1166  time: 0.7334  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [2400/6487]  eta: 0:50:05  lr: 0.000270  loss_ita: 2.5832  loss_itm: 0.2368  loss_lm: 1.8621  time: 0.7336  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [2600/6487]  eta: 0:47:38  lr: 0.000270  loss_ita: 2.3901  loss_itm: 0.1455  loss_lm: 2.0074  time: 0.7338  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [2800/6487]  eta: 0:45:10  lr: 0.000270  loss_ita: 2.5252  loss_itm: 0.2046  loss_lm: 1.9532  time: 0.7330  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [3000/6487]  eta: 0:42:43  lr: 0.000270  loss_ita: 2.8841  loss_itm: 0.2062  loss_lm: 2.1272  time: 0.7344  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [3200/6487]  eta: 0:40:16  lr: 0.000270  loss_ita: 2.5160  loss_itm: 0.1983  loss_lm: 2.0752  time: 0.7341  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [3400/6487]  eta: 0:37:48  lr: 0.000270  loss_ita: 2.7968  loss_itm: 0.2037  loss_lm: 2.1475  time: 0.7341  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [3600/6487]  eta: 0:35:21  lr: 0.000270  loss_ita: 2.5211  loss_itm: 0.1701  loss_lm: 1.9488  time: 0.7330  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [3800/6487]  eta: 0:32:54  lr: 0.000270  loss_ita: 2.1339  loss_itm: 0.1672  loss_lm: 2.1645  time: 0.7329  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [4000/6487]  eta: 0:30:27  lr: 0.000270  loss_ita: 2.6786  loss_itm: 0.2317  loss_lm: 1.9676  time: 0.7330  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [4200/6487]  eta: 0:28:00  lr: 0.000270  loss_ita: 2.4861  loss_itm: 0.2197  loss_lm: 2.1273  time: 0.7335  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [4400/6487]  eta: 0:25:33  lr: 0.000270  loss_ita: 2.6399  loss_itm: 0.2145  loss_lm: 2.0662  time: 0.7350  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [4600/6487]  eta: 0:23:06  lr: 0.000270  loss_ita: 2.5244  loss_itm: 0.1609  loss_lm: 1.7269  time: 0.7336  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [4800/6487]  eta: 0:20:39  lr: 0.000270  loss_ita: 2.9990  loss_itm: 0.2268  loss_lm: 2.0765  time: 0.7335  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [5000/6487]  eta: 0:18:12  lr: 0.000270  loss_ita: 2.6569  loss_itm: 0.1649  loss_lm: 1.9860  time: 0.7349  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [5200/6487]  eta: 0:15:45  lr: 0.000270  loss_ita: 3.0483  loss_itm: 0.2486  loss_lm: 1.9177  time: 0.7360  data: 0.0001  max mem: 36268
+Train Epoch: [1]  [5400/6487]  eta: 0:13:18  lr: 0.000270  loss_ita: 2.7582  loss_itm: 0.1993  loss_lm: 1.9260  time: 0.7345  data: 0.0001  max mem: 36269
+Train Epoch: [1]  [5600/6487]  eta: 0:10:51  lr: 0.000270  loss_ita: 2.2052  loss_itm: 0.1186  loss_lm: 1.9044  time: 0.7351  data: 0.0001  max mem: 36269
+Train Epoch: [1]  [5800/6487]  eta: 0:08:24  lr: 0.000270  loss_ita: 3.0722  loss_itm: 0.2891  loss_lm: 2.1985  time: 0.7341  data: 0.0001  max mem: 36269
+Train Epoch: [1]  [6000/6487]  eta: 0:05:57  lr: 0.000270  loss_ita: 2.5938  loss_itm: 0.1695  loss_lm: 1.9031  time: 0.7322  data: 0.0001  max mem: 36269
+Train Epoch: [1]  [6200/6487]  eta: 0:03:30  lr: 0.000270  loss_ita: 2.4407  loss_itm: 0.1599  loss_lm: 1.8067  time: 0.7363  data: 0.0001  max mem: 36269
+Train Epoch: [1]  [6400/6487]  eta: 0:01:03  lr: 0.000270  loss_ita: 2.8308  loss_itm: 0.1708  loss_lm: 1.9705  time: 0.7358  data: 0.0001  max mem: 36269
+Train Epoch: [1]  [6486/6487]  eta: 0:00:00  lr: 0.000270  loss_ita: 2.7038  loss_itm: 0.1607  loss_lm: 2.0081  time: 0.7260  data: 0.0010  max mem: 36269
+Train Epoch: [1] Total time: 1:19:26 (0.7348 s / it)
+Averaged stats: lr: 0.0003  loss_ita: 2.5566  loss_itm: 0.2037  loss_lm: 2.0182
+Train Epoch: [2]  [   0/6487]  eta: 8:15:26  lr: 0.000243  loss_ita: 2.4924  loss_itm: 0.2012  loss_lm: 1.8002  time: 4.5824  data: 2.6603  max mem: 36269
+Train Epoch: [2]  [ 200/6487]  eta: 1:19:13  lr: 0.000243  loss_ita: 2.2753  loss_itm: 0.1687  loss_lm: 1.8551  time: 0.7347  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [ 400/6487]  eta: 1:15:38  lr: 0.000243  loss_ita: 2.7568  loss_itm: 0.1519  loss_lm: 1.9046  time: 0.7356  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [ 600/6487]  eta: 1:12:49  lr: 0.000243  loss_ita: 2.6242  loss_itm: 0.1504  loss_lm: 1.7327  time: 0.7352  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [ 800/6487]  eta: 1:10:10  lr: 0.000243  loss_ita: 2.8023  loss_itm: 0.2999  loss_lm: 2.0310  time: 0.7339  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [1000/6487]  eta: 1:07:36  lr: 0.000243  loss_ita: 2.3783  loss_itm: 0.1931  loss_lm: 1.9310  time: 0.7342  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [1200/6487]  eta: 1:05:04  lr: 0.000243  loss_ita: 2.3006  loss_itm: 0.1770  loss_lm: 1.8799  time: 0.7344  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [1400/6487]  eta: 1:02:34  lr: 0.000243  loss_ita: 2.2978  loss_itm: 0.1277  loss_lm: 1.8544  time: 0.7347  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [1600/6487]  eta: 1:00:04  lr: 0.000243  loss_ita: 2.4285  loss_itm: 0.1932  loss_lm: 1.9808  time: 0.7361  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [1800/6487]  eta: 0:57:36  lr: 0.000243  loss_ita: 2.1704  loss_itm: 0.1128  loss_lm: 1.6843  time: 0.7343  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [2000/6487]  eta: 0:55:07  lr: 0.000243  loss_ita: 2.4423  loss_itm: 0.1099  loss_lm: 1.9728  time: 0.7353  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [2200/6487]  eta: 0:52:39  lr: 0.000243  loss_ita: 2.8768  loss_itm: 0.2215  loss_lm: 1.9541  time: 0.7352  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [2400/6487]  eta: 0:50:11  lr: 0.000243  loss_ita: 2.5319  loss_itm: 0.2221  loss_lm: 1.8071  time: 0.7353  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [2600/6487]  eta: 0:47:43  lr: 0.000243  loss_ita: 2.8703  loss_itm: 0.1703  loss_lm: 1.9086  time: 0.7344  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [2800/6487]  eta: 0:45:15  lr: 0.000243  loss_ita: 2.8377  loss_itm: 0.2275  loss_lm: 1.9018  time: 0.7340  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [3000/6487]  eta: 0:42:47  lr: 0.000243  loss_ita: 2.4873  loss_itm: 0.2035  loss_lm: 1.9880  time: 0.7338  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [3200/6487]  eta: 0:40:20  lr: 0.000243  loss_ita: 2.1353  loss_itm: 0.1622  loss_lm: 1.8150  time: 0.7352  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [3400/6487]  eta: 0:37:52  lr: 0.000243  loss_ita: 2.5853  loss_itm: 0.1581  loss_lm: 1.8443  time: 0.7338  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [3600/6487]  eta: 0:35:25  lr: 0.000243  loss_ita: 2.5938  loss_itm: 0.1374  loss_lm: 1.9898  time: 0.7338  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [3800/6487]  eta: 0:32:57  lr: 0.000243  loss_ita: 2.5428  loss_itm: 0.1389  loss_lm: 1.8181  time: 0.7366  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [4000/6487]  eta: 0:30:30  lr: 0.000243  loss_ita: 2.6598  loss_itm: 0.1704  loss_lm: 1.8600  time: 0.7359  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [4200/6487]  eta: 0:28:03  lr: 0.000243  loss_ita: 2.4356  loss_itm: 0.1565  loss_lm: 1.8386  time: 0.7358  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [4400/6487]  eta: 0:25:35  lr: 0.000243  loss_ita: 2.4960  loss_itm: 0.2146  loss_lm: 1.7184  time: 0.7347  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [4600/6487]  eta: 0:23:08  lr: 0.000243  loss_ita: 2.7642  loss_itm: 0.2070  loss_lm: 1.7675  time: 0.7355  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [4800/6487]  eta: 0:20:41  lr: 0.000243  loss_ita: 2.4750  loss_itm: 0.2105  loss_lm: 1.9942  time: 0.7372  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [5000/6487]  eta: 0:18:14  lr: 0.000243  loss_ita: 3.1222  loss_itm: 0.2466  loss_lm: 2.1200  time: 0.7359  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [5200/6487]  eta: 0:15:47  lr: 0.000243  loss_ita: 2.1512  loss_itm: 0.1439  loss_lm: 1.9032  time: 0.7360  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [5400/6487]  eta: 0:13:19  lr: 0.000243  loss_ita: 2.7975  loss_itm: 0.2172  loss_lm: 2.0190  time: 0.7353  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [5600/6487]  eta: 0:10:52  lr: 0.000243  loss_ita: 2.2587  loss_itm: 0.1858  loss_lm: 1.8006  time: 0.7355  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [5800/6487]  eta: 0:08:25  lr: 0.000243  loss_ita: 2.5108  loss_itm: 0.2024  loss_lm: 1.8200  time: 0.7361  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [6000/6487]  eta: 0:05:58  lr: 0.000243  loss_ita: 2.1638  loss_itm: 0.1126  loss_lm: 1.7976  time: 0.7357  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [6200/6487]  eta: 0:03:31  lr: 0.000243  loss_ita: 2.0684  loss_itm: 0.1745  loss_lm: 1.8360  time: 0.7360  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [6400/6487]  eta: 0:01:04  lr: 0.000243  loss_ita: 2.8556  loss_itm: 0.1852  loss_lm: 1.9544  time: 0.7365  data: 0.0001  max mem: 36269
+Train Epoch: [2]  [6486/6487]  eta: 0:00:00  lr: 0.000243  loss_ita: 2.6867  loss_itm: 0.1758  loss_lm: 2.0014  time: 0.7272  data: 0.0009  max mem: 36269
+Train Epoch: [2] Total time: 1:19:34 (0.7361 s / it)
+Averaged stats: lr: 0.0002  loss_ita: 2.5223  loss_itm: 0.1750  loss_lm: 1.9125
+Train Epoch: [3]  [   0/6487]  eta: 7:52:26  lr: 0.000219  loss_ita: 2.5686  loss_itm: 0.1846  loss_lm: 1.7379  time: 4.3697  data: 2.6685  max mem: 36269
+Train Epoch: [3]  [ 200/6487]  eta: 1:19:03  lr: 0.000219  loss_ita: 2.7897  loss_itm: 0.1516  loss_lm: 1.9577  time: 0.7347  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [ 400/6487]  eta: 1:15:37  lr: 0.000219  loss_ita: 2.5172  loss_itm: 0.1464  loss_lm: 1.6764  time: 0.7363  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [ 600/6487]  eta: 1:12:50  lr: 0.000219  loss_ita: 2.6786  loss_itm: 0.2183  loss_lm: 1.8619  time: 0.7367  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [ 800/6487]  eta: 1:10:13  lr: 0.000219  loss_ita: 2.6041  loss_itm: 0.2022  loss_lm: 1.8659  time: 0.7354  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [1000/6487]  eta: 1:07:39  lr: 0.000219  loss_ita: 2.9522  loss_itm: 0.1665  loss_lm: 2.0470  time: 0.7350  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [1200/6487]  eta: 1:05:08  lr: 0.000219  loss_ita: 2.5626  loss_itm: 0.1987  loss_lm: 1.7763  time: 0.7358  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [1400/6487]  eta: 1:02:37  lr: 0.000219  loss_ita: 2.4262  loss_itm: 0.1289  loss_lm: 1.8954  time: 0.7356  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [1600/6487]  eta: 1:00:07  lr: 0.000219  loss_ita: 1.9383  loss_itm: 0.0986  loss_lm: 1.7605  time: 0.7363  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [1800/6487]  eta: 0:57:38  lr: 0.000219  loss_ita: 2.3334  loss_itm: 0.1196  loss_lm: 1.7944  time: 0.7343  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [2000/6487]  eta: 0:55:09  lr: 0.000219  loss_ita: 2.6707  loss_itm: 0.1873  loss_lm: 1.6220  time: 0.7357  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [2200/6487]  eta: 0:52:41  lr: 0.000219  loss_ita: 2.3551  loss_itm: 0.1617  loss_lm: 1.9241  time: 0.7352  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [2400/6487]  eta: 0:50:13  lr: 0.000219  loss_ita: 2.2505  loss_itm: 0.1097  loss_lm: 1.6952  time: 0.7355  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [2600/6487]  eta: 0:47:44  lr: 0.000219  loss_ita: 2.6738  loss_itm: 0.1768  loss_lm: 1.9340  time: 0.7353  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [2800/6487]  eta: 0:45:16  lr: 0.000219  loss_ita: 2.4478  loss_itm: 0.1406  loss_lm: 1.9385  time: 0.7344  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [3000/6487]  eta: 0:42:48  lr: 0.000219  loss_ita: 2.1271  loss_itm: 0.1095  loss_lm: 1.6150  time: 0.7349  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [3200/6487]  eta: 0:40:21  lr: 0.000219  loss_ita: 2.5344  loss_itm: 0.1998  loss_lm: 2.0456  time: 0.7339  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [3400/6487]  eta: 0:37:53  lr: 0.000219  loss_ita: 2.2263  loss_itm: 0.1395  loss_lm: 1.9331  time: 0.7347  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [3600/6487]  eta: 0:35:25  lr: 0.000219  loss_ita: 2.1220  loss_itm: 0.1152  loss_lm: 1.7856  time: 0.7342  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [3800/6487]  eta: 0:32:58  lr: 0.000219  loss_ita: 2.0875  loss_itm: 0.1083  loss_lm: 1.8758  time: 0.7336  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [4000/6487]  eta: 0:30:30  lr: 0.000219  loss_ita: 2.5522  loss_itm: 0.1304  loss_lm: 1.8601  time: 0.7343  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [4200/6487]  eta: 0:28:03  lr: 0.000219  loss_ita: 2.1947  loss_itm: 0.1725  loss_lm: 1.9433  time: 0.7342  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [4400/6487]  eta: 0:25:36  lr: 0.000219  loss_ita: 2.7823  loss_itm: 0.2284  loss_lm: 2.0465  time: 0.7347  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [4600/6487]  eta: 0:23:08  lr: 0.000219  loss_ita: 2.4401  loss_itm: 0.1403  loss_lm: 1.7459  time: 0.7339  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [4800/6487]  eta: 0:20:41  lr: 0.000219  loss_ita: 2.5284  loss_itm: 0.1610  loss_lm: 2.0052  time: 0.7339  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [5000/6487]  eta: 0:18:14  lr: 0.000219  loss_ita: 2.1026  loss_itm: 0.1214  loss_lm: 1.7276  time: 0.7337  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [5200/6487]  eta: 0:15:46  lr: 0.000219  loss_ita: 2.5506  loss_itm: 0.1600  loss_lm: 1.9461  time: 0.7327  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [5400/6487]  eta: 0:13:19  lr: 0.000219  loss_ita: 2.7365  loss_itm: 0.1373  loss_lm: 2.1170  time: 0.7335  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [5600/6487]  eta: 0:10:52  lr: 0.000219  loss_ita: 2.2764  loss_itm: 0.1784  loss_lm: 1.7424  time: 0.7341  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [5800/6487]  eta: 0:08:25  lr: 0.000219  loss_ita: 2.1685  loss_itm: 0.1061  loss_lm: 1.7779  time: 0.7346  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [6000/6487]  eta: 0:05:58  lr: 0.000219  loss_ita: 2.4535  loss_itm: 0.1688  loss_lm: 1.7409  time: 0.7342  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [6200/6487]  eta: 0:03:31  lr: 0.000219  loss_ita: 1.9472  loss_itm: 0.1233  loss_lm: 1.8076  time: 0.7344  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [6400/6487]  eta: 0:01:03  lr: 0.000219  loss_ita: 2.4378  loss_itm: 0.1143  loss_lm: 1.7736  time: 0.7354  data: 0.0001  max mem: 36269
+Train Epoch: [3]  [6486/6487]  eta: 0:00:00  lr: 0.000219  loss_ita: 2.6594  loss_itm: 0.1691  loss_lm: 2.0967  time: 0.7279  data: 0.0008  max mem: 36269
+Train Epoch: [3] Total time: 1:19:31 (0.7356 s / it)
+Averaged stats: lr: 0.0002  loss_ita: 2.4128  loss_itm: 0.1590  loss_lm: 1.8446
+Train Epoch: [4]  [   0/6487]  eta: 8:17:56  lr: 0.000197  loss_ita: 2.3809  loss_itm: 0.1551  loss_lm: 2.0184  time: 4.6056  data: 2.9277  max mem: 36269
+Train Epoch: [4]  [ 200/6487]  eta: 1:19:00  lr: 0.000197  loss_ita: 2.4078  loss_itm: 0.1477  loss_lm: 1.6877  time: 0.7339  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [ 400/6487]  eta: 1:15:29  lr: 0.000197  loss_ita: 2.2745  loss_itm: 0.1259  loss_lm: 1.7935  time: 0.7335  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [ 600/6487]  eta: 1:12:42  lr: 0.000197  loss_ita: 2.2296  loss_itm: 0.1418  loss_lm: 1.8975  time: 0.7350  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [ 800/6487]  eta: 1:10:04  lr: 0.000197  loss_ita: 2.4110  loss_itm: 0.1444  loss_lm: 1.7567  time: 0.7341  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [1000/6487]  eta: 1:07:30  lr: 0.000197  loss_ita: 2.4557  loss_itm: 0.1705  loss_lm: 1.4598  time: 0.7334  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [1200/6487]  eta: 1:04:59  lr: 0.000197  loss_ita: 2.5692  loss_itm: 0.1707  loss_lm: 1.7932  time: 0.7332  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [1400/6487]  eta: 1:02:28  lr: 0.000197  loss_ita: 2.4674  loss_itm: 0.1008  loss_lm: 1.6727  time: 0.7331  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [1600/6487]  eta: 0:59:59  lr: 0.000197  loss_ita: 2.9188  loss_itm: 0.2143  loss_lm: 2.0419  time: 0.7343  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [1800/6487]  eta: 0:57:30  lr: 0.000197  loss_ita: 2.3444  loss_itm: 0.1194  loss_lm: 1.6178  time: 0.7332  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [2000/6487]  eta: 0:55:02  lr: 0.000197  loss_ita: 2.1177  loss_itm: 0.1281  loss_lm: 1.6163  time: 0.7331  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [2200/6487]  eta: 0:52:34  lr: 0.000197  loss_ita: 2.6500  loss_itm: 0.1521  loss_lm: 1.8355  time: 0.7335  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [2400/6487]  eta: 0:50:06  lr: 0.000197  loss_ita: 2.2483  loss_itm: 0.1148  loss_lm: 1.8852  time: 0.7327  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [2600/6487]  eta: 0:47:38  lr: 0.000197  loss_ita: 2.6103  loss_itm: 0.2276  loss_lm: 1.7446  time: 0.7330  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [2800/6487]  eta: 0:45:11  lr: 0.000197  loss_ita: 2.2128  loss_itm: 0.2649  loss_lm: 1.7477  time: 0.7328  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [3000/6487]  eta: 0:42:43  lr: 0.000197  loss_ita: 2.4942  loss_itm: 0.1627  loss_lm: 1.7443  time: 0.7340  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [3200/6487]  eta: 0:40:15  lr: 0.000197  loss_ita: 2.2752  loss_itm: 0.1348  loss_lm: 1.7133  time: 0.7328  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [3400/6487]  eta: 0:37:48  lr: 0.000197  loss_ita: 2.1927  loss_itm: 0.1228  loss_lm: 2.0612  time: 0.7334  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [3600/6487]  eta: 0:35:21  lr: 0.000197  loss_ita: 2.2793  loss_itm: 0.1979  loss_lm: 1.9114  time: 0.7336  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [3800/6487]  eta: 0:32:54  lr: 0.000197  loss_ita: 2.3494  loss_itm: 0.1259  loss_lm: 1.8275  time: 0.7326  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [4000/6487]  eta: 0:30:27  lr: 0.000197  loss_ita: 2.1386  loss_itm: 0.1717  loss_lm: 1.9120  time: 0.7341  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [4200/6487]  eta: 0:28:00  lr: 0.000197  loss_ita: 2.0761  loss_itm: 0.1394  loss_lm: 1.6873  time: 0.7325  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [4400/6487]  eta: 0:25:33  lr: 0.000197  loss_ita: 2.2549  loss_itm: 0.1601  loss_lm: 1.7383  time: 0.7354  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [4600/6487]  eta: 0:23:06  lr: 0.000197  loss_ita: 2.2709  loss_itm: 0.1315  loss_lm: 1.6349  time: 0.7346  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [4800/6487]  eta: 0:20:39  lr: 0.000197  loss_ita: 2.3641  loss_itm: 0.1925  loss_lm: 1.7873  time: 0.7337  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [5000/6487]  eta: 0:18:12  lr: 0.000197  loss_ita: 2.9667  loss_itm: 0.1801  loss_lm: 1.9999  time: 0.7336  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [5200/6487]  eta: 0:15:45  lr: 0.000197  loss_ita: 1.9310  loss_itm: 0.0813  loss_lm: 1.7424  time: 0.7334  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [5400/6487]  eta: 0:13:18  lr: 0.000197  loss_ita: 2.2156  loss_itm: 0.1094  loss_lm: 1.5933  time: 0.7334  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [5600/6487]  eta: 0:10:51  lr: 0.000197  loss_ita: 2.2038  loss_itm: 0.0914  loss_lm: 1.7953  time: 0.7341  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [5800/6487]  eta: 0:08:24  lr: 0.000197  loss_ita: 2.1460  loss_itm: 0.1224  loss_lm: 1.6057  time: 0.7335  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [6000/6487]  eta: 0:05:57  lr: 0.000197  loss_ita: 2.4556  loss_itm: 0.1628  loss_lm: 1.9714  time: 0.7346  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [6200/6487]  eta: 0:03:30  lr: 0.000197  loss_ita: 2.0777  loss_itm: 0.1161  loss_lm: 1.8279  time: 0.7347  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [6400/6487]  eta: 0:01:03  lr: 0.000197  loss_ita: 2.4123  loss_itm: 0.1590  loss_lm: 1.8152  time: 0.7347  data: 0.0001  max mem: 36269
+Train Epoch: [4]  [6486/6487]  eta: 0:00:00  lr: 0.000197  loss_ita: 2.1076  loss_itm: 0.0853  loss_lm: 1.6298  time: 0.7271  data: 0.0011  max mem: 36269
+Train Epoch: [4] Total time: 1:19:25 (0.7347 s / it)
+Averaged stats: lr: 0.0002  loss_ita: 2.3154  loss_itm: 0.1484  loss_lm: 1.7937
+Train Epoch: [5]  [   0/6487]  eta: 8:06:33  lr: 0.000177  loss_ita: 2.3630  loss_itm: 0.1385  loss_lm: 1.6527  time: 4.5003  data: 3.2037  max mem: 36269
+Train Epoch: [5]  [ 200/6487]  eta: 1:19:26  lr: 0.000177  loss_ita: 2.5061  loss_itm: 0.1688  loss_lm: 1.8413  time: 0.7361  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [ 400/6487]  eta: 1:15:48  lr: 0.000177  loss_ita: 2.2881  loss_itm: 0.2208  loss_lm: 1.6282  time: 0.7362  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [ 600/6487]  eta: 1:12:57  lr: 0.000177  loss_ita: 1.8328  loss_itm: 0.1703  loss_lm: 1.7741  time: 0.7367  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [ 800/6487]  eta: 1:10:17  lr: 0.000177  loss_ita: 2.1050  loss_itm: 0.1144  loss_lm: 1.7944  time: 0.7356  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [1000/6487]  eta: 1:07:43  lr: 0.000177  loss_ita: 2.4564  loss_itm: 0.2190  loss_lm: 1.8520  time: 0.7362  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [1200/6487]  eta: 1:05:11  lr: 0.000177  loss_ita: 2.1460  loss_itm: 0.1269  loss_lm: 1.5972  time: 0.7354  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [1400/6487]  eta: 1:02:40  lr: 0.000177  loss_ita: 2.2145  loss_itm: 0.1140  loss_lm: 1.6694  time: 0.7358  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [1600/6487]  eta: 1:00:10  lr: 0.000177  loss_ita: 2.1418  loss_itm: 0.1259  loss_lm: 1.6150  time: 0.7362  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [1800/6487]  eta: 0:57:40  lr: 0.000177  loss_ita: 2.0696  loss_itm: 0.1460  loss_lm: 1.6184  time: 0.7356  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [2000/6487]  eta: 0:55:11  lr: 0.000177  loss_ita: 2.0764  loss_itm: 0.1329  loss_lm: 1.9071  time: 0.7359  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [2200/6487]  eta: 0:52:43  lr: 0.000177  loss_ita: 2.4824  loss_itm: 0.1516  loss_lm: 1.5547  time: 0.7356  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [2400/6487]  eta: 0:50:15  lr: 0.000177  loss_ita: 2.1753  loss_itm: 0.1590  loss_lm: 1.6339  time: 0.7369  data: 0.0001  max mem: 36269
+Train Epoch: [5]  [2600/6487]  eta: 0:47:47  lr: 0.000177  loss_ita: 2.3596  loss_itm: 0.1682  loss_lm: 1.9609  time: 0.7357  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [2800/6487]  eta: 0:45:19  lr: 0.000177  loss_ita: 1.9918  loss_itm: 0.1237  loss_lm: 1.6323  time: 0.7355  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [3000/6487]  eta: 0:42:51  lr: 0.000177  loss_ita: 1.8824  loss_itm: 0.0979  loss_lm: 1.6949  time: 0.7345  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [3200/6487]  eta: 0:40:23  lr: 0.000177  loss_ita: 1.9868  loss_itm: 0.0792  loss_lm: 1.6197  time: 0.7348  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [3400/6487]  eta: 0:37:55  lr: 0.000177  loss_ita: 2.2372  loss_itm: 0.1524  loss_lm: 1.8452  time: 0.7357  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [3600/6487]  eta: 0:35:27  lr: 0.000177  loss_ita: 2.3735  loss_itm: 0.1604  loss_lm: 1.9455  time: 0.7357  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [3800/6487]  eta: 0:33:00  lr: 0.000177  loss_ita: 2.1096  loss_itm: 0.1161  loss_lm: 1.8538  time: 0.7358  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [4000/6487]  eta: 0:30:32  lr: 0.000177  loss_ita: 2.3649  loss_itm: 0.1232  loss_lm: 1.7051  time: 0.7348  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [4200/6487]  eta: 0:28:05  lr: 0.000177  loss_ita: 1.7917  loss_itm: 0.0907  loss_lm: 1.6325  time: 0.7368  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [4400/6487]  eta: 0:25:37  lr: 0.000177  loss_ita: 2.4857  loss_itm: 0.1861  loss_lm: 1.6770  time: 0.7352  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [4600/6487]  eta: 0:23:10  lr: 0.000177  loss_ita: 2.0778  loss_itm: 0.1232  loss_lm: 1.6751  time: 0.7354  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [4800/6487]  eta: 0:20:42  lr: 0.000177  loss_ita: 2.0789  loss_itm: 0.1572  loss_lm: 1.8823  time: 0.7345  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [5000/6487]  eta: 0:18:15  lr: 0.000177  loss_ita: 2.5793  loss_itm: 0.1401  loss_lm: 1.9155  time: 0.7354  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [5200/6487]  eta: 0:15:47  lr: 0.000177  loss_ita: 2.1249  loss_itm: 0.2122  loss_lm: 1.5316  time: 0.7347  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [5400/6487]  eta: 0:13:20  lr: 0.000177  loss_ita: 2.1001  loss_itm: 0.1167  loss_lm: 1.6476  time: 0.7363  data: 0.0001  max mem: 36270
+Train Epoch: [5]  [5600/6487]  eta: 0:10:53  lr: 0.000177  loss_ita: 2.0348  loss_itm: 0.1896  loss_lm: 1.8780  time: 0.7348  data: 0.0001  max mem: 36271
+Train Epoch: [5]  [5800/6487]  eta: 0:08:25  lr: 0.000177  loss_ita: 2.1330  loss_itm: 0.1262  loss_lm: 1.6545  time: 0.7347  data: 0.0001  max mem: 36271
+Train Epoch: [5]  [6000/6487]  eta: 0:05:58  lr: 0.000177  loss_ita: 2.4926  loss_itm: 0.2259  loss_lm: 1.7919  time: 0.7355  data: 0.0001  max mem: 36271
+Train Epoch: [5]  [6200/6487]  eta: 0:03:31  lr: 0.000177  loss_ita: 1.9967  loss_itm: 0.1152  loss_lm: 1.8727  time: 0.7342  data: 0.0001  max mem: 36271
+Train Epoch: [5]  [6400/6487]  eta: 0:01:04  lr: 0.000177  loss_ita: 2.3611  loss_itm: 0.1426  loss_lm: 1.7129  time: 0.7348  data: 0.0001  max mem: 36271
+Train Epoch: [5]  [6486/6487]  eta: 0:00:00  lr: 0.000177  loss_ita: 1.9820  loss_itm: 0.1473  loss_lm: 1.6918  time: 0.7276  data: 0.0013  max mem: 36271
+Train Epoch: [5] Total time: 1:19:37 (0.7364 s / it)
+Averaged stats: lr: 0.0002  loss_ita: 2.1684  loss_itm: 0.1362  loss_lm: 1.7496
+Train Epoch: [6]  [   0/6487]  eta: 8:56:16  lr: 0.000159  loss_ita: 2.2070  loss_itm: 0.1195  loss_lm: 1.6187  time: 4.9601  data: 2.7298  max mem: 36271
+Train Epoch: [6]  [ 200/6487]  eta: 1:19:09  lr: 0.000159  loss_ita: 2.0100  loss_itm: 0.1084  loss_lm: 1.6631  time: 0.7338  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [ 400/6487]  eta: 1:15:32  lr: 0.000159  loss_ita: 2.2472  loss_itm: 0.1484  loss_lm: 1.6527  time: 0.7340  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [ 600/6487]  eta: 1:12:42  lr: 0.000159  loss_ita: 1.9740  loss_itm: 0.0853  loss_lm: 1.7912  time: 0.7330  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [ 800/6487]  eta: 1:10:03  lr: 0.000159  loss_ita: 2.3055  loss_itm: 0.1474  loss_lm: 1.5482  time: 0.7341  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [1000/6487]  eta: 1:07:29  lr: 0.000159  loss_ita: 2.4971  loss_itm: 0.1703  loss_lm: 1.6937  time: 0.7326  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [1200/6487]  eta: 1:04:57  lr: 0.000159  loss_ita: 2.0342  loss_itm: 0.1204  loss_lm: 1.6928  time: 0.7323  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [1400/6487]  eta: 1:02:27  lr: 0.000159  loss_ita: 2.0246  loss_itm: 0.1707  loss_lm: 1.4642  time: 0.7319  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [1600/6487]  eta: 0:59:57  lr: 0.000159  loss_ita: 1.7853  loss_itm: 0.1387  loss_lm: 1.6298  time: 0.7317  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [1800/6487]  eta: 0:57:28  lr: 0.000159  loss_ita: 2.0843  loss_itm: 0.1501  loss_lm: 1.6638  time: 0.7320  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [2000/6487]  eta: 0:55:00  lr: 0.000159  loss_ita: 2.2731  loss_itm: 0.1201  loss_lm: 1.6932  time: 0.7319  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [2200/6487]  eta: 0:52:32  lr: 0.000159  loss_ita: 2.6960  loss_itm: 0.1704  loss_lm: 1.7118  time: 0.7343  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [2400/6487]  eta: 0:50:04  lr: 0.000159  loss_ita: 1.7856  loss_itm: 0.0883  loss_lm: 1.6612  time: 0.7331  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [2600/6487]  eta: 0:47:37  lr: 0.000159  loss_ita: 1.8909  loss_itm: 0.0892  loss_lm: 1.6255  time: 0.7337  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [2800/6487]  eta: 0:45:09  lr: 0.000159  loss_ita: 1.6998  loss_itm: 0.0827  loss_lm: 1.7485  time: 0.7324  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [3000/6487]  eta: 0:42:42  lr: 0.000159  loss_ita: 2.3531  loss_itm: 0.1577  loss_lm: 1.6629  time: 0.7329  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [3200/6487]  eta: 0:40:15  lr: 0.000159  loss_ita: 2.3314  loss_itm: 0.1254  loss_lm: 1.7558  time: 0.7336  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [3400/6487]  eta: 0:37:47  lr: 0.000159  loss_ita: 1.7107  loss_itm: 0.0875  loss_lm: 1.9477  time: 0.7325  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [3600/6487]  eta: 0:35:20  lr: 0.000159  loss_ita: 2.1846  loss_itm: 0.1051  loss_lm: 1.6797  time: 0.7325  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [3800/6487]  eta: 0:32:53  lr: 0.000159  loss_ita: 1.9405  loss_itm: 0.0968  loss_lm: 1.6762  time: 0.7337  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [4000/6487]  eta: 0:30:26  lr: 0.000159  loss_ita: 1.9847  loss_itm: 0.1162  loss_lm: 1.7321  time: 0.7325  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [4200/6487]  eta: 0:27:59  lr: 0.000159  loss_ita: 2.2301  loss_itm: 0.1514  loss_lm: 1.8227  time: 0.7332  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [4400/6487]  eta: 0:25:32  lr: 0.000159  loss_ita: 2.1258  loss_itm: 0.1188  loss_lm: 1.6892  time: 0.7331  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [4600/6487]  eta: 0:23:05  lr: 0.000159  loss_ita: 2.0660  loss_itm: 0.1612  loss_lm: 1.7335  time: 0.7340  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [4800/6487]  eta: 0:20:38  lr: 0.000159  loss_ita: 2.1415  loss_itm: 0.1362  loss_lm: 1.8019  time: 0.7334  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [5000/6487]  eta: 0:18:11  lr: 0.000159  loss_ita: 1.5420  loss_itm: 0.1075  loss_lm: 1.6384  time: 0.7345  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [5200/6487]  eta: 0:15:44  lr: 0.000159  loss_ita: 2.0193  loss_itm: 0.1299  loss_lm: 1.6039  time: 0.7332  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [5400/6487]  eta: 0:13:18  lr: 0.000159  loss_ita: 2.4075  loss_itm: 0.1608  loss_lm: 1.6368  time: 0.7336  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [5600/6487]  eta: 0:10:51  lr: 0.000159  loss_ita: 1.8237  loss_itm: 0.0830  loss_lm: 1.7135  time: 0.7338  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [5800/6487]  eta: 0:08:24  lr: 0.000159  loss_ita: 1.9748  loss_itm: 0.0919  loss_lm: 1.6217  time: 0.7341  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [6000/6487]  eta: 0:05:57  lr: 0.000159  loss_ita: 1.5363  loss_itm: 0.0912  loss_lm: 1.5844  time: 0.7343  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [6200/6487]  eta: 0:03:30  lr: 0.000159  loss_ita: 1.9171  loss_itm: 0.1553  loss_lm: 1.9180  time: 0.7339  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [6400/6487]  eta: 0:01:03  lr: 0.000159  loss_ita: 2.1843  loss_itm: 0.1316  loss_lm: 1.6321  time: 0.7339  data: 0.0001  max mem: 36271
+Train Epoch: [6]  [6486/6487]  eta: 0:00:00  lr: 0.000159  loss_ita: 2.0130  loss_itm: 0.0940  loss_lm: 1.7804  time: 0.7253  data: 0.0012  max mem: 36271
+Train Epoch: [6] Total time: 1:19:23 (0.7343 s / it)
+Averaged stats: lr: 0.0002  loss_ita: 2.0683  loss_itm: 0.1276  loss_lm: 1.7119
+Train Epoch: [7]  [   0/6487]  eta: 8:25:13  lr: 0.000143  loss_ita: 2.2878  loss_itm: 0.1491  loss_lm: 1.7423  time: 4.6730  data: 3.8953  max mem: 36271
+Train Epoch: [7]  [ 200/6487]  eta: 1:18:57  lr: 0.000143  loss_ita: 2.1175  loss_itm: 0.0954  loss_lm: 1.5693  time: 0.7343  data: 0.0001  max mem: 36271
+Train Epoch: [7]  [ 400/6487]  eta: 1:15:28  lr: 0.000143  loss_ita: 2.0673  loss_itm: 0.1427  loss_lm: 1.6654  time: 0.7352  data: 0.0001  max mem: 36271
+Train Epoch: [7]  [ 600/6487]  eta: 1:12:40  lr: 0.000143  loss_ita: 1.8153  loss_itm: 0.1330  loss_lm: 1.4946  time: 0.7344  data: 0.0001  max mem: 36271
+Train Epoch: [7]  [ 800/6487]  eta: 1:10:03  lr: 0.000143  loss_ita: 2.3034  loss_itm: 0.1368  loss_lm: 1.6113  time: 0.7353  data: 0.0001  max mem: 36271
+Train Epoch: [7]  [1000/6487]  eta: 1:07:30  lr: 0.000143  loss_ita: 1.9262  loss_itm: 0.0831  loss_lm: 1.7067  time: 0.7342  data: 0.0001  max mem: 36272
+Train Epoch: [7]  [1200/6487]  eta: 1:04:58  lr: 0.000143  loss_ita: 2.0934  loss_itm: 0.2379  loss_lm: 1.5165  time: 0.7330  data: 0.0001  max mem: 36272
+Train Epoch: [7]  [1400/6487]  eta: 1:02:28  lr: 0.000143  loss_ita: 1.9446  loss_itm: 0.1487  loss_lm: 1.7044  time: 0.7327  data: 0.0001  max mem: 36272
+Train Epoch: [7]  [1600/6487]  eta: 1:00:00  lr: 0.000143  loss_ita: 1.7637  loss_itm: 0.0927  loss_lm: 1.7172  time: 0.7353  data: 0.0001  max mem: 36272
+Train Epoch: [7]  [1800/6487]  eta: 0:57:32  lr: 0.000143  loss_ita: 1.9514  loss_itm: 0.1963  loss_lm: 1.5840  time: 0.7350  data: 0.0001  max mem: 36272
+Train Epoch: [7]  [2000/6487]  eta: 0:55:04  lr: 0.000143  loss_ita: 2.3692  loss_itm: 0.1582  loss_lm: 1.7814  time: 0.7349  data: 0.0001  max mem: 36272
+Train Epoch: [7]  [2200/6487]  eta: 0:52:36  lr: 0.000143  loss_ita: 1.8644  loss_itm: 0.1525  loss_lm: 1.7227  time: 0.7345  data: 0.0001  max mem: 36272
+Train Epoch: [7]  [2400/6487]  eta: 0:50:08  lr: 0.000143  loss_ita: 2.0718  loss_itm: 0.1307  loss_lm: 1.6129  time: 0.7350  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [2600/6487]  eta: 0:47:41  lr: 0.000143  loss_ita: 2.1520  loss_itm: 0.0973  loss_lm: 1.6836  time: 0.7348  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [2800/6487]  eta: 0:45:13  lr: 0.000143  loss_ita: 2.3149  loss_itm: 0.1356  loss_lm: 1.5827  time: 0.7357  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [3000/6487]  eta: 0:42:46  lr: 0.000143  loss_ita: 1.9885  loss_itm: 0.1347  loss_lm: 1.6032  time: 0.7362  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [3200/6487]  eta: 0:40:19  lr: 0.000143  loss_ita: 2.0023  loss_itm: 0.1582  loss_lm: 1.6393  time: 0.7338  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [3400/6487]  eta: 0:37:51  lr: 0.000143  loss_ita: 1.7404  loss_itm: 0.0540  loss_lm: 1.6241  time: 0.7353  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [3600/6487]  eta: 0:35:24  lr: 0.000143  loss_ita: 1.5525  loss_itm: 0.0515  loss_lm: 1.7212  time: 0.7352  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [3800/6487]  eta: 0:32:56  lr: 0.000143  loss_ita: 1.8744  loss_itm: 0.1016  loss_lm: 1.7555  time: 0.7343  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [4000/6487]  eta: 0:30:29  lr: 0.000143  loss_ita: 2.2494  loss_itm: 0.1540  loss_lm: 1.5235  time: 0.7354  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [4200/6487]  eta: 0:28:02  lr: 0.000143  loss_ita: 2.2245  loss_itm: 0.1737  loss_lm: 1.7253  time: 0.7355  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [4400/6487]  eta: 0:25:35  lr: 0.000143  loss_ita: 2.1805  loss_itm: 0.1629  loss_lm: 1.8609  time: 0.7349  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [4600/6487]  eta: 0:23:08  lr: 0.000143  loss_ita: 2.0131  loss_itm: 0.1025  loss_lm: 1.6979  time: 0.7333  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [4800/6487]  eta: 0:20:40  lr: 0.000143  loss_ita: 1.7447  loss_itm: 0.1004  loss_lm: 1.8194  time: 0.7353  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [5000/6487]  eta: 0:18:13  lr: 0.000143  loss_ita: 1.9286  loss_itm: 0.1410  loss_lm: 1.5720  time: 0.7352  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [5200/6487]  eta: 0:15:46  lr: 0.000143  loss_ita: 1.8437  loss_itm: 0.0707  loss_lm: 1.4846  time: 0.7358  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [5400/6487]  eta: 0:13:19  lr: 0.000143  loss_ita: 1.9832  loss_itm: 0.1537  loss_lm: 1.6540  time: 0.7340  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [5600/6487]  eta: 0:10:52  lr: 0.000143  loss_ita: 1.4799  loss_itm: 0.0558  loss_lm: 1.5874  time: 0.7337  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [5800/6487]  eta: 0:08:25  lr: 0.000143  loss_ita: 2.1070  loss_itm: 0.2188  loss_lm: 1.6077  time: 0.7322  data: 0.0001  max mem: 36273
+Train Epoch: [7]  [6000/6487]  eta: 0:05:58  lr: 0.000143  loss_ita: 1.7613  loss_itm: 0.1077  loss_lm: 1.8099  time: 0.7351  data: 0.0001  max mem: 36274
+Train Epoch: [7]  [6200/6487]  eta: 0:03:31  lr: 0.000143  loss_ita: 2.0748  loss_itm: 0.1682  loss_lm: 1.8629  time: 0.7331  data: 0.0001  max mem: 36274
+Train Epoch: [7]  [6400/6487]  eta: 0:01:03  lr: 0.000143  loss_ita: 2.1590  loss_itm: 0.1373  loss_lm: 1.7216  time: 0.7325  data: 0.0001  max mem: 36274
+Train Epoch: [7]  [6486/6487]  eta: 0:00:00  lr: 0.000143  loss_ita: 1.6430  loss_itm: 0.0893  loss_lm: 1.6864  time: 0.7257  data: 0.0010  max mem: 36274
+Train Epoch: [7] Total time: 1:19:30 (0.7353 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.9746  loss_itm: 0.1194  loss_lm: 1.6786
+Train Epoch: [8]  [   0/6487]  eta: 7:47:34  lr: 0.000129  loss_ita: 2.0565  loss_itm: 0.1107  loss_lm: 1.6188  time: 4.3247  data: 2.9280  max mem: 36274
+Train Epoch: [8]  [ 200/6487]  eta: 1:18:56  lr: 0.000129  loss_ita: 2.2164  loss_itm: 0.1253  loss_lm: 1.7296  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [ 400/6487]  eta: 1:15:28  lr: 0.000129  loss_ita: 1.7725  loss_itm: 0.0839  loss_lm: 1.5747  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [ 600/6487]  eta: 1:12:40  lr: 0.000129  loss_ita: 1.7106  loss_itm: 0.1581  loss_lm: 1.6901  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [ 800/6487]  eta: 1:10:02  lr: 0.000129  loss_ita: 2.2057  loss_itm: 0.1366  loss_lm: 1.8218  time: 0.7325  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [1000/6487]  eta: 1:07:30  lr: 0.000129  loss_ita: 1.9005  loss_itm: 0.0740  loss_lm: 1.6932  time: 0.7356  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [1200/6487]  eta: 1:04:59  lr: 0.000129  loss_ita: 1.7415  loss_itm: 0.1049  loss_lm: 1.7227  time: 0.7352  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [1400/6487]  eta: 1:02:29  lr: 0.000129  loss_ita: 1.8366  loss_itm: 0.0940  loss_lm: 1.7843  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [1600/6487]  eta: 1:00:00  lr: 0.000129  loss_ita: 1.8169  loss_itm: 0.1214  loss_lm: 1.6337  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [1800/6487]  eta: 0:57:32  lr: 0.000129  loss_ita: 1.6098  loss_itm: 0.0701  loss_lm: 1.7220  time: 0.7337  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [2000/6487]  eta: 0:55:03  lr: 0.000129  loss_ita: 2.0119  loss_itm: 0.1410  loss_lm: 1.8788  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [2200/6487]  eta: 0:52:35  lr: 0.000129  loss_ita: 2.4268  loss_itm: 0.1492  loss_lm: 1.7842  time: 0.7348  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [2400/6487]  eta: 0:50:07  lr: 0.000129  loss_ita: 1.7575  loss_itm: 0.0642  loss_lm: 1.4931  time: 0.7354  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [2600/6487]  eta: 0:47:40  lr: 0.000129  loss_ita: 2.5085  loss_itm: 0.1508  loss_lm: 1.8743  time: 0.7340  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [2800/6487]  eta: 0:45:12  lr: 0.000129  loss_ita: 2.7357  loss_itm: 0.1352  loss_lm: 1.7921  time: 0.7341  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [3000/6487]  eta: 0:42:45  lr: 0.000129  loss_ita: 1.6801  loss_itm: 0.0599  loss_lm: 1.4589  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [3200/6487]  eta: 0:40:17  lr: 0.000129  loss_ita: 1.8943  loss_itm: 0.1333  loss_lm: 1.7196  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [3400/6487]  eta: 0:37:50  lr: 0.000129  loss_ita: 1.9607  loss_itm: 0.0779  loss_lm: 1.7880  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [3600/6487]  eta: 0:35:23  lr: 0.000129  loss_ita: 2.0769  loss_itm: 0.1371  loss_lm: 1.6249  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [3800/6487]  eta: 0:32:55  lr: 0.000129  loss_ita: 1.6276  loss_itm: 0.0895  loss_lm: 1.5187  time: 0.7348  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [4000/6487]  eta: 0:30:28  lr: 0.000129  loss_ita: 1.9604  loss_itm: 0.1229  loss_lm: 1.7098  time: 0.7355  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [4200/6487]  eta: 0:28:01  lr: 0.000129  loss_ita: 1.9644  loss_itm: 0.1243  loss_lm: 1.6648  time: 0.7362  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [4400/6487]  eta: 0:25:34  lr: 0.000129  loss_ita: 2.0993  loss_itm: 0.1115  loss_lm: 1.6660  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [4600/6487]  eta: 0:23:07  lr: 0.000129  loss_ita: 1.9541  loss_itm: 0.1413  loss_lm: 1.6312  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [4800/6487]  eta: 0:20:40  lr: 0.000129  loss_ita: 1.9868  loss_itm: 0.0802  loss_lm: 1.5298  time: 0.7352  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [5000/6487]  eta: 0:18:13  lr: 0.000129  loss_ita: 2.3250  loss_itm: 0.1779  loss_lm: 1.5835  time: 0.7379  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [5200/6487]  eta: 0:15:46  lr: 0.000129  loss_ita: 1.5609  loss_itm: 0.0699  loss_lm: 1.5654  time: 0.7380  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [5400/6487]  eta: 0:13:19  lr: 0.000129  loss_ita: 1.5366  loss_itm: 0.0809  loss_lm: 1.4491  time: 0.7387  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [5600/6487]  eta: 0:10:52  lr: 0.000129  loss_ita: 1.9072  loss_itm: 0.0803  loss_lm: 1.6306  time: 0.7384  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [5800/6487]  eta: 0:08:25  lr: 0.000129  loss_ita: 1.6913  loss_itm: 0.0675  loss_lm: 1.4610  time: 0.7350  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [6000/6487]  eta: 0:05:58  lr: 0.000129  loss_ita: 1.7271  loss_itm: 0.0826  loss_lm: 1.6250  time: 0.7348  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [6200/6487]  eta: 0:03:31  lr: 0.000129  loss_ita: 1.5294  loss_itm: 0.0519  loss_lm: 1.6202  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [6400/6487]  eta: 0:01:03  lr: 0.000129  loss_ita: 1.3636  loss_itm: 0.0517  loss_lm: 1.7283  time: 0.7356  data: 0.0001  max mem: 36274
+Train Epoch: [8]  [6486/6487]  eta: 0:00:00  lr: 0.000129  loss_ita: 1.8137  loss_itm: 0.1290  loss_lm: 1.4950  time: 0.7259  data: 0.0009  max mem: 36274
+Train Epoch: [8] Total time: 1:19:32 (0.7357 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.8976  loss_itm: 0.1124  loss_lm: 1.6492
+Train Epoch: [9]  [   0/6487]  eta: 8:31:47  lr: 0.000116  loss_ita: 1.7642  loss_itm: 0.0745  loss_lm: 1.7238  time: 4.7338  data: 2.8319  max mem: 36274
+Train Epoch: [9]  [ 200/6487]  eta: 1:19:13  lr: 0.000116  loss_ita: 2.0522  loss_itm: 0.1426  loss_lm: 1.5960  time: 0.7347  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [ 400/6487]  eta: 1:15:34  lr: 0.000116  loss_ita: 2.1169  loss_itm: 0.1590  loss_lm: 1.6211  time: 0.7325  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [ 600/6487]  eta: 1:12:43  lr: 0.000116  loss_ita: 2.1173  loss_itm: 0.1349  loss_lm: 1.7443  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [ 800/6487]  eta: 1:10:04  lr: 0.000116  loss_ita: 1.9214  loss_itm: 0.1058  loss_lm: 1.5354  time: 0.7360  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [1000/6487]  eta: 1:07:29  lr: 0.000116  loss_ita: 1.8911  loss_itm: 0.1237  loss_lm: 1.6148  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [1200/6487]  eta: 1:04:58  lr: 0.000116  loss_ita: 1.7447  loss_itm: 0.0938  loss_lm: 1.5044  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [1400/6487]  eta: 1:02:27  lr: 0.000116  loss_ita: 1.6475  loss_itm: 0.0844  loss_lm: 1.5718  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [1600/6487]  eta: 0:59:58  lr: 0.000116  loss_ita: 1.1291  loss_itm: 0.0365  loss_lm: 1.4865  time: 0.7325  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [1800/6487]  eta: 0:57:29  lr: 0.000116  loss_ita: 1.7822  loss_itm: 0.1307  loss_lm: 1.5346  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [2000/6487]  eta: 0:55:01  lr: 0.000116  loss_ita: 1.8266  loss_itm: 0.1254  loss_lm: 1.7973  time: 0.7337  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [2200/6487]  eta: 0:52:33  lr: 0.000116  loss_ita: 2.0532  loss_itm: 0.1265  loss_lm: 1.6179  time: 0.7337  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [2400/6487]  eta: 0:50:05  lr: 0.000116  loss_ita: 2.1598  loss_itm: 0.1216  loss_lm: 1.6807  time: 0.7331  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [2600/6487]  eta: 0:47:37  lr: 0.000116  loss_ita: 2.1524  loss_itm: 0.1591  loss_lm: 1.7040  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [2800/6487]  eta: 0:45:10  lr: 0.000116  loss_ita: 1.5028  loss_itm: 0.0814  loss_lm: 1.5097  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [3000/6487]  eta: 0:42:42  lr: 0.000116  loss_ita: 1.9550  loss_itm: 0.0816  loss_lm: 1.5730  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [3200/6487]  eta: 0:40:15  lr: 0.000116  loss_ita: 1.7966  loss_itm: 0.1041  loss_lm: 1.6743  time: 0.7331  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [3400/6487]  eta: 0:37:48  lr: 0.000116  loss_ita: 1.6733  loss_itm: 0.0817  loss_lm: 1.7261  time: 0.7342  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [3600/6487]  eta: 0:35:21  lr: 0.000116  loss_ita: 1.6088  loss_itm: 0.1000  loss_lm: 1.7284  time: 0.7333  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [3800/6487]  eta: 0:32:53  lr: 0.000116  loss_ita: 1.6825  loss_itm: 0.0917  loss_lm: 1.6862  time: 0.7329  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [4000/6487]  eta: 0:30:26  lr: 0.000116  loss_ita: 1.5461  loss_itm: 0.0774  loss_lm: 1.5625  time: 0.7333  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [4200/6487]  eta: 0:27:59  lr: 0.000116  loss_ita: 1.4017  loss_itm: 0.0542  loss_lm: 1.5430  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [4400/6487]  eta: 0:25:32  lr: 0.000116  loss_ita: 1.7753  loss_itm: 0.0625  loss_lm: 1.6859  time: 0.7342  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [4600/6487]  eta: 0:23:05  lr: 0.000116  loss_ita: 2.1682  loss_itm: 0.1226  loss_lm: 1.6576  time: 0.7337  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [4800/6487]  eta: 0:20:38  lr: 0.000116  loss_ita: 1.8491  loss_itm: 0.1039  loss_lm: 1.6045  time: 0.7339  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [5000/6487]  eta: 0:18:11  lr: 0.000116  loss_ita: 2.2015  loss_itm: 0.1299  loss_lm: 1.7252  time: 0.7331  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [5200/6487]  eta: 0:15:45  lr: 0.000116  loss_ita: 1.7268  loss_itm: 0.0898  loss_lm: 1.8261  time: 0.7330  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [5400/6487]  eta: 0:13:18  lr: 0.000116  loss_ita: 1.7410  loss_itm: 0.0476  loss_lm: 1.7770  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [5600/6487]  eta: 0:10:51  lr: 0.000116  loss_ita: 1.3784  loss_itm: 0.0489  loss_lm: 1.5164  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [5800/6487]  eta: 0:08:24  lr: 0.000116  loss_ita: 2.2532  loss_itm: 0.1762  loss_lm: 1.6856  time: 0.7339  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [6000/6487]  eta: 0:05:57  lr: 0.000116  loss_ita: 1.7803  loss_itm: 0.1086  loss_lm: 1.5350  time: 0.7326  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [6200/6487]  eta: 0:03:30  lr: 0.000116  loss_ita: 1.4045  loss_itm: 0.0784  loss_lm: 1.7052  time: 0.7353  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [6400/6487]  eta: 0:01:03  lr: 0.000116  loss_ita: 1.6994  loss_itm: 0.0702  loss_lm: 1.6971  time: 0.7351  data: 0.0001  max mem: 36274
+Train Epoch: [9]  [6486/6487]  eta: 0:00:00  lr: 0.000116  loss_ita: 1.8461  loss_itm: 0.0864  loss_lm: 1.6108  time: 0.7256  data: 0.0008  max mem: 36274
+Train Epoch: [9] Total time: 1:19:23 (0.7344 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.8021  loss_itm: 0.1060  loss_lm: 1.6223
+Train Epoch: [10]  [   0/6487]  eta: 7:44:02  lr: 0.000105  loss_ita: 2.0690  loss_itm: 0.1629  loss_lm: 1.6553  time: 4.2921  data: 2.6970  max mem: 36274
+Train Epoch: [10]  [ 200/6487]  eta: 1:19:10  lr: 0.000105  loss_ita: 1.8960  loss_itm: 0.1458  loss_lm: 1.5537  time: 0.7356  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [ 400/6487]  eta: 1:15:34  lr: 0.000105  loss_ita: 1.9943  loss_itm: 0.1049  loss_lm: 1.5091  time: 0.7355  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [ 600/6487]  eta: 1:12:44  lr: 0.000105  loss_ita: 1.5264  loss_itm: 0.0470  loss_lm: 1.4303  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [ 800/6487]  eta: 1:10:05  lr: 0.000105  loss_ita: 2.2646  loss_itm: 0.1641  loss_lm: 1.5958  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [1000/6487]  eta: 1:07:31  lr: 0.000105  loss_ita: 1.9660  loss_itm: 0.1156  loss_lm: 1.8210  time: 0.7335  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [1200/6487]  eta: 1:04:59  lr: 0.000105  loss_ita: 1.7823  loss_itm: 0.0716  loss_lm: 1.5945  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [1400/6487]  eta: 1:02:29  lr: 0.000105  loss_ita: 1.7373  loss_itm: 0.1069  loss_lm: 1.5551  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [1600/6487]  eta: 0:59:59  lr: 0.000105  loss_ita: 1.5301  loss_itm: 0.0896  loss_lm: 1.4844  time: 0.7342  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [1800/6487]  eta: 0:57:30  lr: 0.000105  loss_ita: 1.6282  loss_itm: 0.0867  loss_lm: 1.6453  time: 0.7330  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [2000/6487]  eta: 0:55:02  lr: 0.000105  loss_ita: 2.1519  loss_itm: 0.1328  loss_lm: 1.4787  time: 0.7337  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [2200/6487]  eta: 0:52:34  lr: 0.000105  loss_ita: 2.2130  loss_itm: 0.1756  loss_lm: 1.6653  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [2400/6487]  eta: 0:50:06  lr: 0.000105  loss_ita: 1.7430  loss_itm: 0.1283  loss_lm: 1.5825  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [2600/6487]  eta: 0:47:38  lr: 0.000105  loss_ita: 1.5948  loss_itm: 0.1076  loss_lm: 1.5272  time: 0.7329  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [2800/6487]  eta: 0:45:10  lr: 0.000105  loss_ita: 1.9784  loss_itm: 0.1069  loss_lm: 1.5208  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [3000/6487]  eta: 0:42:43  lr: 0.000105  loss_ita: 1.3865  loss_itm: 0.0397  loss_lm: 1.6228  time: 0.7327  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [3200/6487]  eta: 0:40:15  lr: 0.000105  loss_ita: 1.8084  loss_itm: 0.1112  loss_lm: 1.4999  time: 0.7337  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [3400/6487]  eta: 0:37:48  lr: 0.000105  loss_ita: 1.0988  loss_itm: 0.0440  loss_lm: 1.5612  time: 0.7337  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [3600/6487]  eta: 0:35:21  lr: 0.000105  loss_ita: 1.5898  loss_itm: 0.0597  loss_lm: 1.7133  time: 0.7339  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [3800/6487]  eta: 0:32:54  lr: 0.000105  loss_ita: 1.6787  loss_itm: 0.0996  loss_lm: 1.8030  time: 0.7326  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [4000/6487]  eta: 0:30:26  lr: 0.000105  loss_ita: 2.2307  loss_itm: 0.1069  loss_lm: 1.8810  time: 0.7327  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [4200/6487]  eta: 0:27:59  lr: 0.000105  loss_ita: 1.4308  loss_itm: 0.0618  loss_lm: 1.5226  time: 0.7328  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [4400/6487]  eta: 0:25:32  lr: 0.000105  loss_ita: 1.5128  loss_itm: 0.1062  loss_lm: 1.5649  time: 0.7324  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [4600/6487]  eta: 0:23:05  lr: 0.000105  loss_ita: 2.0961  loss_itm: 0.1211  loss_lm: 1.7896  time: 0.7329  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [4800/6487]  eta: 0:20:38  lr: 0.000105  loss_ita: 1.6456  loss_itm: 0.0636  loss_lm: 1.6979  time: 0.7330  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [5000/6487]  eta: 0:18:11  lr: 0.000105  loss_ita: 1.6639  loss_itm: 0.0671  loss_lm: 1.5542  time: 0.7333  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [5200/6487]  eta: 0:15:45  lr: 0.000105  loss_ita: 1.7025  loss_itm: 0.0506  loss_lm: 1.5992  time: 0.7326  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [5400/6487]  eta: 0:13:18  lr: 0.000105  loss_ita: 1.7613  loss_itm: 0.0847  loss_lm: 1.5278  time: 0.7328  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [5600/6487]  eta: 0:10:51  lr: 0.000105  loss_ita: 1.4717  loss_itm: 0.0900  loss_lm: 1.6484  time: 0.7321  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [5800/6487]  eta: 0:08:24  lr: 0.000105  loss_ita: 1.8808  loss_itm: 0.0890  loss_lm: 1.5826  time: 0.7329  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [6000/6487]  eta: 0:05:57  lr: 0.000105  loss_ita: 1.7233  loss_itm: 0.1122  loss_lm: 1.7675  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [6200/6487]  eta: 0:03:30  lr: 0.000105  loss_ita: 1.2563  loss_itm: 0.0489  loss_lm: 1.6680  time: 0.7328  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [6400/6487]  eta: 0:01:03  lr: 0.000105  loss_ita: 1.6507  loss_itm: 0.1485  loss_lm: 1.5569  time: 0.7348  data: 0.0001  max mem: 36274
+Train Epoch: [10]  [6486/6487]  eta: 0:00:00  lr: 0.000105  loss_ita: 1.9696  loss_itm: 0.1073  loss_lm: 1.7352  time: 0.7247  data: 0.0007  max mem: 36274
+Train Epoch: [10] Total time: 1:19:22 (0.7341 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.7264  loss_itm: 0.0995  loss_lm: 1.5979
+Train Epoch: [11]  [   0/6487]  eta: 7:29:31  lr: 0.000094  loss_ita: 1.8006  loss_itm: 0.0678  loss_lm: 1.5712  time: 4.1578  data: 2.6981  max mem: 36274
+Train Epoch: [11]  [ 200/6487]  eta: 1:18:44  lr: 0.000094  loss_ita: 1.7521  loss_itm: 0.1320  loss_lm: 1.5753  time: 0.7331  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [ 400/6487]  eta: 1:15:22  lr: 0.000094  loss_ita: 1.7369  loss_itm: 0.1149  loss_lm: 1.5992  time: 0.7347  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [ 600/6487]  eta: 1:12:36  lr: 0.000094  loss_ita: 1.4925  loss_itm: 0.0975  loss_lm: 1.4515  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [ 800/6487]  eta: 1:09:59  lr: 0.000094  loss_ita: 1.5147  loss_itm: 0.0891  loss_lm: 1.4985  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [1000/6487]  eta: 1:07:27  lr: 0.000094  loss_ita: 1.9796  loss_itm: 0.1203  loss_lm: 1.7170  time: 0.7339  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [1200/6487]  eta: 1:04:57  lr: 0.000094  loss_ita: 1.6632  loss_itm: 0.0744  loss_lm: 1.5182  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [1400/6487]  eta: 1:02:27  lr: 0.000094  loss_ita: 1.5715  loss_itm: 0.0612  loss_lm: 1.4322  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [1600/6487]  eta: 0:59:58  lr: 0.000094  loss_ita: 1.1428  loss_itm: 0.0239  loss_lm: 1.4389  time: 0.7333  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [1800/6487]  eta: 0:57:30  lr: 0.000094  loss_ita: 1.7021  loss_itm: 0.0825  loss_lm: 1.6938  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [2000/6487]  eta: 0:55:02  lr: 0.000094  loss_ita: 1.9358  loss_itm: 0.1251  loss_lm: 1.6855  time: 0.7353  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [2200/6487]  eta: 0:52:34  lr: 0.000094  loss_ita: 1.9475  loss_itm: 0.1326  loss_lm: 1.6065  time: 0.7348  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [2400/6487]  eta: 0:50:07  lr: 0.000094  loss_ita: 1.6326  loss_itm: 0.0533  loss_lm: 1.5256  time: 0.7347  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [2600/6487]  eta: 0:47:39  lr: 0.000094  loss_ita: 1.7095  loss_itm: 0.1451  loss_lm: 1.4925  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [2800/6487]  eta: 0:45:12  lr: 0.000094  loss_ita: 1.4163  loss_itm: 0.0457  loss_lm: 1.5744  time: 0.7341  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [3000/6487]  eta: 0:42:44  lr: 0.000094  loss_ita: 1.5125  loss_itm: 0.0389  loss_lm: 1.4385  time: 0.7335  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [3200/6487]  eta: 0:40:17  lr: 0.000094  loss_ita: 1.3680  loss_itm: 0.0835  loss_lm: 1.6639  time: 0.7339  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [3400/6487]  eta: 0:37:49  lr: 0.000094  loss_ita: 1.5312  loss_itm: 0.0619  loss_lm: 1.4888  time: 0.7351  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [3600/6487]  eta: 0:35:22  lr: 0.000094  loss_ita: 1.5317  loss_itm: 0.0888  loss_lm: 1.5663  time: 0.7330  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [3800/6487]  eta: 0:32:55  lr: 0.000094  loss_ita: 1.3306  loss_itm: 0.0207  loss_lm: 1.3753  time: 0.7342  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [4000/6487]  eta: 0:30:28  lr: 0.000094  loss_ita: 1.7252  loss_itm: 0.1493  loss_lm: 1.5198  time: 0.7330  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [4200/6487]  eta: 0:28:01  lr: 0.000094  loss_ita: 1.7666  loss_itm: 0.0792  loss_lm: 1.6940  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [4400/6487]  eta: 0:25:33  lr: 0.000094  loss_ita: 2.1063  loss_itm: 0.1208  loss_lm: 1.7228  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [4600/6487]  eta: 0:23:06  lr: 0.000094  loss_ita: 2.0314  loss_itm: 0.1251  loss_lm: 1.6500  time: 0.7329  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [4800/6487]  eta: 0:20:39  lr: 0.000094  loss_ita: 1.9022  loss_itm: 0.1243  loss_lm: 1.8459  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [5000/6487]  eta: 0:18:12  lr: 0.000094  loss_ita: 1.8471  loss_itm: 0.0925  loss_lm: 1.6752  time: 0.7337  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [5200/6487]  eta: 0:15:45  lr: 0.000094  loss_ita: 1.6273  loss_itm: 0.1009  loss_lm: 1.7099  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [5400/6487]  eta: 0:13:18  lr: 0.000094  loss_ita: 1.5043  loss_itm: 0.0526  loss_lm: 1.5795  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [5600/6487]  eta: 0:10:51  lr: 0.000094  loss_ita: 1.7933  loss_itm: 0.0963  loss_lm: 1.5360  time: 0.7330  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [5800/6487]  eta: 0:08:24  lr: 0.000094  loss_ita: 1.8400  loss_itm: 0.0938  loss_lm: 1.6340  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [6000/6487]  eta: 0:05:57  lr: 0.000094  loss_ita: 1.5593  loss_itm: 0.0596  loss_lm: 1.6547  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [6200/6487]  eta: 0:03:30  lr: 0.000094  loss_ita: 1.3743  loss_itm: 0.0613  loss_lm: 1.5672  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [6400/6487]  eta: 0:01:03  lr: 0.000094  loss_ita: 1.5168  loss_itm: 0.0806  loss_lm: 1.5061  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [11]  [6486/6487]  eta: 0:00:00  lr: 0.000094  loss_ita: 1.5376  loss_itm: 0.1110  loss_lm: 1.6546  time: 0.7262  data: 0.0008  max mem: 36274
+Train Epoch: [11] Total time: 1:19:27 (0.7349 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.6830  loss_itm: 0.0945  loss_lm: 1.5753
+Train Epoch: [12]  [   0/6487]  eta: 7:34:43  lr: 0.000085  loss_ita: 2.1439  loss_itm: 0.1450  loss_lm: 1.6381  time: 4.2059  data: 2.8812  max mem: 36274
+Train Epoch: [12]  [ 200/6487]  eta: 1:18:53  lr: 0.000085  loss_ita: 1.8197  loss_itm: 0.0667  loss_lm: 1.3860  time: 0.7370  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [ 400/6487]  eta: 1:15:26  lr: 0.000085  loss_ita: 1.6708  loss_itm: 0.0707  loss_lm: 1.5732  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [ 600/6487]  eta: 1:12:39  lr: 0.000085  loss_ita: 1.4076  loss_itm: 0.0813  loss_lm: 1.4318  time: 0.7331  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [ 800/6487]  eta: 1:10:01  lr: 0.000085  loss_ita: 1.9439  loss_itm: 0.1687  loss_lm: 1.5777  time: 0.7329  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [1000/6487]  eta: 1:07:26  lr: 0.000085  loss_ita: 2.2225  loss_itm: 0.2196  loss_lm: 1.5334  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [1200/6487]  eta: 1:04:55  lr: 0.000085  loss_ita: 1.7490  loss_itm: 0.0854  loss_lm: 1.5256  time: 0.7322  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [1400/6487]  eta: 1:02:25  lr: 0.000085  loss_ita: 2.1193  loss_itm: 0.1061  loss_lm: 1.7700  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [1600/6487]  eta: 0:59:55  lr: 0.000085  loss_ita: 1.4334  loss_itm: 0.0590  loss_lm: 1.2983  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [1800/6487]  eta: 0:57:27  lr: 0.000085  loss_ita: 1.3004  loss_itm: 0.0524  loss_lm: 1.4545  time: 0.7341  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [2000/6487]  eta: 0:55:00  lr: 0.000085  loss_ita: 1.5461  loss_itm: 0.0968  loss_lm: 1.5797  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [2200/6487]  eta: 0:52:32  lr: 0.000085  loss_ita: 1.8701  loss_itm: 0.1230  loss_lm: 1.3922  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [2400/6487]  eta: 0:50:04  lr: 0.000085  loss_ita: 1.5840  loss_itm: 0.0954  loss_lm: 1.6095  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [2600/6487]  eta: 0:47:37  lr: 0.000085  loss_ita: 1.7162  loss_itm: 0.1044  loss_lm: 1.6381  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [2800/6487]  eta: 0:45:10  lr: 0.000085  loss_ita: 1.9505  loss_itm: 0.0965  loss_lm: 1.6691  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [3000/6487]  eta: 0:42:42  lr: 0.000085  loss_ita: 1.8265  loss_itm: 0.1029  loss_lm: 1.3994  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [3200/6487]  eta: 0:40:15  lr: 0.000085  loss_ita: 1.6116  loss_itm: 0.0731  loss_lm: 1.5910  time: 0.7341  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [3400/6487]  eta: 0:37:48  lr: 0.000085  loss_ita: 1.6177  loss_itm: 0.0476  loss_lm: 1.4696  time: 0.7340  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [3600/6487]  eta: 0:35:21  lr: 0.000085  loss_ita: 1.5722  loss_itm: 0.0550  loss_lm: 1.5783  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [3800/6487]  eta: 0:32:54  lr: 0.000085  loss_ita: 1.8228  loss_itm: 0.1079  loss_lm: 1.8028  time: 0.7355  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [4000/6487]  eta: 0:30:27  lr: 0.000085  loss_ita: 1.8167  loss_itm: 0.1016  loss_lm: 1.6726  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [4200/6487]  eta: 0:28:00  lr: 0.000085  loss_ita: 1.1373  loss_itm: 0.0327  loss_lm: 1.4560  time: 0.7356  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [4400/6487]  eta: 0:25:33  lr: 0.000085  loss_ita: 1.5769  loss_itm: 0.1592  loss_lm: 1.4299  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [4600/6487]  eta: 0:23:06  lr: 0.000085  loss_ita: 1.4496  loss_itm: 0.0901  loss_lm: 1.5826  time: 0.7351  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [4800/6487]  eta: 0:20:39  lr: 0.000085  loss_ita: 1.6305  loss_itm: 0.1393  loss_lm: 1.6886  time: 0.7355  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [5000/6487]  eta: 0:18:12  lr: 0.000085  loss_ita: 1.9968  loss_itm: 0.1045  loss_lm: 1.5791  time: 0.7354  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [5200/6487]  eta: 0:15:45  lr: 0.000085  loss_ita: 1.9580  loss_itm: 0.0569  loss_lm: 1.6073  time: 0.7350  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [5400/6487]  eta: 0:13:18  lr: 0.000085  loss_ita: 1.5121  loss_itm: 0.0645  loss_lm: 1.4472  time: 0.7355  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [5600/6487]  eta: 0:10:51  lr: 0.000085  loss_ita: 1.4402  loss_itm: 0.0392  loss_lm: 1.6624  time: 0.7348  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [5800/6487]  eta: 0:08:24  lr: 0.000085  loss_ita: 1.8456  loss_itm: 0.1365  loss_lm: 1.5046  time: 0.7335  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [6000/6487]  eta: 0:05:57  lr: 0.000085  loss_ita: 2.0071  loss_itm: 0.1263  loss_lm: 1.4474  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [6200/6487]  eta: 0:03:30  lr: 0.000085  loss_ita: 1.5089  loss_itm: 0.0400  loss_lm: 1.5521  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [6400/6487]  eta: 0:01:03  lr: 0.000085  loss_ita: 1.2930  loss_itm: 0.0543  loss_lm: 1.4378  time: 0.7355  data: 0.0001  max mem: 36274
+Train Epoch: [12]  [6486/6487]  eta: 0:00:00  lr: 0.000085  loss_ita: 1.6576  loss_itm: 0.1869  loss_lm: 1.2797  time: 0.7262  data: 0.0007  max mem: 36274
+Train Epoch: [12] Total time: 1:19:28 (0.7351 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.6467  loss_itm: 0.0905  loss_lm: 1.5547
+Train Epoch: [13]  [   0/6487]  eta: 8:01:18  lr: 0.000076  loss_ita: 1.3865  loss_itm: 0.0477  loss_lm: 1.4833  time: 4.4517  data: 3.1045  max mem: 36274
+Train Epoch: [13]  [ 200/6487]  eta: 1:18:48  lr: 0.000076  loss_ita: 1.5228  loss_itm: 0.0703  loss_lm: 1.6078  time: 0.7327  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [ 400/6487]  eta: 1:15:21  lr: 0.000076  loss_ita: 1.7569  loss_itm: 0.0610  loss_lm: 1.5131  time: 0.7324  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [ 600/6487]  eta: 1:12:34  lr: 0.000076  loss_ita: 1.5267  loss_itm: 0.0708  loss_lm: 1.5412  time: 0.7326  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [ 800/6487]  eta: 1:09:57  lr: 0.000076  loss_ita: 1.8064  loss_itm: 0.1052  loss_lm: 1.5297  time: 0.7326  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [1000/6487]  eta: 1:07:24  lr: 0.000076  loss_ita: 1.6441  loss_itm: 0.0860  loss_lm: 1.5476  time: 0.7321  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [1200/6487]  eta: 1:04:53  lr: 0.000076  loss_ita: 1.7687  loss_itm: 0.1119  loss_lm: 1.4217  time: 0.7315  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [1400/6487]  eta: 1:02:23  lr: 0.000076  loss_ita: 1.4737  loss_itm: 0.0558  loss_lm: 1.5403  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [1600/6487]  eta: 0:59:54  lr: 0.000076  loss_ita: 1.4857  loss_itm: 0.0726  loss_lm: 1.5567  time: 0.7323  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [1800/6487]  eta: 0:57:26  lr: 0.000076  loss_ita: 1.1189  loss_itm: 0.0294  loss_lm: 1.5008  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [2000/6487]  eta: 0:54:57  lr: 0.000076  loss_ita: 1.1995  loss_itm: 0.0626  loss_lm: 1.4041  time: 0.7323  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [2200/6487]  eta: 0:52:30  lr: 0.000076  loss_ita: 1.8139  loss_itm: 0.0819  loss_lm: 1.5058  time: 0.7325  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [2400/6487]  eta: 0:50:02  lr: 0.000076  loss_ita: 1.2412  loss_itm: 0.0382  loss_lm: 1.3584  time: 0.7340  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [2600/6487]  eta: 0:47:35  lr: 0.000076  loss_ita: 1.5512  loss_itm: 0.0759  loss_lm: 1.6928  time: 0.7354  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [2800/6487]  eta: 0:45:08  lr: 0.000076  loss_ita: 2.1165  loss_itm: 0.1420  loss_lm: 1.5573  time: 0.7343  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [3000/6487]  eta: 0:42:40  lr: 0.000076  loss_ita: 2.2545  loss_itm: 0.0741  loss_lm: 1.6158  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [3200/6487]  eta: 0:40:13  lr: 0.000076  loss_ita: 2.0859  loss_itm: 0.0841  loss_lm: 1.4820  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [3400/6487]  eta: 0:37:46  lr: 0.000076  loss_ita: 2.1828  loss_itm: 0.0294  loss_lm: 1.4402  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [3600/6487]  eta: 0:35:19  lr: 0.000076  loss_ita: 1.9982  loss_itm: 0.0637  loss_lm: 1.8134  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [3800/6487]  eta: 0:32:52  lr: 0.000076  loss_ita: 1.7892  loss_itm: 0.0792  loss_lm: 1.5510  time: 0.7321  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [4000/6487]  eta: 0:30:25  lr: 0.000076  loss_ita: 1.5031  loss_itm: 0.0719  loss_lm: 1.5849  time: 0.7335  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [4200/6487]  eta: 0:27:58  lr: 0.000076  loss_ita: 1.3256  loss_itm: 0.0554  loss_lm: 1.3438  time: 0.7316  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [4400/6487]  eta: 0:25:31  lr: 0.000076  loss_ita: 1.0994  loss_itm: 0.0288  loss_lm: 1.4986  time: 0.7329  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [4600/6487]  eta: 0:23:05  lr: 0.000076  loss_ita: 1.6632  loss_itm: 0.1068  loss_lm: 1.5794  time: 0.7321  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [4800/6487]  eta: 0:20:38  lr: 0.000076  loss_ita: 1.6077  loss_itm: 0.0874  loss_lm: 1.4734  time: 0.7316  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [5000/6487]  eta: 0:18:11  lr: 0.000076  loss_ita: 1.5170  loss_itm: 0.0671  loss_lm: 1.4514  time: 0.7326  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [5200/6487]  eta: 0:15:44  lr: 0.000076  loss_ita: 1.4554  loss_itm: 0.0432  loss_lm: 1.4497  time: 0.7328  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [5400/6487]  eta: 0:13:17  lr: 0.000076  loss_ita: 1.9711  loss_itm: 0.0869  loss_lm: 1.6902  time: 0.7320  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [5600/6487]  eta: 0:10:50  lr: 0.000076  loss_ita: 1.4985  loss_itm: 0.0825  loss_lm: 1.4346  time: 0.7327  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [5800/6487]  eta: 0:08:24  lr: 0.000076  loss_ita: 1.5199  loss_itm: 0.0684  loss_lm: 1.3823  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [6000/6487]  eta: 0:05:57  lr: 0.000076  loss_ita: 1.5302  loss_itm: 0.1174  loss_lm: 1.7622  time: 0.7325  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [6200/6487]  eta: 0:03:30  lr: 0.000076  loss_ita: 1.4003  loss_itm: 0.0701  loss_lm: 1.5438  time: 0.7322  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [6400/6487]  eta: 0:01:03  lr: 0.000076  loss_ita: 1.4579  loss_itm: 0.0565  loss_lm: 1.4656  time: 0.7328  data: 0.0001  max mem: 36274
+Train Epoch: [13]  [6486/6487]  eta: 0:00:00  lr: 0.000076  loss_ita: 1.6969  loss_itm: 0.0759  loss_lm: 1.4092  time: 0.7244  data: 0.0009  max mem: 36274
+Train Epoch: [13] Total time: 1:19:19 (0.7337 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.6278  loss_itm: 0.0868  loss_lm: 1.5357
+Train Epoch: [14]  [   0/6487]  eta: 7:18:42  lr: 0.000069  loss_ita: 1.4422  loss_itm: 0.0870  loss_lm: 1.5949  time: 4.0577  data: 2.6623  max mem: 36274
+Train Epoch: [14]  [ 200/6487]  eta: 1:18:40  lr: 0.000069  loss_ita: 1.9217  loss_itm: 0.1252  loss_lm: 1.5784  time: 0.7353  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [ 400/6487]  eta: 1:15:19  lr: 0.000069  loss_ita: 1.4188  loss_itm: 0.0778  loss_lm: 1.4880  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [ 600/6487]  eta: 1:12:34  lr: 0.000069  loss_ita: 1.8464  loss_itm: 0.1059  loss_lm: 1.4435  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [ 800/6487]  eta: 1:09:57  lr: 0.000069  loss_ita: 2.0948  loss_itm: 0.0926  loss_lm: 1.3939  time: 0.7339  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [1000/6487]  eta: 1:07:24  lr: 0.000069  loss_ita: 1.7272  loss_itm: 0.0757  loss_lm: 1.6034  time: 0.7340  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [1200/6487]  eta: 1:04:55  lr: 0.000069  loss_ita: 1.5680  loss_itm: 0.0884  loss_lm: 1.5663  time: 0.7347  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [1400/6487]  eta: 1:02:26  lr: 0.000069  loss_ita: 1.5791  loss_itm: 0.0801  loss_lm: 1.4481  time: 0.7339  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [1600/6487]  eta: 0:59:58  lr: 0.000069  loss_ita: 1.6054  loss_itm: 0.1064  loss_lm: 1.6649  time: 0.7348  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [1800/6487]  eta: 0:57:29  lr: 0.000069  loss_ita: 1.0850  loss_itm: 0.0301  loss_lm: 1.3490  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [2000/6487]  eta: 0:55:02  lr: 0.000069  loss_ita: 1.4150  loss_itm: 0.0542  loss_lm: 1.4529  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [2200/6487]  eta: 0:52:34  lr: 0.000069  loss_ita: 1.7790  loss_itm: 0.1010  loss_lm: 1.6394  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [2400/6487]  eta: 0:50:06  lr: 0.000069  loss_ita: 1.6547  loss_itm: 0.0844  loss_lm: 1.7173  time: 0.7347  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [2600/6487]  eta: 0:47:39  lr: 0.000069  loss_ita: 1.2513  loss_itm: 0.0452  loss_lm: 1.6060  time: 0.7364  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [2800/6487]  eta: 0:45:11  lr: 0.000069  loss_ita: 1.9347  loss_itm: 0.1170  loss_lm: 1.4814  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [3000/6487]  eta: 0:42:44  lr: 0.000069  loss_ita: 1.4585  loss_itm: 0.0573  loss_lm: 1.5668  time: 0.7357  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [3200/6487]  eta: 0:40:17  lr: 0.000069  loss_ita: 1.4591  loss_itm: 0.0605  loss_lm: 1.4524  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [3400/6487]  eta: 0:37:49  lr: 0.000069  loss_ita: 1.2835  loss_itm: 0.0681  loss_lm: 1.5397  time: 0.7347  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [3600/6487]  eta: 0:35:22  lr: 0.000069  loss_ita: 1.5970  loss_itm: 0.0766  loss_lm: 1.4097  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [3800/6487]  eta: 0:32:55  lr: 0.000069  loss_ita: 1.5960  loss_itm: 0.0640  loss_lm: 1.6007  time: 0.7328  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [4000/6487]  eta: 0:30:28  lr: 0.000069  loss_ita: 1.6497  loss_itm: 0.0722  loss_lm: 1.5078  time: 0.7342  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [4200/6487]  eta: 0:28:01  lr: 0.000069  loss_ita: 1.5346  loss_itm: 0.0822  loss_lm: 1.5890  time: 0.7347  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [4400/6487]  eta: 0:25:34  lr: 0.000069  loss_ita: 1.7993  loss_itm: 0.1077  loss_lm: 1.4741  time: 0.7347  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [4600/6487]  eta: 0:23:07  lr: 0.000069  loss_ita: 1.4294  loss_itm: 0.1177  loss_lm: 1.5964  time: 0.7359  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [4800/6487]  eta: 0:20:40  lr: 0.000069  loss_ita: 1.5160  loss_itm: 0.0613  loss_lm: 1.4810  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [5000/6487]  eta: 0:18:13  lr: 0.000069  loss_ita: 1.7856  loss_itm: 0.1195  loss_lm: 1.5732  time: 0.7361  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [5200/6487]  eta: 0:15:46  lr: 0.000069  loss_ita: 1.4127  loss_itm: 0.0752  loss_lm: 1.5283  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [5400/6487]  eta: 0:13:19  lr: 0.000069  loss_ita: 1.8259  loss_itm: 0.1182  loss_lm: 1.7137  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [5600/6487]  eta: 0:10:52  lr: 0.000069  loss_ita: 1.0968  loss_itm: 0.0454  loss_lm: 1.3803  time: 0.7352  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [5800/6487]  eta: 0:08:25  lr: 0.000069  loss_ita: 1.8453  loss_itm: 0.0657  loss_lm: 1.5097  time: 0.7363  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [6000/6487]  eta: 0:05:58  lr: 0.000069  loss_ita: 1.7329  loss_itm: 0.0883  loss_lm: 1.6915  time: 0.7373  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [6200/6487]  eta: 0:03:31  lr: 0.000069  loss_ita: 1.3687  loss_itm: 0.0599  loss_lm: 1.6309  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [6400/6487]  eta: 0:01:03  lr: 0.000069  loss_ita: 1.5108  loss_itm: 0.0699  loss_lm: 1.5694  time: 0.7356  data: 0.0001  max mem: 36274
+Train Epoch: [14]  [6486/6487]  eta: 0:00:00  lr: 0.000069  loss_ita: 1.6140  loss_itm: 0.0990  loss_lm: 1.5530  time: 0.7272  data: 0.0009  max mem: 36274
+Train Epoch: [14] Total time: 1:19:29 (0.7353 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.5255  loss_itm: 0.0827  loss_lm: 1.5183
+Train Epoch: [15]  [   0/6487]  eta: 7:55:29  lr: 0.000062  loss_ita: 1.6592  loss_itm: 0.1153  loss_lm: 1.6353  time: 4.3979  data: 2.6545  max mem: 36274
+Train Epoch: [15]  [ 200/6487]  eta: 1:18:58  lr: 0.000062  loss_ita: 1.4514  loss_itm: 0.0659  loss_lm: 1.4114  time: 0.7352  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [ 400/6487]  eta: 1:15:32  lr: 0.000062  loss_ita: 1.3847  loss_itm: 0.0804  loss_lm: 1.4922  time: 0.7352  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [ 600/6487]  eta: 1:12:44  lr: 0.000062  loss_ita: 1.5513  loss_itm: 0.0894  loss_lm: 1.4719  time: 0.7367  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [ 800/6487]  eta: 1:10:08  lr: 0.000062  loss_ita: 1.5777  loss_itm: 0.0998  loss_lm: 1.4669  time: 0.7366  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [1000/6487]  eta: 1:07:36  lr: 0.000062  loss_ita: 1.2171  loss_itm: 0.0536  loss_lm: 1.4154  time: 0.7368  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [1200/6487]  eta: 1:05:04  lr: 0.000062  loss_ita: 1.4567  loss_itm: 0.1759  loss_lm: 1.4661  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [1400/6487]  eta: 1:02:34  lr: 0.000062  loss_ita: 1.4972  loss_itm: 0.1792  loss_lm: 1.2934  time: 0.7365  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [1600/6487]  eta: 1:00:05  lr: 0.000062  loss_ita: 1.1989  loss_itm: 0.0364  loss_lm: 1.3966  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [1800/6487]  eta: 0:57:36  lr: 0.000062  loss_ita: 1.2676  loss_itm: 0.0657  loss_lm: 1.5293  time: 0.7358  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [2000/6487]  eta: 0:55:08  lr: 0.000062  loss_ita: 1.3188  loss_itm: 0.0372  loss_lm: 1.6142  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [2200/6487]  eta: 0:52:39  lr: 0.000062  loss_ita: 1.7459  loss_itm: 0.1660  loss_lm: 1.4816  time: 0.7359  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [2400/6487]  eta: 0:50:11  lr: 0.000062  loss_ita: 1.0394  loss_itm: 0.1474  loss_lm: 1.5634  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [2600/6487]  eta: 0:47:43  lr: 0.000062  loss_ita: 1.5547  loss_itm: 0.0640  loss_lm: 1.6611  time: 0.7331  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [2800/6487]  eta: 0:45:15  lr: 0.000062  loss_ita: 1.4637  loss_itm: 0.0648  loss_lm: 1.4795  time: 0.7332  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [3000/6487]  eta: 0:42:47  lr: 0.000062  loss_ita: 1.1805  loss_itm: 0.0725  loss_lm: 1.2788  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [3200/6487]  eta: 0:40:20  lr: 0.000062  loss_ita: 1.1226  loss_itm: 0.0172  loss_lm: 1.5189  time: 0.7351  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [3400/6487]  eta: 0:37:52  lr: 0.000062  loss_ita: 1.0461  loss_itm: 0.0492  loss_lm: 1.3825  time: 0.7348  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [3600/6487]  eta: 0:35:25  lr: 0.000062  loss_ita: 1.1930  loss_itm: 0.0610  loss_lm: 1.5054  time: 0.7330  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [3800/6487]  eta: 0:32:57  lr: 0.000062  loss_ita: 1.3288  loss_itm: 0.0704  loss_lm: 1.3290  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [4000/6487]  eta: 0:30:30  lr: 0.000062  loss_ita: 1.4936  loss_itm: 0.0885  loss_lm: 1.5572  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [4200/6487]  eta: 0:28:03  lr: 0.000062  loss_ita: 1.3814  loss_itm: 0.0507  loss_lm: 1.5326  time: 0.7366  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [4400/6487]  eta: 0:25:35  lr: 0.000062  loss_ita: 1.5735  loss_itm: 0.1418  loss_lm: 1.3675  time: 0.7341  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [4600/6487]  eta: 0:23:08  lr: 0.000062  loss_ita: 1.2658  loss_itm: 0.1099  loss_lm: 1.5835  time: 0.7334  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [4800/6487]  eta: 0:20:41  lr: 0.000062  loss_ita: 1.5418  loss_itm: 0.0730  loss_lm: 1.4587  time: 0.7351  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [5000/6487]  eta: 0:18:14  lr: 0.000062  loss_ita: 1.8734  loss_itm: 0.0812  loss_lm: 1.7661  time: 0.7351  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [5200/6487]  eta: 0:15:46  lr: 0.000062  loss_ita: 1.2696  loss_itm: 0.0396  loss_lm: 1.4308  time: 0.7360  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [5400/6487]  eta: 0:13:19  lr: 0.000062  loss_ita: 1.3809  loss_itm: 0.0460  loss_lm: 1.6034  time: 0.7352  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [5600/6487]  eta: 0:10:52  lr: 0.000062  loss_ita: 1.2246  loss_itm: 0.0981  loss_lm: 1.3124  time: 0.7355  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [5800/6487]  eta: 0:08:25  lr: 0.000062  loss_ita: 1.4841  loss_itm: 0.0570  loss_lm: 1.5318  time: 0.7349  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [6000/6487]  eta: 0:05:58  lr: 0.000062  loss_ita: 1.4537  loss_itm: 0.0736  loss_lm: 1.4596  time: 0.7356  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [6200/6487]  eta: 0:03:31  lr: 0.000062  loss_ita: 1.1707  loss_itm: 0.0342  loss_lm: 1.3470  time: 0.7356  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [6400/6487]  eta: 0:01:03  lr: 0.000062  loss_ita: 1.3749  loss_itm: 0.1064  loss_lm: 1.5873  time: 0.7353  data: 0.0001  max mem: 36274
+Train Epoch: [15]  [6486/6487]  eta: 0:00:00  lr: 0.000062  loss_ita: 1.4883  loss_itm: 0.0612  loss_lm: 1.5764  time: 0.7267  data: 0.0009  max mem: 36274
+Train Epoch: [15] Total time: 1:19:33 (0.7358 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.4336  loss_itm: 0.0792  loss_lm: 1.5021
+Train Epoch: [16]  [   0/6487]  eta: 7:18:32  lr: 0.000056  loss_ita: 1.3299  loss_itm: 0.0856  loss_lm: 1.3611  time: 4.0562  data: 3.1242  max mem: 36274
+Train Epoch: [16]  [ 200/6487]  eta: 1:18:40  lr: 0.000056  loss_ita: 1.6624  loss_itm: 0.0968  loss_lm: 1.3715  time: 0.7335  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [ 400/6487]  eta: 1:15:18  lr: 0.000056  loss_ita: 1.5827  loss_itm: 0.0819  loss_lm: 1.5445  time: 0.7336  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [ 600/6487]  eta: 1:12:32  lr: 0.000056  loss_ita: 1.1634  loss_itm: 0.0346  loss_lm: 1.3809  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [ 800/6487]  eta: 1:09:57  lr: 0.000056  loss_ita: 1.8881  loss_itm: 0.1079  loss_lm: 1.5666  time: 0.7335  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [1000/6487]  eta: 1:07:26  lr: 0.000056  loss_ita: 1.4803  loss_itm: 0.0744  loss_lm: 1.6313  time: 0.7345  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [1200/6487]  eta: 1:04:55  lr: 0.000056  loss_ita: 1.5305  loss_itm: 0.0808  loss_lm: 1.5243  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [1400/6487]  eta: 1:02:25  lr: 0.000056  loss_ita: 1.2765  loss_itm: 0.0370  loss_lm: 1.4588  time: 0.7340  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [1600/6487]  eta: 0:59:57  lr: 0.000056  loss_ita: 1.1449  loss_itm: 0.0539  loss_lm: 1.4092  time: 0.7335  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [1800/6487]  eta: 0:57:29  lr: 0.000056  loss_ita: 1.0355  loss_itm: 0.1238  loss_lm: 1.3563  time: 0.7344  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [2000/6487]  eta: 0:55:01  lr: 0.000056  loss_ita: 1.3293  loss_itm: 0.0843  loss_lm: 1.4756  time: 0.7338  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [2200/6487]  eta: 0:52:33  lr: 0.000056  loss_ita: 1.6427  loss_itm: 0.0667  loss_lm: 1.4701  time: 0.7329  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [2400/6487]  eta: 0:50:05  lr: 0.000056  loss_ita: 1.4483  loss_itm: 0.0376  loss_lm: 1.4143  time: 0.7335  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [2600/6487]  eta: 0:47:38  lr: 0.000056  loss_ita: 1.2352  loss_itm: 0.0617  loss_lm: 1.2895  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [2800/6487]  eta: 0:45:11  lr: 0.000056  loss_ita: 1.3933  loss_itm: 0.1936  loss_lm: 1.4256  time: 0.7346  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [3000/6487]  eta: 0:42:43  lr: 0.000056  loss_ita: 1.4503  loss_itm: 0.0614  loss_lm: 1.4382  time: 0.7350  data: 0.0001  max mem: 36274
+Train Epoch: [16]  [3200/6487]  eta: 0:40:16  lr: 0.000056  loss_ita: 1.3597  loss_itm: 0.1052  loss_lm: 1.4930  time: 0.7355  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [3400/6487]  eta: 0:37:49  lr: 0.000056  loss_ita: 1.2487  loss_itm: 0.0388  loss_lm: 1.6426  time: 0.7340  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [3600/6487]  eta: 0:35:22  lr: 0.000056  loss_ita: 1.1856  loss_itm: 0.0754  loss_lm: 1.3932  time: 0.7352  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [3800/6487]  eta: 0:32:55  lr: 0.000056  loss_ita: 1.2942  loss_itm: 0.0525  loss_lm: 1.4301  time: 0.7340  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [4000/6487]  eta: 0:30:28  lr: 0.000056  loss_ita: 1.2722  loss_itm: 0.0457  loss_lm: 1.4060  time: 0.7369  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [4200/6487]  eta: 0:28:01  lr: 0.000056  loss_ita: 1.4734  loss_itm: 0.0927  loss_lm: 1.6133  time: 0.7344  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [4400/6487]  eta: 0:25:34  lr: 0.000056  loss_ita: 1.3360  loss_itm: 0.1425  loss_lm: 1.4103  time: 0.7357  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [4600/6487]  eta: 0:23:07  lr: 0.000056  loss_ita: 1.3950  loss_itm: 0.0854  loss_lm: 1.4849  time: 0.7365  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [4800/6487]  eta: 0:20:40  lr: 0.000056  loss_ita: 1.2091  loss_itm: 0.0821  loss_lm: 1.4977  time: 0.7365  data: 0.0001  max mem: 36275
+Train Epoch: [16]  [5000/6487]  eta: 0:18:13  lr: 0.000056  loss_ita: 1.6639  loss_itm: 0.1169  loss_lm: 1.4779  time: 0.7359  data: 0.0001  max mem: 36276
+Train Epoch: [16]  [5200/6487]  eta: 0:15:46  lr: 0.000056  loss_ita: 1.2041  loss_itm: 0.0279  loss_lm: 1.4801  time: 0.7355  data: 0.0001  max mem: 36276
+Train Epoch: [16]  [5400/6487]  eta: 0:13:19  lr: 0.000056  loss_ita: 1.3112  loss_itm: 0.0521  loss_lm: 1.4666  time: 0.7356  data: 0.0001  max mem: 36276
+Train Epoch: [16]  [5600/6487]  eta: 0:10:52  lr: 0.000056  loss_ita: 1.2985  loss_itm: 0.0479  loss_lm: 1.6816  time: 0.7344  data: 0.0001  max mem: 36276
+Train Epoch: [16]  [5800/6487]  eta: 0:08:25  lr: 0.000056  loss_ita: 1.4587  loss_itm: 0.0822  loss_lm: 1.5075  time: 0.7387  data: 0.0001  max mem: 36276
+Train Epoch: [16]  [6000/6487]  eta: 0:05:58  lr: 0.000056  loss_ita: 1.3371  loss_itm: 0.1025  loss_lm: 1.5220  time: 0.7367  data: 0.0001  max mem: 36276
+Train Epoch: [16]  [6200/6487]  eta: 0:03:31  lr: 0.000056  loss_ita: 1.5327  loss_itm: 0.0487  loss_lm: 1.5551  time: 0.7360  data: 0.0001  max mem: 36276
+Train Epoch: [16]  [6400/6487]  eta: 0:01:03  lr: 0.000056  loss_ita: 1.3179  loss_itm: 0.0408  loss_lm: 1.4051  time: 0.7367  data: 0.0001  max mem: 36276
+Train Epoch: [16]  [6486/6487]  eta: 0:00:00  lr: 0.000056  loss_ita: 1.6302  loss_itm: 0.0994  loss_lm: 1.5796  time: 0.7267  data: 0.0008  max mem: 36276
+Train Epoch: [16] Total time: 1:19:31 (0.7356 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.3985  loss_itm: 0.0762  loss_lm: 1.4872
+Train Epoch: [17]  [   0/6487]  eta: 7:28:40  lr: 0.000050  loss_ita: 1.5779  loss_itm: 0.0709  loss_lm: 1.4826  time: 4.1499  data: 2.7702  max mem: 36276
+Train Epoch: [17]  [ 200/6487]  eta: 1:18:41  lr: 0.000050  loss_ita: 1.5177  loss_itm: 0.0681  loss_lm: 1.3910  time: 0.7351  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [ 400/6487]  eta: 1:15:18  lr: 0.000050  loss_ita: 1.4075  loss_itm: 0.0958  loss_lm: 1.5475  time: 0.7328  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [ 600/6487]  eta: 1:12:33  lr: 0.000050  loss_ita: 1.4362  loss_itm: 0.0796  loss_lm: 1.3806  time: 0.7329  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [ 800/6487]  eta: 1:09:57  lr: 0.000050  loss_ita: 1.7546  loss_itm: 0.0883  loss_lm: 1.5792  time: 0.7340  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [1000/6487]  eta: 1:07:25  lr: 0.000050  loss_ita: 1.3871  loss_itm: 0.0640  loss_lm: 1.4472  time: 0.7345  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [1200/6487]  eta: 1:04:54  lr: 0.000050  loss_ita: 1.2725  loss_itm: 0.0559  loss_lm: 1.5320  time: 0.7330  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [1400/6487]  eta: 1:02:25  lr: 0.000050  loss_ita: 1.5849  loss_itm: 0.0793  loss_lm: 1.4533  time: 0.7345  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [1600/6487]  eta: 0:59:57  lr: 0.000050  loss_ita: 1.0622  loss_itm: 0.0496  loss_lm: 1.3158  time: 0.7333  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [1800/6487]  eta: 0:57:28  lr: 0.000050  loss_ita: 1.3231  loss_itm: 0.0801  loss_lm: 1.3856  time: 0.7322  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [2000/6487]  eta: 0:55:00  lr: 0.000050  loss_ita: 1.4095  loss_itm: 0.0864  loss_lm: 1.5748  time: 0.7334  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [2200/6487]  eta: 0:52:32  lr: 0.000050  loss_ita: 1.3517  loss_itm: 0.0688  loss_lm: 1.5466  time: 0.7332  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [2400/6487]  eta: 0:50:05  lr: 0.000050  loss_ita: 1.4488  loss_itm: 0.0802  loss_lm: 1.3595  time: 0.7333  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [2600/6487]  eta: 0:47:37  lr: 0.000050  loss_ita: 1.1496  loss_itm: 0.0527  loss_lm: 1.4100  time: 0.7338  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [2800/6487]  eta: 0:45:10  lr: 0.000050  loss_ita: 1.4017  loss_itm: 0.0636  loss_lm: 1.6149  time: 0.7335  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [3000/6487]  eta: 0:42:42  lr: 0.000050  loss_ita: 1.4835  loss_itm: 0.0892  loss_lm: 1.5359  time: 0.7339  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [3200/6487]  eta: 0:40:15  lr: 0.000050  loss_ita: 1.6798  loss_itm: 0.0677  loss_lm: 1.5785  time: 0.7337  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [3400/6487]  eta: 0:37:48  lr: 0.000050  loss_ita: 1.0454  loss_itm: 0.0636  loss_lm: 1.4361  time: 0.7342  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [3600/6487]  eta: 0:35:21  lr: 0.000050  loss_ita: 0.9753  loss_itm: 0.0273  loss_lm: 1.4205  time: 0.7325  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [3800/6487]  eta: 0:32:54  lr: 0.000050  loss_ita: 1.3328  loss_itm: 0.0476  loss_lm: 1.5405  time: 0.7342  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [4000/6487]  eta: 0:30:27  lr: 0.000050  loss_ita: 1.6215  loss_itm: 0.0935  loss_lm: 1.4964  time: 0.7365  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [4200/6487]  eta: 0:28:00  lr: 0.000050  loss_ita: 1.1782  loss_itm: 0.0697  loss_lm: 1.6188  time: 0.7342  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [4400/6487]  eta: 0:25:33  lr: 0.000050  loss_ita: 1.6807  loss_itm: 0.0879  loss_lm: 1.5024  time: 0.7358  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [4600/6487]  eta: 0:23:06  lr: 0.000050  loss_ita: 1.7927  loss_itm: 0.0926  loss_lm: 1.4625  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [4800/6487]  eta: 0:20:39  lr: 0.000050  loss_ita: 1.4079  loss_itm: 0.0715  loss_lm: 1.4671  time: 0.7342  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [5000/6487]  eta: 0:18:12  lr: 0.000050  loss_ita: 1.7601  loss_itm: 0.0909  loss_lm: 1.4496  time: 0.7339  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [5200/6487]  eta: 0:15:45  lr: 0.000050  loss_ita: 1.1957  loss_itm: 0.0497  loss_lm: 1.4278  time: 0.7349  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [5400/6487]  eta: 0:13:18  lr: 0.000050  loss_ita: 1.0830  loss_itm: 0.0470  loss_lm: 1.5580  time: 0.7352  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [5600/6487]  eta: 0:10:51  lr: 0.000050  loss_ita: 1.2663  loss_itm: 0.0644  loss_lm: 1.7095  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [5800/6487]  eta: 0:08:24  lr: 0.000050  loss_ita: 1.3675  loss_itm: 0.0659  loss_lm: 1.4923  time: 0.7341  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [6000/6487]  eta: 0:05:57  lr: 0.000050  loss_ita: 1.1383  loss_itm: 0.0462  loss_lm: 1.4579  time: 0.7364  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [6200/6487]  eta: 0:03:30  lr: 0.000050  loss_ita: 1.3523  loss_itm: 0.0368  loss_lm: 1.5149  time: 0.7361  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [6400/6487]  eta: 0:01:03  lr: 0.000050  loss_ita: 1.4493  loss_itm: 0.1048  loss_lm: 1.7780  time: 0.7365  data: 0.0001  max mem: 36276
+Train Epoch: [17]  [6486/6487]  eta: 0:00:00  lr: 0.000050  loss_ita: 1.2495  loss_itm: 0.0359  loss_lm: 1.4079  time: 0.7258  data: 0.0008  max mem: 36276
+Train Epoch: [17] Total time: 1:19:27 (0.7349 s / it)
+Averaged stats: lr: 0.0001  loss_ita: 1.3674  loss_itm: 0.0734  loss_lm: 1.4735
+Train Epoch: [18]  [   0/6487]  eta: 7:21:03  lr: 0.000045  loss_ita: 1.4164  loss_itm: 0.0517  loss_lm: 1.4497  time: 4.0795  data: 2.7076  max mem: 36276
+Train Epoch: [18]  [ 200/6487]  eta: 1:18:48  lr: 0.000045  loss_ita: 1.5692  loss_itm: 0.0945  loss_lm: 1.4159  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [ 400/6487]  eta: 1:15:24  lr: 0.000045  loss_ita: 1.7559  loss_itm: 0.1158  loss_lm: 1.5159  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [ 600/6487]  eta: 1:12:38  lr: 0.000045  loss_ita: 0.9623  loss_itm: 0.0339  loss_lm: 1.4252  time: 0.7343  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [ 800/6487]  eta: 1:10:02  lr: 0.000045  loss_ita: 1.3061  loss_itm: 0.0547  loss_lm: 1.4968  time: 0.7348  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [1000/6487]  eta: 1:07:29  lr: 0.000045  loss_ita: 1.0880  loss_itm: 0.0638  loss_lm: 1.6170  time: 0.7350  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [1200/6487]  eta: 1:04:59  lr: 0.000045  loss_ita: 1.2015  loss_itm: 0.0525  loss_lm: 1.5084  time: 0.7347  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [1400/6487]  eta: 1:02:28  lr: 0.000045  loss_ita: 1.3178  loss_itm: 0.0721  loss_lm: 1.5278  time: 0.7328  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [1600/6487]  eta: 0:59:59  lr: 0.000045  loss_ita: 1.1128  loss_itm: 0.0531  loss_lm: 1.3201  time: 0.7322  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [1800/6487]  eta: 0:57:30  lr: 0.000045  loss_ita: 1.2618  loss_itm: 0.0517  loss_lm: 1.6249  time: 0.7331  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [2000/6487]  eta: 0:55:02  lr: 0.000045  loss_ita: 1.0489  loss_itm: 0.0799  loss_lm: 1.5935  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [2200/6487]  eta: 0:52:34  lr: 0.000045  loss_ita: 1.7283  loss_itm: 0.0997  loss_lm: 1.4785  time: 0.7352  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [2400/6487]  eta: 0:50:06  lr: 0.000045  loss_ita: 1.1679  loss_itm: 0.0401  loss_lm: 1.3648  time: 0.7343  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [2600/6487]  eta: 0:47:39  lr: 0.000045  loss_ita: 1.0698  loss_itm: 0.0320  loss_lm: 1.3882  time: 0.7335  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [2800/6487]  eta: 0:45:11  lr: 0.000045  loss_ita: 1.5439  loss_itm: 0.0837  loss_lm: 1.4490  time: 0.7349  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [3000/6487]  eta: 0:42:44  lr: 0.000045  loss_ita: 1.4562  loss_itm: 0.1063  loss_lm: 1.4511  time: 0.7347  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [3200/6487]  eta: 0:40:16  lr: 0.000045  loss_ita: 1.0257  loss_itm: 0.0404  loss_lm: 1.3838  time: 0.7339  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [3400/6487]  eta: 0:37:49  lr: 0.000045  loss_ita: 0.9287  loss_itm: 0.0385  loss_lm: 1.3872  time: 0.7334  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [3600/6487]  eta: 0:35:22  lr: 0.000045  loss_ita: 1.1800  loss_itm: 0.0403  loss_lm: 1.4057  time: 0.7343  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [3800/6487]  eta: 0:32:55  lr: 0.000045  loss_ita: 1.1176  loss_itm: 0.0413  loss_lm: 1.3692  time: 0.7332  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [4000/6487]  eta: 0:30:28  lr: 0.000045  loss_ita: 1.1878  loss_itm: 0.0418  loss_lm: 1.4883  time: 0.7341  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [4200/6487]  eta: 0:28:00  lr: 0.000045  loss_ita: 1.5721  loss_itm: 0.0619  loss_lm: 1.4683  time: 0.7341  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [4400/6487]  eta: 0:25:33  lr: 0.000045  loss_ita: 1.4092  loss_itm: 0.0846  loss_lm: 1.3957  time: 0.7334  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [4600/6487]  eta: 0:23:06  lr: 0.000045  loss_ita: 1.5088  loss_itm: 0.0976  loss_lm: 1.5465  time: 0.7351  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [4800/6487]  eta: 0:20:39  lr: 0.000045  loss_ita: 1.5660  loss_itm: 0.0946  loss_lm: 1.4266  time: 0.7351  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [5000/6487]  eta: 0:18:12  lr: 0.000045  loss_ita: 1.8062  loss_itm: 0.1361  loss_lm: 1.4417  time: 0.7358  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [5200/6487]  eta: 0:15:45  lr: 0.000045  loss_ita: 1.3140  loss_itm: 0.1059  loss_lm: 1.4961  time: 0.7343  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [5400/6487]  eta: 0:13:18  lr: 0.000045  loss_ita: 1.4830  loss_itm: 0.0695  loss_lm: 1.6027  time: 0.7335  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [5600/6487]  eta: 0:10:51  lr: 0.000045  loss_ita: 1.1413  loss_itm: 0.0676  loss_lm: 1.2935  time: 0.7345  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [5800/6487]  eta: 0:08:24  lr: 0.000045  loss_ita: 1.5173  loss_itm: 0.0566  loss_lm: 1.5848  time: 0.7339  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [6000/6487]  eta: 0:05:57  lr: 0.000045  loss_ita: 1.4462  loss_itm: 0.1183  loss_lm: 1.2504  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [6200/6487]  eta: 0:03:30  lr: 0.000045  loss_ita: 1.1255  loss_itm: 0.0378  loss_lm: 1.4814  time: 0.7350  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [6400/6487]  eta: 0:01:03  lr: 0.000045  loss_ita: 1.2405  loss_itm: 0.0339  loss_lm: 1.3794  time: 0.7354  data: 0.0001  max mem: 36276
+Train Epoch: [18]  [6486/6487]  eta: 0:00:00  lr: 0.000045  loss_ita: 1.5380  loss_itm: 0.1122  loss_lm: 1.5184  time: 0.7253  data: 0.0007  max mem: 36276
+Train Epoch: [18] Total time: 1:19:28 (0.7351 s / it)
+Averaged stats: lr: 0.0000  loss_ita: 1.3477  loss_itm: 0.0713  loss_lm: 1.4605
+Train Epoch: [19]  [   0/6487]  eta: 7:37:07  lr: 0.000041  loss_ita: 1.7583  loss_itm: 0.1441  loss_lm: 1.6039  time: 4.2281  data: 2.8481  max mem: 36276
+Train Epoch: [19]  [ 200/6487]  eta: 1:19:00  lr: 0.000041  loss_ita: 1.6189  loss_itm: 0.0822  loss_lm: 1.4086  time: 0.7363  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [ 400/6487]  eta: 1:15:34  lr: 0.000041  loss_ita: 1.3786  loss_itm: 0.0602  loss_lm: 1.3799  time: 0.7352  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [ 600/6487]  eta: 1:12:48  lr: 0.000041  loss_ita: 1.1621  loss_itm: 0.0735  loss_lm: 1.4416  time: 0.7363  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [ 800/6487]  eta: 1:10:11  lr: 0.000041  loss_ita: 1.8460  loss_itm: 0.1398  loss_lm: 1.4716  time: 0.7332  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [1000/6487]  eta: 1:07:36  lr: 0.000041  loss_ita: 1.2728  loss_itm: 0.0971  loss_lm: 1.4849  time: 0.7355  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [1200/6487]  eta: 1:05:04  lr: 0.000041  loss_ita: 1.3690  loss_itm: 0.0844  loss_lm: 1.6240  time: 0.7350  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [1400/6487]  eta: 1:02:34  lr: 0.000041  loss_ita: 1.3758  loss_itm: 0.1011  loss_lm: 1.7185  time: 0.7350  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [1600/6487]  eta: 1:00:04  lr: 0.000041  loss_ita: 1.3705  loss_itm: 0.0752  loss_lm: 1.5894  time: 0.7343  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [1800/6487]  eta: 0:57:35  lr: 0.000041  loss_ita: 1.4177  loss_itm: 0.0374  loss_lm: 1.4664  time: 0.7356  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [2000/6487]  eta: 0:55:06  lr: 0.000041  loss_ita: 1.1112  loss_itm: 0.0404  loss_lm: 1.4874  time: 0.7348  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [2200/6487]  eta: 0:52:38  lr: 0.000041  loss_ita: 1.3840  loss_itm: 0.0487  loss_lm: 1.4985  time: 0.7349  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [2400/6487]  eta: 0:50:10  lr: 0.000041  loss_ita: 1.3533  loss_itm: 0.0702  loss_lm: 1.3471  time: 0.7362  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [2600/6487]  eta: 0:47:42  lr: 0.000041  loss_ita: 1.4097  loss_itm: 0.1357  loss_lm: 1.5220  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [2800/6487]  eta: 0:45:15  lr: 0.000041  loss_ita: 1.1326  loss_itm: 0.0329  loss_lm: 1.3329  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [3000/6487]  eta: 0:42:47  lr: 0.000041  loss_ita: 1.3398  loss_itm: 0.0978  loss_lm: 1.4634  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [3200/6487]  eta: 0:40:20  lr: 0.000041  loss_ita: 1.3064  loss_itm: 0.1487  loss_lm: 1.4015  time: 0.7360  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [3400/6487]  eta: 0:37:52  lr: 0.000041  loss_ita: 0.8683  loss_itm: 0.0904  loss_lm: 1.4627  time: 0.7354  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [3600/6487]  eta: 0:35:25  lr: 0.000041  loss_ita: 0.8582  loss_itm: 0.1313  loss_lm: 1.4828  time: 0.7345  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [3800/6487]  eta: 0:32:58  lr: 0.000041  loss_ita: 0.9812  loss_itm: 0.0363  loss_lm: 1.4508  time: 0.7352  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [4000/6487]  eta: 0:30:30  lr: 0.000041  loss_ita: 1.2514  loss_itm: 0.0693  loss_lm: 1.5616  time: 0.7345  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [4200/6487]  eta: 0:28:03  lr: 0.000041  loss_ita: 1.2388  loss_itm: 0.0498  loss_lm: 1.4341  time: 0.7365  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [4400/6487]  eta: 0:25:36  lr: 0.000041  loss_ita: 1.4952  loss_itm: 0.0970  loss_lm: 1.3979  time: 0.7355  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [4600/6487]  eta: 0:23:09  lr: 0.000041  loss_ita: 1.2477  loss_itm: 0.0527  loss_lm: 1.4966  time: 0.7360  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [4800/6487]  eta: 0:20:41  lr: 0.000041  loss_ita: 1.6161  loss_itm: 0.1575  loss_lm: 1.3829  time: 0.7360  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [5000/6487]  eta: 0:18:14  lr: 0.000041  loss_ita: 1.5361  loss_itm: 0.0996  loss_lm: 1.1869  time: 0.7369  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [5200/6487]  eta: 0:15:47  lr: 0.000041  loss_ita: 1.3941  loss_itm: 0.0610  loss_lm: 1.5649  time: 0.7353  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [5400/6487]  eta: 0:13:20  lr: 0.000041  loss_ita: 1.4720  loss_itm: 0.0641  loss_lm: 1.3584  time: 0.7373  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [5600/6487]  eta: 0:10:52  lr: 0.000041  loss_ita: 1.2295  loss_itm: 0.0434  loss_lm: 1.5913  time: 0.7338  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [5800/6487]  eta: 0:08:25  lr: 0.000041  loss_ita: 1.4214  loss_itm: 0.1097  loss_lm: 1.5754  time: 0.7355  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [6000/6487]  eta: 0:05:58  lr: 0.000041  loss_ita: 1.3034  loss_itm: 0.0400  loss_lm: 1.4148  time: 0.7341  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [6200/6487]  eta: 0:03:31  lr: 0.000041  loss_ita: 1.2224  loss_itm: 0.0644  loss_lm: 1.4754  time: 0.7334  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [6400/6487]  eta: 0:01:04  lr: 0.000041  loss_ita: 1.4773  loss_itm: 0.0977  loss_lm: 1.6028  time: 0.7341  data: 0.0001  max mem: 36276
+Train Epoch: [19]  [6486/6487]  eta: 0:00:00  lr: 0.000041  loss_ita: 1.4896  loss_itm: 0.0644  loss_lm: 1.3800  time: 0.7259  data: 0.0010  max mem: 36276
+Train Epoch: [19] Total time: 1:19:34 (0.7361 s / it)
+Averaged stats: lr: 0.0000  loss_ita: 1.3278  loss_itm: 0.0691  loss_lm: 1.4489
+Training time 1 day, 2:32:57
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+output dir is: output/Pretrain_concated_pred_4M
